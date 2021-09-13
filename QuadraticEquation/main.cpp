@@ -5,6 +5,7 @@
 
 const int SS_INF_ROOTS = 2281337;
 
+
 //------------------------------------------------
 //! Solves a square equation ax2 + bx + c = 0
 //!
@@ -20,7 +21,7 @@ const int SS_INF_ROOTS = 2281337;
 //------------------------------------------------
 int SolveSquare (double a, double b, double c,
                  double* x1, double* x2) {
-//    TODO
+// todo: isfinite?
     assert(finite(a));
     assert(finite(b));
     assert(finite(c));
@@ -41,7 +42,9 @@ int SolveSquare (double a, double b, double c,
         if (d == 0) {
             *x1 = *x2 = -b / (2 * a);
             return 1;
-        } else {
+        } else if (d < 0) {
+            return 0;
+        } else /* if (d > 0) */ {
             double sqrt_d = sqrt(d);
 
             *x1 = (-b - sqrt_d) / (2 * a);
