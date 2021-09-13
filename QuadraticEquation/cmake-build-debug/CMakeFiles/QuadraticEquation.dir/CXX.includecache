@@ -7,6 +7,10 @@
 #IncludeRegexTransform: 
 
 /Users/andrew_borovets/Desktop/proga/DED/Compiler-technologies-and-professional-programming/QuadraticEquation/main.cpp
-iostream
+stdio.h
+-
+math.h
+-
+assert.h
 -
 
