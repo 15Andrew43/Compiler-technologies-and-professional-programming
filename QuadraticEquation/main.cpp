@@ -56,7 +56,7 @@ int SolveSquare (double a, double b, double c,
 
 int main() {
     printf("# Square equation solver\n"
-           "# (c) Ded, 2017\n\n");
+           "# (c) Andrew Borovets, 2021\n\n");
     printf("# Enter a, b, c: ");
     double a = 0, b = 0, c = 0;
     scanf("%lg %lg %lg", &a, &b, &c);
