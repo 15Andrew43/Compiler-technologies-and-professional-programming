@@ -2,24 +2,32 @@
 #include <math.h>
 #include <assert.h>
 
-double eps = 0.0001;
+const double eps = 0.0001;
 
 enum nRoots {
-    zero,
-    one,
-    two,
-    infinity
+    zeroRoots,
+    oneRoots,
+    twoRoots,
+    infinityRoots
 };
 
 
 bool equal(double x, double y);
 nRoots SolveLinear(double b, double c, double* x1);
 nRoots SolveSquare (double a, double b, double c,
-                 double* x1, double* x2);
+                    double* x1, double* x2);
+
+
+
+struct Test;
+
+void RunTests();
 void Test0Roots();
 void Test1Roots();
 void Test2Roots();
 void TestInfRoots();
+
+void declareVars(const Test& test, double& a, double& b, double& c, double& x1, double& x2);
 
 
 
@@ -27,40 +35,38 @@ void TestInfRoots();
 int main() {
     printf("# Square equation solver\n"
            "# (c) Andrew Borovets, 2021\n\n");
-    printf("enter 0 - to solve the square equation\n"
-           "      other - run test\n");
+    printf("enter 0 - to run test\n");
+
     char answer = '0';
     scanf("%c", &answer);
+
     if (answer == '0') {
-        printf("# Enter a, b, c: ");
-        double a = 0, b = 0, c = 0;
-        scanf("%lg %lg %lg", &a, &b, &c);
-        double x1 = 0, x2 = 0;
-        int nRoots = SolveSquare(a, b, c, &x1, &x2);
-        switch (nRoots) {
-            case 0:
-                printf("No roots\n");
-                break;
-            case 1:
-                printf("x = %lg\n", x1);
-                break;
-            case 2:
-                printf("x1 = %lg, x2 = %lg\n", x1, x2);
-                break;
-            case infinity:
-                printf("Any number");
-                break;
-            default:
-                printf("main(): ERROR: nRoots = %d\n",
-                       nRoots);
-                return 1;
-        }
-    } else /* run tests*/ {
-        Test0Roots();
-        Test1Roots();
-        Test2Roots();
-        TestInfRoots();
+        RunTests();
         printf("All tests are passed successfully!\n");
+    }
+
+    printf("# Enter a, b, c: ");
+    double a = 0, b = 0, c = 0;
+    scanf("%lg %lg %lg", &a, &b, &c);
+    double x1 = 0, x2 = 0;
+    int nRoots = SolveSquare(a, b, c, &x1, &x2);
+    switch (nRoots) {
+        case zeroRoots:
+            printf("No roots\n");
+            break;
+        case oneRoots:
+            printf("x = %lg\n", x1);
+            break;
+        case twoRoots:
+            printf("x1 = %lg, x2 = %lg\n", x1, x2);
+            break;
+        case infinityRoots:
+            printf("Any number");
+            break;
+        default:
+            printf("main(): ERROR: nRoots = %d\n",
+                   nRoots);
+            return 1;
     }
 }
 
@@ -74,11 +80,11 @@ bool equal(double x, double y) {
 
 nRoots SolveLinear(double b, double c, double* x1) {
     if (equal(b, 0)) {
-        return (equal(c, 0)) ? infinity : zero;
+        return (equal(c, 0)) ? infinityRoots : zeroRoots;
     }
-//      if (b != 0)
+//  if (b != 0)
     *x1 = -c / b;
-    return one;
+    return oneRoots;
 }
 
 
@@ -115,50 +121,63 @@ nRoots SolveSquare (double a, double b, double c,
     double d = b * b - 4 * a * c;
     if (equal(d, 0)) {
         *x1 = *x2 = -b / (2 * a);
-        return one;
+        return oneRoots;
     } else if (d < 0) {
-        return zero;
+        return zeroRoots;
     }
 //  if (d > 0)
     double sqrt_d = sqrt(d);
 
     *x1 = (-b - sqrt_d) / (2 * a);
     *x2 = (-b + sqrt_d) / (2 * a);
-    return two;
+
+    return twoRoots;
 }
 
 
 
+struct Test {
+    double a = 0;
+    double b = 0;
+    double c = 0;
+    double x1 = 0;
+    double x2 = 0;
+};
+
+void RunTests() {
+    Test0Roots();
+    Test1Roots();
+    Test2Roots();
+    TestInfRoots();
+}
+
 void Test0Roots() {
+    double a = 0, b = 0, c = 0;
     double x1 = 0, x2 = 0;
+    double right_x1 = 0, right_x2 = 0;
     const int kn_tests = 2;
-    const int n_numbers = 3;
 
     printf("Testing cases, when 0 roots:\n");
 
     printf("1. case: a = 0, b = 0, c != 0.\n");
-    int tests1[kn_tests][n_numbers] = {
+    Test tests1[kn_tests] = {
             {0, 0, 1},
             {0, 0, -1},
     };
     for (int i = 0; i < kn_tests; ++i) {
-        double a = tests1[i][0];
-        double b = tests1[i][1];
-        double c = tests1[i][2];
-        assert(zero == SolveSquare(a, b, c, &x1, &x2));
+        declareVars(tests1[i], a, b, c, right_x1, right_x2);
+        assert(zeroRoots == SolveSquare(a, b, c, &x1, &x2));
         printf("    %d. Ok\n", i + 1);
     }
 
     printf("2. case: d < 0.\n");
-    int tests2[kn_tests][n_numbers] = {
+    Test tests2[kn_tests] = {
             {1, 1, 1},
             {-1, -1, -1},
     };
     for (int i = 0; i < kn_tests; ++i) {
-        double a = tests2[i][0];
-        double b = tests2[i][1];
-        double c = tests2[i][2];
-        assert(zero == SolveSquare(a, b, c, &x1, &x2));
+        declareVars(tests2[i], a, b, c, right_x1, right_x2);
+        assert(zeroRoots == SolveSquare(a, b, c, &x1, &x2));
         printf("    %d. Ok\n", i + 1);
     }
 
@@ -166,39 +185,34 @@ void Test0Roots() {
 }
 
 void Test1Roots() {
+    double a = 0, b = 0, c = 0;
     double x1 = 0, x2 = 0;
+    double right_x1 = 0, right_x2 = 0;
     const int kn_tests = 2;
-    const int n_numbers = 4;
 
     printf("Testing cases, when 1 root:\n");
 
     printf("1. case: a = 0, b != 0, c != 0.\n");
-    int tests1[kn_tests][n_numbers] = {
+    Test tests1[kn_tests] = {
             {0, 1, 2, -2},
             {0, 1, -2, 2},
     };
     for (int i = 0; i < kn_tests; ++i) {
-        double a = tests1[i][0];
-        double b = tests1[i][1];
-        double c = tests1[i][2];
-        double rights_x1 = tests1[i][3];
-        assert(one == SolveSquare(a, b, c, &x1, &x2));
-        assert(equal(x1, rights_x1));
+        declareVars(tests1[i], a, b, c, right_x1, right_x2);
+        assert(oneRoots == SolveSquare(a, b, c, &x1, &x2));
+        assert(equal(x1, right_x1));
         printf("    %d. Ok\n", i + 1);
     }
 
     printf("2. case: x1 = x2.\n");
-    int tests2[kn_tests][n_numbers] = {
+    Test tests2[kn_tests] = {
             {1, 2, 1, -1},
             {1, -4, 4, 2},
     };
     for (int i = 0; i < kn_tests; ++i) {
-        double a = tests2[i][0];
-        double b = tests2[i][1];
-        double c = tests2[i][2];
-        double rights_x1 = tests2[i][3];
-        assert(one == SolveSquare(a, b, c, &x1, &x2));
-        assert(equal(x1, rights_x1));
+        declareVars(tests2[i], a, b, c, right_x1, right_x2);
+        assert(oneRoots == SolveSquare(a, b, c, &x1, &x2));
+        assert(equal(x1, right_x1));
         printf("    %d. Ok\n", i + 1);
     }
 
@@ -206,24 +220,21 @@ void Test1Roots() {
 }
 
 void Test2Roots() {
+    double a = 0, b = 0, c = 0;
     double x1 = 0, x2 = 0;
+    double right_x1 = 0, right_x2 = 0;
     const int kn_tests = 4;
-    const int n_numbers = 5;
 
     printf("Testing cases, when 2 roots:\n");
-    int tests[kn_tests][n_numbers] = {
+    Test tests[kn_tests] = {
             {1, 7, 12, -4, -3},
             {1, 3, 2, -2, -1},
             {1, 0, -1, -1, 1},
             {1, 1, -6, -3, 2}
     };
     for (int i = 0; i < kn_tests; ++i) {
-        double a = tests[i][0];
-        double b = tests[i][1];
-        double c = tests[i][2];
-        double right_x1 = tests[i][3];
-        double right_x2 = tests[i][4];
-        assert(two == SolveSquare(a, b, c, &x1, &x2));
+        declareVars(tests[i], a, b, c, right_x1, right_x2);
+        assert(twoRoots == SolveSquare(a, b, c, &x1, &x2));
         assert(equal(x1, right_x1));
         assert(equal(x2, right_x2));
         printf("    %d. Ok\n", i + 1);
@@ -233,21 +244,28 @@ void Test2Roots() {
 }
 
 void TestInfRoots() {
+    double a = 0, b = 0, c = 0;
     double x1 = 0, x2 = 0;
+    double right_x1 = 0, right_x2 = 0;
     const int kn_tests = 1;
-    const int n_numbers = 3;
 
     printf("Testing cases, when Inf roots:\n");
-    int tests[kn_tests][n_numbers] = {
+    Test tests[kn_tests] = {
             {0, 0, 0},
     };
     for (int i = 0; i < kn_tests; ++i) {
-        double a = tests[i][0];
-        double b = tests[i][1];
-        double c = tests[i][2];
-        assert(infinity == SolveSquare(a, b, c, &x1, &x2));
+        declareVars(tests[i], a, b, c, right_x1, right_x2);
+        assert(infinityRoots == SolveSquare(a, b, c, &x1, &x2));
         printf("    %d. Ok\n", i + 1);
     }
 
     printf("\n\n");
+}
+
+void declareVars(const Test& test, double& a, double& b, double& c, double& x1, double& x2) {
+    a = test.a;
+    b = test.b;
+    c = test.c;
+    x1 = test.x1;
+    x2 = test.x2;
 }
