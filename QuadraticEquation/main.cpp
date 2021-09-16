@@ -27,7 +27,7 @@ void Test1Roots();
 void Test2Roots();
 void TestInfRoots();
 
-void declareVars(const Test& test, double& a, double& b, double& c, double& x1, double& x2);
+void ExtractValues(const Test& test, double& a, double& b, double& c, double& x1, double& x2);
 
 
 
@@ -72,18 +72,36 @@ int main() {
 
 
 
+//------------------------------------------------
+//! Checks the equality of two doubles
+//!
+//! \param [in]     x   first double
+//! \param [in]     y   second double
+//! \return The validity of the equality of two numbers
+//------------------------------------------------
 bool equal(double x, double y) {
     return abs(x - y) < eps;
 }
 
 
 
-nRoots SolveLinear(double b, double c, double* x1) {
+//------------------------------------------------
+//! Solves a linear equation bx + c = 0
+//!
+//! \param [in]     b      b-coefficient
+//! \param [in]     c      c-coefficient
+//! \param [out]    x      Pointer to the root
+//! \return Number of roots
+//!
+//! \note   In case of infinite number of roots,
+//!         return 'infinityRoots'.
+//------------------------------------------------
+nRoots SolveLinear(double b, double c, double* x) {
     if (equal(b, 0)) {
         return (equal(c, 0)) ? infinityRoots : zeroRoots;
     }
 //  if (b != 0)
-    *x1 = -c / b;
+    *x = -c / b;
     return oneRoots;
 }
 
@@ -100,7 +118,7 @@ nRoots SolveLinear(double b, double c, double* x1) {
 //! \return Number of roots
 //!
 //! \note   In case of infinite number of roots,
-//!         return SS_INF_ROOTS.
+//!         return 'infinityRoots'.
 //------------------------------------------------
 nRoots SolveSquare (double a, double b, double c,
                  double* x1, double* x2) {
@@ -165,7 +183,7 @@ void Test0Roots() {
             {0, 0, -1},
     };
     for (int i = 0; i < kn_tests; ++i) {
-        declareVars(tests1[i], a, b, c, right_x1, right_x2);
+        ExtractValues(tests1[i], a, b, c, right_x1, right_x2);
         assert(zeroRoots == SolveSquare(a, b, c, &x1, &x2));
         printf("    %d. Ok\n", i + 1);
     }
@@ -176,7 +194,7 @@ void Test0Roots() {
             {-1, -1, -1},
     };
     for (int i = 0; i < kn_tests; ++i) {
-        declareVars(tests2[i], a, b, c, right_x1, right_x2);
+        ExtractValues(tests2[i], a, b, c, right_x1, right_x2);
         assert(zeroRoots == SolveSquare(a, b, c, &x1, &x2));
         printf("    %d. Ok\n", i + 1);
     }
@@ -198,7 +216,7 @@ void Test1Roots() {
             {0, 1, -2, 2},
     };
     for (int i = 0; i < kn_tests; ++i) {
-        declareVars(tests1[i], a, b, c, right_x1, right_x2);
+        ExtractValues(tests1[i], a, b, c, right_x1, right_x2);
         assert(oneRoots == SolveSquare(a, b, c, &x1, &x2));
         assert(equal(x1, right_x1));
         printf("    %d. Ok\n", i + 1);
@@ -210,7 +228,7 @@ void Test1Roots() {
             {1, -4, 4, 2},
     };
     for (int i = 0; i < kn_tests; ++i) {
-        declareVars(tests2[i], a, b, c, right_x1, right_x2);
+        ExtractValues(tests2[i], a, b, c, right_x1, right_x2);
         assert(oneRoots == SolveSquare(a, b, c, &x1, &x2));
         assert(equal(x1, right_x1));
         printf("    %d. Ok\n", i + 1);
@@ -233,7 +251,7 @@ void Test2Roots() {
             {1, 1, -6, -3, 2}
     };
     for (int i = 0; i < kn_tests; ++i) {
-        declareVars(tests[i], a, b, c, right_x1, right_x2);
+        ExtractValues(tests[i], a, b, c, right_x1, right_x2);
         assert(twoRoots == SolveSquare(a, b, c, &x1, &x2));
         assert(equal(x1, right_x1));
         assert(equal(x2, right_x2));
@@ -254,7 +272,7 @@ void TestInfRoots() {
             {0, 0, 0},
     };
     for (int i = 0; i < kn_tests; ++i) {
-        declareVars(tests[i], a, b, c, right_x1, right_x2);
+        ExtractValues(tests[i], a, b, c, right_x1, right_x2);
         assert(infinityRoots == SolveSquare(a, b, c, &x1, &x2));
         printf("    %d. Ok\n", i + 1);
     }
@@ -262,7 +280,7 @@ void TestInfRoots() {
     printf("\n\n");
 }
 
-void declareVars(const Test& test, double& a, double& b, double& c, double& x1, double& x2) {
+void ExtractValues(const Test& test, double& a, double& b, double& c, double& x1, double& x2) {
     a = test.a;
     b = test.b;
     c = test.c;
