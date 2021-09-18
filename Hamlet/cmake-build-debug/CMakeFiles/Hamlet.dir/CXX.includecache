@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/avborovets/Desktop/PROGA/COMPILER-TECHNOLOGIES-AND-PROFFESIONAL-PROGRAMMING/Compiler-technologies-and-professional-programming/Hamlet/main.cpp
+stdio.h
+-
+
