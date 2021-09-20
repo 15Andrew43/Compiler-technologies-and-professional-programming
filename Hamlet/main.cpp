@@ -26,7 +26,8 @@ void MyQiuckSort(char** base, size_t num, size_t size, int (*compare) (const voi
 
 
 int main() {
-    const char file_name[] = "/Users/avborovets/Desktop/PROGA/COMPILER-TECHNOLOGIES-AND-PROFFESIONAL-PROGRAMMING/Compiler-technologies-and-professional-programming/Hamlet/hamlet.txt";
+    const char file_name[] = "/Users/andrew_borovets/Desktop/proga/DED/Compiler-technologies-and-professional-programming/Hamlet/hamlet.txt";
+//    const char file_name[] = "/Users/avborovets/Desktop/PROGA/COMPILER-TECHNOLOGIES-AND-PROFFESIONAL-PROGRAMMING/Compiler-technologies-and-professional-programming/Hamlet/hamlet.txt";
     int cnt_lines = getCntLines(file_name);
 
     char** text = ParseFileToArray(file_name, cnt_lines);
@@ -56,7 +57,8 @@ int main() {
 
 void PrintEnd(const char* string) {
     printf("%s\n", string);
-    const char file_name[] = "/Users/avborovets/Desktop/PROGA/COMPILER-TECHNOLOGIES-AND-PROFFESIONAL-PROGRAMMING/Compiler-technologies-and-professional-programming/Hamlet/end.txt";
+    const char file_name[] = "/Users/andrew_borovets/Desktop/proga/DED/Compiler-technologies-and-professional-programming/Hamlet/end.txt";
+//    const char file_name[] = "/Users/avborovets/Desktop/PROGA/COMPILER-TECHNOLOGIES-AND-PROFFESIONAL-PROGRAMMING/Compiler-technologies-and-professional-programming/Hamlet/end.txt";
     int cnt_lines = getCntLines(file_name);
     char** end = ParseFileToArray(file_name, cnt_lines);
     Print(end, cnt_lines);
@@ -64,7 +66,8 @@ void PrintEnd(const char* string) {
 
 void PrintBeginning(const char* string) {
     printf("%s\n", string);
-    const char file_name[] = "/Users/avborovets/Desktop/PROGA/COMPILER-TECHNOLOGIES-AND-PROFFESIONAL-PROGRAMMING/Compiler-technologies-and-professional-programming/Hamlet/beginning.txt";
+    const char file_name[] = "/Users/andrew_borovets/Desktop/proga/DED/Compiler-technologies-and-professional-programming/Hamlet/beginning.txt";
+//    const char file_name[] = "/Users/avborovets/Desktop/PROGA/COMPILER-TECHNOLOGIES-AND-PROFFESIONAL-PROGRAMMING/Compiler-technologies-and-professional-programming/Hamlet/beginning.txt";
     int cnt_lines = getCntLines(file_name);
     char** beginning = ParseFileToArray(file_name, cnt_lines);
     Print(beginning, cnt_lines);
