@@ -29,8 +29,8 @@ void MyQiuckSort(int* base, size_t num, size_t size, int (*cmp) (const void *, c
 
 
 int main() {
-    const char file_name[] = "/Users/andrew_borovets/Desktop/proga/DED/Compiler-technologies-and-professional-programming/Hamlet/hamlet.txt";
-//    const char file_name[] = "/Users/avborovets/Desktop/PROGA/COMPILER-TECHNOLOGIES-AND-PROFFESIONAL-PROGRAMMING/Compiler-technologies-and-professional-programming/Hamlet/hamlet.txt";
+//    const char file_name[] = "/Users/andrew_borovets/Desktop/proga/DED/Compiler-technologies-and-professional-programming/Hamlet/hamlet.txt";
+    const char file_name[] = "/Users/avborovets/Desktop/PROGA/COMPILER-TECHNOLOGIES-AND-PROFFESIONAL-PROGRAMMING/Compiler-technologies-and-professional-programming/Hamlet/hamlet.txt";
     int cnt_lines = getCntLines(file_name);
     int file_size = getFileSize(file_name);
 
@@ -66,8 +66,8 @@ int main() {
 
 void PrintEnd(const char* string) {
     printf("%s\n", string);
-    const char file_name[] = "/Users/andrew_borovets/Desktop/proga/DED/Compiler-technologies-and-professional-programming/Hamlet/end.txt";
-//    const char file_name[] = "/Users/avborovets/Desktop/PROGA/COMPILER-TECHNOLOGIES-AND-PROFFESIONAL-PROGRAMMING/Compiler-technologies-and-professional-programming/Hamlet/beginning.txt";
+//    const char file_name[] = "/Users/andrew_borovets/Desktop/proga/DED/Compiler-technologies-and-professional-programming/Hamlet/end.txt";
+    const char file_name[] = "/Users/avborovets/Desktop/PROGA/COMPILER-TECHNOLOGIES-AND-PROFFESIONAL-PROGRAMMING/Compiler-technologies-and-professional-programming/Hamlet/end.txt";
     int cnt_lines = getCntLines(file_name);
     int file_size = getFileSize(file_name);
     int* indexes = (int*) calloc(cnt_lines, sizeof(int));
@@ -79,8 +79,8 @@ void PrintEnd(const char* string) {
 
 void PrintBeginning(const char* string) {
     printf("%s\n", string);
-    const char file_name[] = "/Users/andrew_borovets/Desktop/proga/DED/Compiler-technologies-and-professional-programming/Hamlet/beginning.txt";
-//    const char file_name[] = "/Users/avborovets/Desktop/PROGA/COMPILER-TECHNOLOGIES-AND-PROFFESIONAL-PROGRAMMING/Compiler-technologies-and-professional-programming/Hamlet/beginning.txt";
+//    const char file_name[] = "/Users/andrew_borovets/Desktop/proga/DED/Compiler-technologies-and-professional-programming/Hamlet/beginning.txt";
+    const char file_name[] = "/Users/avborovets/Desktop/PROGA/COMPILER-TECHNOLOGIES-AND-PROFFESIONAL-PROGRAMMING/Compiler-technologies-and-professional-programming/Hamlet/beginning.txt";
     int cnt_lines = getCntLines(file_name);
     int file_size = getFileSize(file_name);
     int* indexes = (int*) calloc(cnt_lines, sizeof(int));
