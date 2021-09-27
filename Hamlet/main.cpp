@@ -25,12 +25,11 @@ char* Reverse(char* str, const int size);
 void MyQiuckSort(int* base, size_t num, size_t size, int (*cmp) (const void *, const void *));
 
 
-
-
+int FindLetter(const char* str);
 
 int main() {
-//    const char file_name[] = "/Users/andrew_borovets/Desktop/proga/DED/Compiler-technologies-and-professional-programming/Hamlet/hamlet.txt";
-    const char file_name[] = "/Users/avborovets/Desktop/PROGA/COMPILER-TECHNOLOGIES-AND-PROFFESIONAL-PROGRAMMING/Compiler-technologies-and-professional-programming/Hamlet/hamlet.txt";
+    const char file_name[] = "/Users/andrew_borovets/Desktop/proga/DED/Compiler-technologies-and-professional-programming/Hamlet/hamlet.txt";
+//    const char file_name[] = "/Users/avborovets/Desktop/PROGA/COMPILER-TECHNOLOGIES-AND-PROFFESIONAL-PROGRAMMING/Compiler-technologies-and-professional-programming/Hamlet/hamlet.txt";
     int cnt_lines = getCntLines(file_name);
     int file_size = getFileSize(file_name);
 
@@ -66,8 +65,8 @@ int main() {
 
 void PrintEnd(const char* string) {
     printf("%s\n", string);
-//    const char file_name[] = "/Users/andrew_borovets/Desktop/proga/DED/Compiler-technologies-and-professional-programming/Hamlet/end.txt";
-    const char file_name[] = "/Users/avborovets/Desktop/PROGA/COMPILER-TECHNOLOGIES-AND-PROFFESIONAL-PROGRAMMING/Compiler-technologies-and-professional-programming/Hamlet/end.txt";
+    const char file_name[] = "/Users/andrew_borovets/Desktop/proga/DED/Compiler-technologies-and-professional-programming/Hamlet/end.txt";
+//    const char file_name[] = "/Users/avborovets/Desktop/PROGA/COMPILER-TECHNOLOGIES-AND-PROFFESIONAL-PROGRAMMING/Compiler-technologies-and-professional-programming/Hamlet/end.txt";
     int cnt_lines = getCntLines(file_name);
     int file_size = getFileSize(file_name);
     int* indexes = (int*) calloc(cnt_lines, sizeof(int));
@@ -79,8 +78,8 @@ void PrintEnd(const char* string) {
 
 void PrintBeginning(const char* string) {
     printf("%s\n", string);
-//    const char file_name[] = "/Users/andrew_borovets/Desktop/proga/DED/Compiler-technologies-and-professional-programming/Hamlet/beginning.txt";
-    const char file_name[] = "/Users/avborovets/Desktop/PROGA/COMPILER-TECHNOLOGIES-AND-PROFFESIONAL-PROGRAMMING/Compiler-technologies-and-professional-programming/Hamlet/beginning.txt";
+    const char file_name[] = "/Users/andrew_borovets/Desktop/proga/DED/Compiler-technologies-and-professional-programming/Hamlet/beginning.txt";
+//    const char file_name[] = "/Users/avborovets/Desktop/PROGA/COMPILER-TECHNOLOGIES-AND-PROFFESIONAL-PROGRAMMING/Compiler-technologies-and-professional-programming/Hamlet/beginning.txt";
     int cnt_lines = getCntLines(file_name);
     int file_size = getFileSize(file_name);
     int* indexes = (int*) calloc(cnt_lines, sizeof(int));
@@ -122,10 +121,27 @@ int reverse_comp(const void* a, const void* b) {
     int size_second = strlen(text + second);
     char* reverse_first = Reverse(text + first, size_first);
     char* reverse_second = Reverse(text + second, size_second);
-    int res_cmp = strcmp(reverse_first, reverse_second);
+
+    int displ_firts = FindLetter(reverse_first);
+    int displ_second = FindLetter(reverse_second);
+
+//    int res_cmp = strcmp(reverse_first, reverse_second);
+    int res_cmp = strcmp(reverse_first + displ_firts, reverse_second + displ_second);
     free(reverse_first);
     free(reverse_second);
     return res_cmp;
+}
+
+int FindLetter(const char* str) {
+    int ind = 0;
+    while (str[ind] != '\0') {
+        if ((str[ind] >= 65 && str[ind] <= 90)
+            || (str[ind] >= 97 && str[ind] <= 122)) {
+            return ind;
+        }
+        ++ind;
+    }
+    return 0;
 }
 
 
@@ -230,10 +246,11 @@ int* Copy(int* indexes, const int cnt_elem) {
 //!                      to reversed original array
 //==========================================================================
 char* Reverse(char* str, const int size) {
-    char* reverse_str = (char*) calloc(size, sizeof(char));
+    char* reverse_str = (char*) calloc(size + 1, sizeof(char));
     for (int i = 0; i < size; ++i) {
         reverse_str[size - i - 1] = str[i];
     }
+    reverse_str[size] = '\0';
     return reverse_str;
 }
 
