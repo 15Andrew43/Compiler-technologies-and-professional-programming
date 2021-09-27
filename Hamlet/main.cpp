@@ -7,33 +7,35 @@ const int MAX_LENGTH = 256;
 char* text;
 
 
-void PrintSeparation();
-void Print(char* text, int cnt_lines, int *indexes);
-void PrintBeginning(const char* string);
-void PrintEnd(const char* string);
+void PrintSeparation(const char* file_out, const char* mode);
+void Print(const char* text, const int cnt_lines, const int* indexes, const char *file_out, const char* mode);
+void PrintBeginning(const char* string, const char* file_out, const char* mode);
+void PrintEnd(const char* string, const char* file_out, const char* mode);
 
 int comp (const void* a, const void* b);
 int reverse_comp(const void* a, const void* b);
 
-char* ParseFileToArray(const char *file_name, const int cnt_lines, const int file_size, int *indexes);
+char* ParseFileToArray(const char* file_name, const int cnt_lines, const int file_size, int* indexes);
 
 int getCntLines(const char* file_name);
 int getFileSize(const char* file_name);
 int* Copy(int* indexes, const int cnt_elem);
 char* Reverse(char* str, const int size);
+int FindLetter(const char* str);
 
 void MyQiuckSort(int* base, size_t num, size_t size, int (*cmp) (const void *, const void *));
 
 
-int FindLetter(const char* str);
+
 
 int main() {
+    const char file_out[] = "/Users/andrew_borovets/Desktop/proga/DED/Compiler-technologies-and-professional-programming/Hamlet/out.txt";
+
     const char file_name[] = "/Users/andrew_borovets/Desktop/proga/DED/Compiler-technologies-and-professional-programming/Hamlet/hamlet.txt";
 //    const char file_name[] = "/Users/avborovets/Desktop/PROGA/COMPILER-TECHNOLOGIES-AND-PROFFESIONAL-PROGRAMMING/Compiler-technologies-and-professional-programming/Hamlet/hamlet.txt";
     int cnt_lines = getCntLines(file_name);
     int file_size = getFileSize(file_name);
 
-    printf("lines = %d, size = %d\n\n", cnt_lines, file_size);
 
     int* indexes = (int*) calloc(cnt_lines, sizeof(int));
     text = ParseFileToArray(file_name, cnt_lines, file_size, indexes);
@@ -41,20 +43,20 @@ int main() {
 
     int* sorted_indexes = Copy(indexes, cnt_lines);
     qsort(sorted_indexes, cnt_lines, sizeof(int), comp);
-    PrintBeginning("Sorted 'Hamlet' by the beginning of the lines:");
-    Print(text, cnt_lines, sorted_indexes);
-    PrintEnd("");
-    PrintSeparation();
+    PrintBeginning("Sorted 'Hamlet' by the beginning of the lines:\n", file_out, "w");
+    Print(text, cnt_lines, sorted_indexes, file_out, "a");
+    PrintEnd("\n", file_out, "a");
+    PrintSeparation(file_out, "a");
 
     MyQiuckSort(sorted_indexes, cnt_lines, sizeof(int), reverse_comp);
-    PrintBeginning("Sorted 'Hamlet' by the end of the lines:");
-    Print(text, cnt_lines, sorted_indexes);
-    PrintEnd("");
-    PrintSeparation();
+    PrintBeginning("Sorted 'Hamlet' by the end of the lines:\n", file_out, "a");
+    Print(text, cnt_lines, sorted_indexes, file_out, "a");
+    PrintEnd("\n", file_out, "a");
+    PrintSeparation(file_out, "a");
 
-    PrintBeginning("Original Hamlet");
-    Print(text, cnt_lines, indexes);
-    PrintEnd("");
+    PrintBeginning("Original Hamlet\n", file_out, "a");
+    Print(text, cnt_lines, indexes, file_out, "a");
+    PrintEnd("\n", file_out, "a");
 
 
     free(indexes);
@@ -63,34 +65,49 @@ int main() {
     return 0;
 }
 
-void PrintEnd(const char* string) {
-    printf("%s\n", string);
+
+
+
+void PrintEnd(const char* string, const char* file_out, const char* mode) {
+    FILE* file = fopen(file_out, mode);
+    fwrite(string, sizeof(char), strlen(string), file);
+//    printf("%s\n", string);
+    fclose(file);
+
     const char file_name[] = "/Users/andrew_borovets/Desktop/proga/DED/Compiler-technologies-and-professional-programming/Hamlet/end.txt";
 //    const char file_name[] = "/Users/avborovets/Desktop/PROGA/COMPILER-TECHNOLOGIES-AND-PROFFESIONAL-PROGRAMMING/Compiler-technologies-and-professional-programming/Hamlet/end.txt";
     int cnt_lines = getCntLines(file_name);
     int file_size = getFileSize(file_name);
     int* indexes = (int*) calloc(cnt_lines, sizeof(int));
     char* beginning = ParseFileToArray(file_name, cnt_lines, file_size, indexes);
-    Print(beginning, cnt_lines, indexes);
+    Print(beginning, cnt_lines, indexes, file_out, "a");
 
     free(indexes);
 }
 
-void PrintBeginning(const char* string) {
-    printf("%s\n", string);
+void PrintBeginning(const char* string, const char* file_out, const char* mode) {
+    FILE* file = fopen(file_out, mode);
+    fwrite(string, sizeof(char), strlen(string), file);
+//    printf("%s\n", string);
+    fclose(file);
+
     const char file_name[] = "/Users/andrew_borovets/Desktop/proga/DED/Compiler-technologies-and-professional-programming/Hamlet/beginning.txt";
 //    const char file_name[] = "/Users/avborovets/Desktop/PROGA/COMPILER-TECHNOLOGIES-AND-PROFFESIONAL-PROGRAMMING/Compiler-technologies-and-professional-programming/Hamlet/beginning.txt";
     int cnt_lines = getCntLines(file_name);
     int file_size = getFileSize(file_name);
     int* indexes = (int*) calloc(cnt_lines, sizeof(int));
     char* beginning = ParseFileToArray(file_name, cnt_lines, file_size, indexes);
-    Print(beginning, cnt_lines, indexes);
+    Print(beginning, cnt_lines, indexes, file_out, "a");
 
     free(indexes);
 }
 
-void PrintSeparation() {
-    printf("\n\n\n===========================================================================================\n\n\n");
+void PrintSeparation(const char* file_out, const char* mode) {
+    const char sep[] = "\n\n\n===========================================================================================\n\n\n";
+    FILE* file = fopen(file_out, mode);
+    fwrite(sep, sizeof(char), strlen(sep), file);
+//    printf("%s", sep);
+    fclose(file);
 }
 
 //==========================================================================
@@ -101,10 +118,16 @@ void PrintSeparation() {
 //! \param [in]     indexes     array, where displacements
 //!                                 from beginning of text are saved
 //==========================================================================
-void Print(char* text, int cnt_lines, int* indexes) {
+void Print(const char* text, const int cnt_lines, const int* indexes, const char* file_out, const char* mode) {
+    FILE* file = fopen(file_out, mode);
+
     for (int i = 0; i < cnt_lines; ++i) {
-        printf("%s", text + indexes[i]);
+        fwrite(text + indexes[i], sizeof(char), strlen(text + indexes[i]), file);
+//        printf("%s", text + indexes[i]);
+
     }
+
+    fclose(file);
 }
 
 
@@ -122,11 +145,11 @@ int reverse_comp(const void* a, const void* b) {
     char* reverse_first = Reverse(text + first, size_first);
     char* reverse_second = Reverse(text + second, size_second);
 
-    int displ_firts = FindLetter(reverse_first);
+    int displ_firt = FindLetter(reverse_first);
     int displ_second = FindLetter(reverse_second);
 
 //    int res_cmp = strcmp(reverse_first, reverse_second);
-    int res_cmp = strcmp(reverse_first + displ_firts, reverse_second + displ_second);
+    int res_cmp = strcmp(reverse_first + displ_firt, reverse_second + displ_second);
     free(reverse_first);
     free(reverse_second);
     return res_cmp;
