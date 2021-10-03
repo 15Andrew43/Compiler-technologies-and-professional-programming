@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/avborovets/Desktop/PROGA/COMPILER-TECHNOLOGIES-AND-PROFFESIONAL-PROGRAMMING/Compiler-technologies-and-professional-programming/Hamlet/main.cpp
+/Users/andrew_borovets/Desktop/proga/DED/Compiler-technologies-and-professional-programming/Hamlet/main.cpp
 stdio.h
 -
 cstring
 -
-cstdlib
--
 stdlib.h
+-
+sys/stat.h
 -
 
