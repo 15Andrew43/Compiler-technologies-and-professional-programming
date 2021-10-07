@@ -8,11 +8,9 @@
 
 
 #ifdef DEBUG
-#define PrintStk_OK(stack) StackDump(&stack, __FILE__, __LINE__, __FUNCTION__, "just looking");
-#define PrintStk_NOK(stack) StackDump(&stack, __FILE__, __LINE__, __FUNCTION__, "stack has an error");
+#define PrintStk_OK(stack) StackDump(&stack, __FILE__, __LINE__, __FUNCTION__, "Just dump");
+#define PrintStk_NOK(stack) StackDump(&stack, __FILE__, __LINE__, __FUNCTION__, "Dump with wrong stack");
 #else
-#define PrintStk_OK(stack) ;
-#define PrintStk_NOK(stack) ;
 #endif
 
 
@@ -61,7 +59,10 @@ size_t CalcHash(Stack* stack);
 size_t RecalcHash(Stack *stack);
 
 char* elem_tToStr(elem_t elem);
-void StackDump(Stack *stack, const char* file, const int line, const char* function, const char* reason);
+void StackDump(Stack *stack, const char* file, const int line, const char* function, const char* message);
+
+
+
 
 
 int main() {
@@ -75,11 +76,12 @@ int main() {
         StackPop(&stack1, &x);
     }
 
-
-    int error = StackPop(&stack1, &x);
-
     StackDestructor(&stack1);
 }
+
+
+
+
 
 char* elem_tToStr(elem_t elem) {
 
@@ -93,12 +95,13 @@ char* elem_tToStr(elem_t elem) {
 
 
 #ifdef DEBUG
-void StackDump(Stack *stack, const char* file, const int line, const char* function, const char* reason) {
+void StackDump(Stack *stack, const char* file, const int line, const char* function, const char* message) {
     char status[10] = "ok";
     if (stack->error != 0) {
         strcpy(status, "ERROR");
     }
 
+    printf("\n%s\n", message);
     printf("\nStack <int> [%p] %s called from %s() at %s(%d).\n", stack,  stack->name, function, file, line);
     printf("STATUS: %s\n", status);
     printf("\tleft_guard = %d\n", stack->left_guard);
@@ -153,37 +156,24 @@ Stack StackConstructor(const char* name) {
 }
 
 
-int IncreaseStack(Stack* stack, const int new_capacity, const size_t elem_size) {
-    assert(stack!=NULL);
+int StackDestructor(Stack* stack) {
+    assert(stack != NULL);
 
 #ifdef DEBUG
-    StackDump(stack, __FILE__, __LINE__, __FUNCTION__, "Before increasing stack");
-#endif
-
-    stack->data = (elem_t*)realloc(stack->data, new_capacity * elem_size);
-    if (stack->data == NULL) {
-        return 2;
-    }
-
-    elem_t stackemptyelem = stack->empty_elem;
-    memset(stack->data, stack->empty_elem, stack->capacity);
-
-    stack->capacity = new_capacity;
-
-#ifdef DEBUG
-    StackDump(stack, __FILE__, __LINE__, __FUNCTION__, "After increasing stack");
-#endif
-
-#ifdef DEBUG
-    RecalcHash(stack);
-
-    if (StkOk(stack)) {
-        PrintStk_OK(*stack);
-    }
-    else {
+    if (!StkOk(stack)) {
         PrintStk_NOK(*stack);
         return 1;
     }
+#endif
+
+    free(stack->data);
+    stack->size = 0;
+    stack->capacity = 0;
+
+#ifdef DEBUG
+    strcpy(stack->name, "");
+    stack->error = 0;
+    stack->sum_hash = 0;
 #endif
 
     return 0;
@@ -221,40 +211,6 @@ int StackPush(Stack* stack, elem_t value) {
     return 0;
 }
 
-
-
-int DecreaseStack(Stack* stack, const int new_capacity, const size_t elem_size) {
-    assert(stack != NULL);
-
-#ifdef DEBUG
-    StackDump(stack, __FILE__, __LINE__, __FUNCTION__, "Before decreasing stack");
-#endif
-
-    stack->data = (elem_t*)realloc(stack->data, new_capacity * elem_size);
-    if (stack->data == NULL) {
-        return 2;
-    }
-    stack->capacity = new_capacity;
-
-
-#ifdef DEBUG
-    StackDump(stack, __FILE__, __LINE__, __FUNCTION__, "After decreasing stack");
-#endif
-
-#ifdef DEBUG
-    RecalcHash(stack);
-
-    if (StkOk(stack)) {
-        PrintStk_OK(*stack);
-    }
-    else {
-        PrintStk_NOK(*stack);
-        return 1;
-    }
-#endif
-
-    return 0;
-}
 
 int StackPop(Stack *stack, elem_t* var) {
     assert(stack != NULL);
@@ -300,28 +256,74 @@ int StackPop(Stack *stack, elem_t* var) {
     return error;
 }
 
-int StackDestructor(Stack* stack) {
-    assert(stack != NULL);
+
+int IncreaseStack(Stack* stack, const int new_capacity, const size_t elem_size) {
+    assert(stack!=NULL);
 
 #ifdef DEBUG
-    if (!StkOk(stack)) {
+    StackDump(stack, __FILE__, __LINE__, __FUNCTION__, "Before increasing stack");
+#endif
+
+    stack->data = (elem_t*)realloc(stack->data, new_capacity * elem_size);
+    if (stack->data == NULL) {
+        return 2;
+    }
+    memset(stack->data, stack->empty_elem, stack->capacity);
+    stack->capacity = new_capacity;
+
+#ifdef DEBUG
+    StackDump(stack, __FILE__, __LINE__, __FUNCTION__, "After increasing stack");
+
+    RecalcHash(stack);
+
+    if (StkOk(stack)) {
+        PrintStk_OK(*stack);
+    }
+    else {
         PrintStk_NOK(*stack);
         return 1;
     }
 #endif
 
-    free(stack->data);
-    stack->size = 0;
-    stack->capacity = 0;
+    return 0;
+}
+
+
+int DecreaseStack(Stack* stack, const int new_capacity, const size_t elem_size) {
+    assert(stack != NULL);
 
 #ifdef DEBUG
-    strcpy(stack->name, "");
-    stack->error = 0;
-    stack->sum_hash = 0;
+    StackDump(stack, __FILE__, __LINE__, __FUNCTION__, "Before decreasing stack");
+#endif
+
+    stack->data = (elem_t*)realloc(stack->data, new_capacity * elem_size);
+    if (stack->data == NULL) {
+        return 2;
+    }
+    stack->capacity = new_capacity;
+
+
+#ifdef DEBUG
+    StackDump(stack, __FILE__, __LINE__, __FUNCTION__, "After decreasing stack");
+
+
+    RecalcHash(stack);
+
+    if (StkOk(stack)) {
+        PrintStk_OK(*stack);
+    }
+    else {
+        PrintStk_NOK(*stack);
+        return 1;
+    }
 #endif
 
     return 0;
 }
+
+
+
+
 
 #ifdef DEBUG
 bool StkOk(Stack* stack) {
@@ -349,7 +351,6 @@ bool StkOk(Stack* stack) {
     return true;
 }
 #endif
-
 
 
 #ifdef DEBUG
