@@ -27,8 +27,7 @@ char *ParseFileToArray(FILE *file, const int cnt_lines, const int file_size, Tex
 int getCntLines(FILE *file);
 int getFileSize(FILE *file);
 TextElem * Copy(TextElem *indexes, const int cnt_elem);
-char* Reverse(char* str, const int size);
-int FindLetter(const char* str);
+int FindLastLetter(const char* str);
 
 void MyQiuckSort(TextElem *base, size_t num, size_t size, int (*cmp) (const void *, const void *));
 
@@ -170,30 +169,37 @@ int reverse_comp(const void* a, const void* b) {
     int offset_a = (*(TextElem*)a).offset;
     int offset_b = (*(TextElem*)b).offset;
 
-    int size_a = strlen(text + offset_a);
-    int size_b = strlen(text + offset_b);
-    char* reverse_a = Reverse(text + offset_a, size_a);
-    char* reverse_b = Reverse(text + offset_b, size_b);
+    char* str_a = text + offset_a;
+    char* str_b = text + offset_b;
 
-    int displ_a = FindLetter(reverse_a);
-    int displ_b = FindLetter(reverse_b);
+    int ind_last_letter_a = FindLastLetter(str_a);
+    int ind_last_letter_b = FindLastLetter(str_b);
 
-    int res_cmp = strcmp(reverse_a + displ_a, reverse_b + displ_b);
-    free(reverse_a);
-    free(reverse_b);
-    return res_cmp;
+    int ind_a = ind_last_letter_a;
+    int ind_b = ind_last_letter_b;
+    while (ind_a >= 0 && ind_b >= 0) {
+        if (str_a[ind_a] < str_b[ind_b]) {
+            return -1;
+        } else if (str_a[ind_a] > str_b[ind_b]) {
+            return 1;
+        }
+        --ind_a;
+        --ind_b;
+    }
+    return 0;
 }
 
-int FindLetter(const char* str) {
-    int ind = 0;
-    while (str[ind] != '\0') {
+int FindLastLetter(const char* str) {
+    size_t size = strlen(str);
+    int ind = size - 1;
+    while (ind >= 0) {
         if ((str[ind] >= 65 && str[ind] <= 90)
             || (str[ind] >= 97 && str[ind] <= 122)) {
             return ind;
         }
-        ++ind;
+        --ind;
     }
-    return 0;
+    return size;
 }
 
 
@@ -289,25 +295,6 @@ TextElem * Copy(TextElem *indexes, const int cnt_elem) {
     }
 
     return new_indexes;
-}
-
-
-
-//==========================================================================
-//! Reverses array[]
-//!
-//! \param [in]     str     original array
-//! \param [in]     size    size of array
-//! \return new array[], which is equal
-//!                      to reversed original array
-//==========================================================================
-char* Reverse(char* str, const int size) {
-    char* reverse_str = (char*) calloc(size + 1, sizeof(char));
-    for (int i = 0; i < size; ++i) {
-        reverse_str[size - i - 1] = str[i];
-    }
-    reverse_str[size] = '\0';
-    return reverse_str;
 }
 
 
