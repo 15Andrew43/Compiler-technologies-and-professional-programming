@@ -10,19 +10,21 @@
 #ifdef DEBUG
 #define PrintStk_OK(stack) StackDump(&stack, __FILE__, __LINE__, __FUNCTION__, "Just dump");
 #define PrintStk_NOK(stack) StackDump(&stack, __FILE__, __LINE__, __FUNCTION__, "Dump with wrong stack");
-#else
 #endif
-
-
-const size_t name_size = 50;
-const int guard_value = -2281337;
 
 
 typedef int elem_t;
 
+const size_t name_size = 50;
+const int guard_value = -2281337;
+
+const elem_t empty_elem = 1543000000;
+const int delta = 5;
 
 
-#pragma pack(1)
+
+
+
 struct Stack {
 #ifdef DEBUG
     int left_guard = guard_value;
@@ -31,9 +33,7 @@ struct Stack {
     size_t size = 0;
     elem_t* data = {};
     size_t capacity = 0;
-    const elem_t empty_elem = 1543000000;
 
-    const int delta = 5;
 
 #ifdef DEBUG
     char name[name_size];
@@ -44,7 +44,7 @@ struct Stack {
     int right_guard = guard_value;
 #endif
 };
-#pragma pack()
+
 
 
 Stack StackConstructor(const char* name);
@@ -62,7 +62,17 @@ char* elem_tToStr(elem_t elem);
 void StackDump(Stack *stack, const char* file, const int line, const char* function, const char* message);
 
 
-
+int doCaseStk_OK(Stack* stack) {
+#ifdef DEBUG
+    if (StkOk(stack)) {
+        PrintStk_OK(*stack);
+    }
+    else {
+        PrintStk_NOK(*stack);
+        return 1;
+    }
+#endif
+}
 
 
 int main() {
@@ -106,13 +116,13 @@ void StackDump(Stack *stack, const char* file, const int line, const char* funct
     printf("STATUS: %s\n", status);
     printf("\tleft_guard = %d\n", stack->left_guard);
     printf("\tsize = %d\n", stack->size);
-    printf("\tdelta = %d\n", stack->delta);
+    printf("\tdelta = %d\n", delta);
     printf("\tcapacity = %d\n", stack->capacity);
 
     printf("\tdata [%p]:\n", &stack->data);
     for (int i = 0; i < stack->capacity; ++i) {
         char* elemStr = elem_tToStr(stack->data[i]);
-        if (stack->data[i] == stack->empty_elem) {
+        if (stack->data[i] == empty_elem) {
             printf("\t\t[%d] = %s (poison),\n", i, elemStr);
         }
         else {
@@ -138,20 +148,16 @@ Stack StackConstructor(const char* name) {
 #endif
 
     stack.data = (elem_t*)calloc(first_capacity, sizeof(elem_t));
-    memset(stack.data, stack.empty_elem, first_capacity);
+    memset(stack.data, empty_elem, first_capacity);
     stack.size = 0;
     stack.capacity = first_capacity;
 
 #ifdef DEBUG
     RecalcHash(&stack);
-
-    if (StkOk(&stack)) {
-        PrintStk_OK(stack);
-    }
-    else {
-        PrintStk_NOK(stack);
-    }
 #endif
+
+    doCaseStk_OK(&stack);
+
     return stack;
 }
 
@@ -199,15 +205,10 @@ int StackPush(Stack* stack, elem_t value) {
 
 #ifdef DEBUG
     RecalcHash(stack);
-
-    if (StkOk(stack)) {
-        PrintStk_OK(*stack);
-    }
-    else {
-        PrintStk_NOK(*stack);
-        return 1;
-    }
 #endif
+
+    doCaseStk_OK(stack);
+
     return 0;
 }
 
@@ -215,23 +216,15 @@ int StackPush(Stack* stack, elem_t value) {
 int StackPop(Stack *stack, elem_t* var) {
     assert(stack != NULL);
 
-#ifdef DEBUG
-    if (StkOk(stack)) {
-        PrintStk_OK(*stack);
-    }
-    else {
-        PrintStk_NOK(*stack);
-        return 1;
-    }
-#endif
+    doCaseStk_OK(stack);
 
     int error = 0;
     if (stack->size > 0) {
         *var = stack->data[--stack->size];
-        stack->data[stack->size] = stack->empty_elem;
+        stack->data[stack->size] = empty_elem;
 
-        if (stack->size < (stack->capacity / 2) - stack->delta) {
-            assert(stack->data[stack->size] == stack->empty_elem);
+        if (stack->size < (stack->capacity / 2) - delta) {
+            assert(stack->data[stack->size] == empty_elem);
             if (DecreaseStack(stack, stack->size + 1, sizeof(elem_t)) != 0) {
                 error = 3;
             }
@@ -243,15 +236,9 @@ int StackPop(Stack *stack, elem_t* var) {
 
 #ifdef DEBUG
     RecalcHash(stack);
-
-    if (StkOk(stack)) {
-        PrintStk_OK(*stack);
-    }
-    else {
-        PrintStk_NOK(*stack);
-        return 1;
-    }
 #endif
+
+    doCaseStk_OK(stack);
 
     return error;
 }
@@ -268,22 +255,16 @@ int IncreaseStack(Stack* stack, const int new_capacity, const size_t elem_size) 
     if (stack->data == NULL) {
         return 2;
     }
-    memset(stack->data, stack->empty_elem, stack->capacity);
+    memset(stack->data, empty_elem, stack->capacity);
     stack->capacity = new_capacity;
 
 #ifdef DEBUG
     StackDump(stack, __FILE__, __LINE__, __FUNCTION__, "After increasing stack");
 
     RecalcHash(stack);
-
-    if (StkOk(stack)) {
-        PrintStk_OK(*stack);
-    }
-    else {
-        PrintStk_NOK(*stack);
-        return 1;
-    }
 #endif
+
+    doCaseStk_OK(stack);
 
     return 0;
 }
@@ -306,17 +287,10 @@ int DecreaseStack(Stack* stack, const int new_capacity, const size_t elem_size) 
 #ifdef DEBUG
     StackDump(stack, __FILE__, __LINE__, __FUNCTION__, "After decreasing stack");
 
-
     RecalcHash(stack);
-
-    if (StkOk(stack)) {
-        PrintStk_OK(*stack);
-    }
-    else {
-        PrintStk_NOK(*stack);
-        return 1;
-    }
 #endif
+
+    doCaseStk_OK(stack);
 
     return 0;
 }
@@ -365,7 +339,7 @@ size_t CalcHash(Stack* stack) {
         }
     }
     for (int j = 0; j < sizeof(int); ++j) {
-        char curByte = *((char*)& stack->delta + j);
+        char curByte = *((char*)& delta + j);
         hash += curByte * 2;
     }
     for (int j = 0; j < sizeof(int); ++j) {
@@ -377,7 +351,7 @@ size_t CalcHash(Stack* stack) {
         hash += curByte * 2;
     }
     for (int j = 0; j < sizeof(elem_t); ++j) {
-        char curByte = *((char*)& stack->empty_elem + j);
+        char curByte = *((char*)& empty_elem + j);
         hash += curByte * 2;
     }
 
