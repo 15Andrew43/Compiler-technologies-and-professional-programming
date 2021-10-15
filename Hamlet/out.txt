@@ -7542,746 +7542,746 @@ Sorted 'Hamlet' by the end of the lines:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  
-Sir, his definement suffers no perdition in you; — though, I
- A whole one, I.
-with you in this garb; lest my extent to the players, which I
-That can I;
-Fall'n on the inventors' heads: all this can I
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 PERSONS REPRESENTED
+ A whole one, I.
+Sir, his definement suffers no perdition in you; — though, I
+with you in this garb; lest my extent to the players, which I
+Fall'n on the inventors' heads: all this can I
+That can I;
 They are sheep and calves which seek out assurance in that. I
 O, what a rogue and peasant slave am I!
 boarded them: on the instant they got clear of our ship; so I
-his crib shall stand at the king's mess; 'tis a chough; but, as I
-them shape, or time to act them in. What should such fellows as I
 not the million, 'twas caviare to the general; but it was, — as I
+them shape, or time to act them in. What should such fellows as I
+his crib shall stand at the king's mess; 'tis a chough; but, as I
 Would from a paddock, from a bat, a gib,
 Be buried quick with her, and so will I:
 But these cannot I command to any utterance of harmony; I
@@ -8304,720 +8304,720 @@ Who, I?
 ACT I
 reason and sanity could not so prosperously be delivered of. I
 My lord, not I.
-You must sing 'Down a-down, an you call him a-down-a.' O,
-ACT IV
 ACT II
-So long? Nay then, let the devil wear black, for I'll have a
-ACT III
-Sundays: — O, you must wear your rue with a difference. — There's a
-to me than a foul and pestilent congregation of vapours. What a
-What's Hecuba to him, or he to Hecuba,
-For Hecuba?
-As deep as to the lungs? who does me this, ha?
-That looks so many fadoms to the sea
-more, ha?
- HAMLET.'
-That beetles o'er his base into the sea,
-Sprung from neglected love. — How now, Ophelia!
-Too much of water hast thou, poor Ophelia,
-[Danish march. A flourish. Enter King, Queen, Polonius, Ophelia,
-What, the fair Ophelia?
-purging thick amber and plum-tree gum; and that they have a
-Dear maid, kind sister, sweet Ophelia! — 
-for the most part, are capable of nothing but inexplicable dumb
-To sleep! perchance to dream: — ay, there's the rub;
-[Enter Hamlet, Rosencrantz, Guildenstern, &amp;c.]
-Why, as a woodcock to my own springe, Osric;
-Come, some music!
-And let him ply his music.
-Luc.
-My lord, his majesty commended him to you by young Osric,
-Lord Hamlet, — with his doublet all unbrac'd;
-Within his truncheon's length; whilst they, distill'd
-Taken to wife; nor have we herein barr'd
- Hath now this dread and black complexion smear'd
- Now is be total gules; horridly trick'd
-That I, the son of a dear father murder'd,
-foils &amp;c.]
-Than may be given you: in few, Ophelia,
- Repugnant to command: unequal match'd,
-To draw apart the body he hath kill'd:
-She should in ground unsanctified have lodg'd
-That from her working all his visage wan'd;
-The drink, the drink! — I am poison'd.
-But let this same be presently perform'd,
-So lust, though to a radiant angel link'd,
-As had he been incorps'd and demi-natur'd
-Drown'd, drown'd.
-But virtue, as it never will be mov'd,
- Who this had seen, with tongue in venom steep'd,
-That cannot be; since I am still possess'd
-The graves stood tenantless, and the sheeted dead
-But let it be. — Horatio, I am dead;
-And carriage of the article design'd,
-By desperate appliance are reliev'd,
-That Rosencrantz and Guildenstern are dead:
-But die thy thoughts when thy first lord is dead.
- No, no, he is dead,
-Dead.
-Dead for a ducat, dead!
-The source of this our watch, and the chief head
- With bisson rheum; a clout upon that head
- Which was declining on the milky head
-Fall ten times treble on that cursed head
-I will be brief: — your noble son is mad:
-But, look, the morn, in russet mantle clad,
-But wilt thou bear me how I did proceed?
-When second husband kisses me in bed.
-As false as dicers' oaths: O, such a deed
- Go to thy death-bed,
-But we will ship him hence: and this vile deed
-By the mass, and 'tis like a camel indeed.
-Could you on this fair mountain leave to feed,
-Stick fiery off indeed.
-Confound the ignorant, and amaze, indeed,
-What is't but to be nothing else but mad?
-Than young Laertes, in a riotous head,
-That have a father kill'd, a mother stain'd,
-When that her golden couplets are disclos'd,
-How came he mad?
-She desires to speak with you in her closet ere you go to bed.
-So he does indeed.
- An thou hadst not come to my bed.
-That he cried out, 'twould be a sight indeed
-That hath made him mad.
-She swoons to see them bleed.
-[Enter Ghost, armed.]
-Since yet thy cicatrice looks raw and red
-Is death of fathers, and who still hath cried,
-Is, in his retirement, marvellous distempered.
-I was the more deceived.
-The memory be green, and that it us befitted
-When he the ambitious Norway combated;
-You might have rhymed.
-So think thou wilt no second husband wed;
-By-and-by is easily said.
- Let in the maid, that out a maid
-[Aside.] Nay, then, I have an eye of you. — If you love me, hold
-But if't be he I mean, he's very wild;
-Come short of what he did.
-Should have a back or second, that might hold
-Seem to me all the uses of this world!
-The phrase would be more german to the matter if we could
-Sweet lord, if your lordship were at leisure, I should
- You promis'd me to wed.
-You need not tell us what Lord Hamlet said;
-Be all my sins remember'd.
-No, not I;
-I am but mad north-north-west: when the wind is southerly I
 He that thou knowest thine, HAMLET.'
-occasions of my sudden and more strange return. HAMLET.'
-ACT V
-of his action of battery? Hum! This fellow might be in's time a
-speak. 'Sblood, do you think I am easier to be played on than a
-O God, I could be bounded in a nutshell, and count myself a
-chronicles of the time; after your death you were better have a
-We'll ha't to-morrow night. You could, for a need, study a
+I am but mad north-north-west: when the wind is southerly I
+purging thick amber and plum-tree gum; and that they have a
+Sundays: — O, you must wear your rue with a difference. — There's a
 Will you ha' the truth on't? If this had not been a
 anything we see: we'll have a speech straight: come, give us a
 obligation of our ever-preserved love, and by what more dear a
-whirlwind of passion, you must acquire and beget a
-to Hecuba.
-[Enter Laertes and Ophelia.]
-[Enter Ophelia.]
-[Enter priests, &amp;c, in procession; the corpse of Ophelia,
-Ophelia,' — 
-[Re-enter Horatio with Ophelia.]
-How now, Ophelia?
-In hugger-mugger to inter him: poor Ophelia
-Affront Ophelia:
-And fall a-cursing like a very drab,
-Or given my heart a winking, mute and dumb;
-[Enter two Clowns, with spades, &amp;c.]
-Laertes, and Mourners following; King, Queen, their Trains, &amp;c.]
-[Enter Osric.]
-'In her excellent white bosom, these, &amp;c.'
-lowest note to the top of my compass; and there is much music,
-If she should break it now! [To Ophelia.]
+You must sing 'Down a-down, an you call him a-down-a.' O,
+So long? Nay then, let the devil wear black, for I'll have a
+So lust, though to a radiant angel link'd,
+That looks so many fadoms to the sea
+more, ha?
+But let this same be presently perform'd,
+Within his truncheon's length; whilst they, distill'd
+ACT III
+occasions of my sudden and more strange return. HAMLET.'
 In the secret parts of fortune? O, most true; she is a
-[Exit Osric.]
-And therefore must his choice be circumscrib'd
+That beetles o'er his base into the sea,
+Than may be given you: in few, Ophelia,
+Sprung from neglected love. — How now, Ophelia!
+ Now is be total gules; horridly trick'd
+That from her working all his visage wan'd;
+And carriage of the article design'd,
+To feed and clothe thee? Why should the poor be flatter'd?
+That have a father kill'd, a mother stain'd,
+The drink, the drink! — I am poison'd.
+When that her golden couplets are disclos'd,
+ HAMLET.'
+Come, some music!
+And fall a-cursing like a very drab,
+ Repugnant to command: unequal match'd,
+To draw apart the body he hath kill'd:
+Dear maid, kind sister, sweet Ophelia! — 
+ Hath now this dread and black complexion smear'd
+That I, the son of a dear father murder'd,
+By desperate appliance are reliev'd,
+But virtue, as it never will be mov'd,
+Dead.
+Dead for a ducat, dead!
+That cannot be; since I am still possess'd
+The graves stood tenantless, and the sheeted dead
+In the same figure, like the king that's dead.
+That Rosencrantz and Guildenstern are dead:
+But let it be. — Horatio, I am dead;
+Taken to wife; nor have we herein barr'd
+to me than a foul and pestilent congregation of vapours. What a
+We'll ha't to-morrow night. You could, for a need, study a
+[Enter Laertes and Ophelia.]
+[Danish march. A flourish. Enter King, Queen, Polonius, Ophelia,
+How now, Ophelia?
+to Hecuba.
+[Enter Ophelia.]
+Ophelia,' — 
+Pretty Ophelia!
+Or given my heart a winking, mute and dumb;
+'In her excellent white bosom, these, &amp;c.'
+As deep as to the lungs? who does me this, ha?
+In hugger-mugger to inter him: poor Ophelia
+For Hecuba?
+What, the fair Ophelia?
+[Enter Hamlet, Rosencrantz, Guildenstern, &amp;c.]
 Whose spirit, with divine ambition puff'd,
+[Enter two Clowns, with spades, &amp;c.]
+[Enter Osric.]
+[Exit Osric.]
+She should in ground unsanctified have lodg'd
+Drown'd, drown'd.
+Be all my sins remember'd.
+And where 'tis so, the offender's scourge is weigh'd,
+[Re-enter Horatio with Ophelia.]
+Whom I will trust as I will adders fang'd, — 
 'Tis heavy with him: and am I, then, reveng'd,
 Of life, of crown, of queen, at once dispatch'd:
 Then are our beggars bodies, and our monarchs and outstretch'd
-And where 'tis so, the offender's scourge is weigh'd,
-Was gaged by our king; which had return'd
-Goes slow and stately by them: thrice he walk'd
-Pretty Ophelia!
-Are joyfully return'd.
-'Tis in my memory lock'd,
-Wherein necessity, of matter beggar'd,
-And, with his head over his shoulder turn'd
-To feed and clothe thee? Why should the poor be flatter'd?
-The youth you breathe of guilty, be assur'd
 And when you are desirous to be bles'd,
-O villany! — Ho! let the door be lock'd:
-Part them; they are incens'd.
-Or like a creature native and indu'd
-Or that the Everlasting had not fix'd
-And with them words of so sweet breath compos'd
-We should profane the service of the dead
-With all my imperfections on my head:
+ Who this had seen, with tongue in venom steep'd,
+But die thy thoughts when thy first lord is dead.
+Fall ten times treble on that cursed head
 [Laying his hand on Laertes's head.]
-One that was a woman, sir; but, rest her soul, she's dead.
-In the same figure, like the king that's dead.
-Good night: but go not to mine uncle's bed;
-[Enter King,attended.]
-Or in the incestuous pleasure of his bed;
-And duller shouldst thou be than the fat weed
-'To the celestial, and my soul's idol, the most beautified
-Of his own just remove: the people muddied,
-'Tis Hamlet's character: — 'Naked!' — 
-Pale or red?
-and aunt-mother are deceived.
-Indeed, upon my sword, indeed.
+ With bisson rheum; a clout upon that head
+ Which was declining on the milky head
+As had he been incorps'd and demi-natur'd
+And at our more consider'd time we'll read,
+But, look, the morn, in russet mantle clad,
+And with them words of so sweet breath compos'd
+When second husband kisses me in bed.
+She desires to speak with you in her closet ere you go to bed.
+I will be brief: — your noble son is mad:
+ An thou hadst not come to my bed.
+ Go to thy death-bed,
+To be commanded.
+As false as dicers' oaths: O, such a deed
 In the rank sweat of an enseamed bed,
+But wilt thou bear me how I did proceed?
+In his true nature; and we ourselves compell'd,
+'Tis in my memory lock'd,
+Goes slow and stately by them: thrice he walk'd
+To hear him so inclin'd. — 
+And, with his head over his shoulder turn'd
+It was against your highness; whereat griev'd, — 
+Or that the Everlasting had not fix'd
+Are joyfully return'd.
+Wherein necessity, of matter beggar'd,
+The youth you breathe of guilty, be assur'd
+The source of this our watch, and the chief head
+With all my imperfections on my head:
+How came he mad?
+That hath made him mad.
+What is't but to be nothing else but mad?
+Good night: but go not to mine uncle's bed;
+But we will ship him hence: and this vile deed
+Than young Laertes, in a riotous head,
+Indeed, upon my sword, indeed.
+Confound the ignorant, and amaze, indeed,
+Stick fiery off indeed.
+Could you on this fair mountain leave to feed,
+By the mass, and 'tis like a camel indeed.
+She swoons to see them bleed.
+So he does indeed.
+That he cried out, 'twould be a sight indeed
 Where truth is hid, though it were hid indeed
+Or like a creature native and indu'd
+ No, no, he is dead,
+Was gaged by our king; which had return'd
+[Enter priests, &amp;c, in procession; the corpse of Ophelia,
+Or in the incestuous pleasure of his bed;
+We should profane the service of the dead
+[Enter King,attended.]
+Of his own just remove: the people muddied,
+And I, of ladies most deject and wretched
+One that was a woman, sir; but, rest her soul, she's dead.
+'Tis Hamlet's character: — 'Naked!' — 
+Whose blood and judgment are so well commingled
+Since yet thy cicatrice looks raw and red
+Is, in his retirement, marvellous distempered.
+[Enter Ghost, armed.]
 [Reads.] 'Horatio, when thou shalt have overlooked
+Pale or red?
 Wherein our Saviour's birth is celebrated,
-And, as you said, and wisely was it said,
-And both neglect. What if this cursed hand
-Friends both, go join you with some further aid:
-It is offended.
- And hath shipp'd me intil the land,
-[Re-enter Ophelia, fantastically dressed with straws and
-rapiers and poniards, with their assigns, as girdle, hangers, and
+You might have rhymed.
+When he the ambitious Norway combated;
+and aunt-mother are deceived.
+'To the celestial, and my soul's idol, the most beautified
+Is death of fathers, and who still hath cried,
 With Hecate's ban thrice blasted, thrice infected,
-Are burnt and purg'd away. But that I am forbid
-a kind of yesty collection, which carries them through and
-[Enter King, Queen, Polonius, Ophelia, Rosencrantz, and
-Ros. and Guild.
-For this relief much thanks: 'tis bitter cold,
-Of this post-haste and romage in the land.
-And you, my sinews, grow not instant old,
-The treacherous instrument is in thy hand,
+The memory be green, and that it us befitted
+I was the more deceived.
+So think thou wilt no second husband wed;
+You need not tell us what Lord Hamlet said;
+By-and-by is easily said.
+man is twice a child.
+But if't be he I mean, he's very wild;
+Come short of what he did.
+[Aside.] Nay, then, I have an eye of you. — If you love me, hold
+Should have a back or second, that might hold
+ Let in the maid, that out a maid
+How was this seal'd?
+Part them; they are incens'd.
 Safely stowed.
+And, as you said, and wisely was it said,
+Are burnt and purg'd away. But that I am forbid
+Friends both, go join you with some further aid:
+In the corrupted currents of this world
+Ros. and Guild.
+And you, my sinews, grow not instant old,
+The phrase would be more german to the matter if we could
+For this relief much thanks: 'tis bitter cold,
+Sweet lord, if your lordship were at leisure, I should
 At 'closes in the consequence,' at 'friend or so,' and
+[Enter King, Queen, Polonius, Ophelia, Rosencrantz, and
+rapiers and poniards, with their assigns, as girdle, hangers, and
+Seem to me all the uses of this world!
+ You promis'd me to wed.
 As 'Well, well, we know'; or 'We could, an if we would'; — 
-It is not very strange; for my uncle is king of Denmark, and
+would play upon me; you would seem to know my stops; you would
+And both neglect. What if this cursed hand
+[Re-enter Ophelia, fantastically dressed with straws and
+a kind of yesty collection, which carries them through and
+The treacherous instrument is in thy hand,
 So nightly toils the subject of the land;
+But to recover of us, by strong hand,
+That treason can but peep to what it would,
+No, not I;
+ACT V
+ACT IV
+of his action of battery? Hum! This fellow might be in's time a
+chronicles of the time; after your death you were better have a
+O God, I could be bounded in a nutshell, and count myself a
+speak. 'Sblood, do you think I am easier to be played on than a
+If she should break it now! [To Ophelia.]
+Affront Ophelia:
+Nay, but Ophelia —
+whirlwind of passion, you must acquire and beget a
+Her obsequies have been as far enlarg'd
+lowest note to the top of my compass; and there is much music,
+What's Hecuba to him, or he to Hecuba,
+Nor sense to ecstacy was ne'er so thrall'd
+No hat upon his head; his stockings foul'd,
+Too much of water hast thou, poor Ophelia,
+Alas, then she is drown'd?
+And so am I reveng'd. — that would be scann'd:
+Never to rise again: thy mother's poison'd:
+An understanding simple and unschool'd;
+Too oft before their buttons be disclos'd:
+His nephew's levies; which to him appear'd
+Which may to you, perhaps, seem much unsinew'd,
+And recks not his own read.
+And gather by him, as he is behav'd,
+This lapwing runs away with the shell on his head.
+Alas, he's mad!
+Not shriving-time allow'd.
+Now pile your dust upon the quick and dead,
+Alas, how shall this bloody deed be answer'd?
+for the most part, are capable of nothing but inexplicable dumb
+To sleep! perchance to dream: — ay, there's the rub;
+Laertes, and Mourners following; King, Queen, their Trains, &amp;c.]
+Why, as a woodcock to my own springe, Osric;
+foils &amp;c.]
+And therefore must his choice be circumscrib'd
+Hamlet is of the faction that is wrong'd;
+Let come what comes; only I'll be reveng'd
+And let him ply his music.
+My lord, upon the platform where we watch'd.
+O villany! — Ho! let the door be lock'd:
+Unhous'led, disappointed, unanel'd;
+My lord, his majesty commended him to you by young Osric,
+To quit him with this arm? and is't not to be damn'd
+He is justly serv'd;
+To thine own peace. If he be now return'd — 
+Luc.
+My lord, I will be rul'd;
+Wherein we saw thee quietly in-urn'd,
+bonnet to his right use; 'tis for the head.
+He took my father grossly, full of bread;
+To o'ertop old Pelion or the skyish head
+My father, in his habit as he liv'd!
+A sable silver'd.
+A second time I kill my husband dead
+And then, they say, no spirit dare stir abroad;
+Let the bloat king tempt you again to bed;
+Will sate itself in a celestial bed
+This business is well ended. — 
+Mother, you have my father much offended.
+To show yourself your father's son in deed
+if his fitness speaks, mine is ready; now or whensoever, provided
+Hamlet, thou hast thy father much offended.
+Nor do we find him forward to be sounded,
+I know him well: he is the brooch indeed
+say right, sir: o' Monday morning; 'twas so indeed.
+O heavy deed!
+I'll call upon you ere you go to bed,
+A combination and a form, indeed,
+Lord Hamlet, — with his doublet all unbrac'd;
+To tell him his commandment is fulfill'd
+To keep it from divulging, let it feed
+for look you how cheerfully my mother looks, and my father died
+To the unsatisfied.
+Those friends thou hast, and their adoption tried,
+Her mood will needs be pitied.
+Why, e'en so: and now my Lady Worm's; chapless, and knocked
+enough, and likelihood to lead it: as thus: Alexander died,
+hath borne me on his back a thousand times; and now, how abhorred
+Thou mixture rank, of midnight weeds collected,
+Alas, my lord, I have been so affrighted!
+A document in madness, — thoughts and remembrance fitted.
+While one with moderate haste might tell a hundred.
+or if it was, not above once; for the play, I remember, pleased
+I heard thee speak me a speech once, — but it was never acted;
+journeymen had made men, and not made them well, they imitated
+Which now goes too free-footed.
+him by them, in his meed he's unfellowed.
+set down with as much modesty as cunning. I remember, one said
+Have heaven and earth together demonstrated
+Nay, good my lord, this courtesy is not of the right breed.
+My lord, I did;
+My honour'd lord, you know right well you did;
+He does confess he feels himself distracted,
+Which, happily, foreknowing may avoid,
+A little month; or ere those shoes were old
+My will, not all the world:
+Happily he's the second time come to them; for they say an old
+To mine own room again: making so bold,
+To what I shall unfold.
+I did repel his letters and denied
+city? Are they so followed?
+I thought thy bride-bed to have deck'd, sweet maid,
+In dreadful secrecy impart they did;
+world.
+I do not know from what part of the world
+And let me speak to the yet unknowing world
+hath much land, and fertile: let a beast be lord of beasts, and
+Why, anything — but to the purpose. You were sent for; and
+have tribute of me; the adventurous knight shall use his foil and
+them, — that many wearing rapiers are afraid of goose-quills and
+speech of some dozen or sixteen lines which I would set down and
+Know you the hand?
 The present death of Hamlet. Do it, England;
+Thus was I, sleeping, by a brother's hand,
+No, by this hand.
+He did comply with his dug before he suck'd it. Thus has he, — and
+A goodly one; in which there are many confines, wards, and
+If by direct or by collateral hand
+Which let thy wiseness fear: away thy hand!
+into England.
+Ay, marry, why was be sent into England?
+It must be shortly known to him from England
+Thus set it down: — he shall with speed to England
+Against some part of Poland.
+one flesh; and so, my mother. — Come, for England!
+I cannot live to hear the news from England;
+only emperor for diet: we fat all creatures else to fat us, and
+No, my good lord; but, as you did command,
+An eye like Mars, to threaten and command;
+O royal knavery! an exact command, — 
+I dare damnation: — to this point I stand, — 
+No more; and by a sleep to say we end
+I, his sole son, do this same villain send
+And hitherto doth love on fortune tend:
+Love! his affections do not that way tend;
+Mad as the sea and wind, when both contend
+If circumstances lead me, I will find
+Honour'd, belov'd, and haply one as kind
+Thus bad begins, and worse remains behind. — 
+ And hath shipp'd me intil the land,
+Of this post-haste and romage in the land.
 For England.
-For England!
 I see a cherub that sees them. — But, come; for England! — 
-[Enter the King, Queen, Hamlet, Polonius, Laertes, Voltimand,
 Young Fortinbras, with conquest come from Poland,
 You, good Cornelius, and you, Voltimand,
 Put your dread pleasures more into command
-The important acting of your dread command?
-Ay, marry, why was be sent into England?
-You from the Polack wars, and you from England,
-But to recover of us, by strong hand,
-That treason can but peep to what it would,
-Nay, but Ophelia —
-Whom I will trust as I will adders fang'd, — 
-Let come what comes; only I'll be reveng'd
-Hamlet is of the faction that is wrong'd;
-Unhous'led, disappointed, unanel'd;
-How was this seal'd?
-My lord, upon the platform where we watch'd.
-To tell him his commandment is fulfill'd
-To hear him so inclin'd. — 
-In his true nature; and we ourselves compell'd,
-An understanding simple and unschool'd;
-No hat upon his head; his stockings foul'd,
-To quit him with this arm? and is't not to be damn'd
-My lord, I will be rul'd;
-And so am I reveng'd. — that would be scann'd:
-Wherein we saw thee quietly in-urn'd,
-To thine own peace. If he be now return'd — 
-Alas, then she is drown'd?
-His nephew's levies; which to him appear'd
-A sable silver'd.
-Alas, how shall this bloody deed be answer'd?
-Too oft before their buttons be disclos'd:
-Never to rise again: thy mother's poison'd:
-Her obsequies have been as far enlarg'd
-Nor sense to ecstacy was ne'er so thrall'd
-And gather by him, as he is behav'd,
-It was against your highness; whereat griev'd, — 
-He is justly serv'd;
-My father, in his habit as he liv'd!
-Which may to you, perhaps, seem much unsinew'd,
-Not shriving-time allow'd.
-say right, sir: o' Monday morning; 'twas so indeed.
-Nor do we find him forward to be sounded,
-if his fitness speaks, mine is ready; now or whensoever, provided
-Now pile your dust upon the quick and dead,
-To o'ertop old Pelion or the skyish head
-A second time I kill my husband dead
-This lapwing runs away with the shell on his head.
-Hamlet, thou hast thy father much offended.
-Let the bloat king tempt you again to bed;
-To show yourself your father's son in deed
-While one with moderate haste might tell a hundred.
-enough, and likelihood to lead it: as thus: Alexander died,
-I know him well: he is the brooch indeed
-bonnet to his right use; 'tis for the head.
-I'll call upon you ere you go to bed,
-And at our more consider'd time we'll read,
-And recks not his own read.
-He took my father grossly, full of bread;
-And then, they say, no spirit dare stir abroad;
-To be commanded.
-Mother, you have my father much offended.
-Alas, he's mad!
-To the unsatisfied.
-O heavy deed!
-Nay, good my lord, this courtesy is not of the right breed.
-Those friends thou hast, and their adoption tried,
-Will sate itself in a celestial bed
-And I, of ladies most deject and wretched
-Why, e'en so: and now my Lady Worm's; chapless, and knocked
-or if it was, not above once; for the play, I remember, pleased
-Have heaven and earth together demonstrated
-journeymen had made men, and not made them well, they imitated
-He does confess he feels himself distracted,
-Thou mixture rank, of midnight weeds collected,
-Alas, my lord, I have been so affrighted!
-Whose blood and judgment are so well commingled
-This business is well ended. — 
-To keep it from divulging, let it feed
-for look you how cheerfully my mother looks, and my father died
-I did repel his letters and denied
-Her mood will needs be pitied.
-hath borne me on his back a thousand times; and now, how abhorred
-A combination and a form, indeed,
-I heard thee speak me a speech once, — but it was never acted;
-Which now goes too free-footed.
-city? Are they so followed?
-A document in madness, — thoughts and remembrance fitted.
-set down with as much modesty as cunning. I remember, one said
-him by them, in his meed he's unfellowed.
-In dreadful secrecy impart they did;
-Which, happily, foreknowing may avoid,
-man is twice a child.
-My honour'd lord, you know right well you did;
-I thought thy bride-bed to have deck'd, sweet maid,
-A little month; or ere those shoes were old
-My lord, I did;
-To what I shall unfold.
-world.
-To mine own room again: making so bold,
-I do not know from what part of the world
-And let me speak to the yet unknowing world
-In the corrupted currents of this world
-Happily he's the second time come to them; for they say an old
-would play upon me; you would seem to know my stops; you would
-them, — that many wearing rapiers are afraid of goose-quills and
-hath much land, and fertile: let a beast be lord of beasts, and
-Know you the hand?
-Thus was I, sleeping, by a brother's hand,
-If by direct or by collateral hand
-A goodly one; in which there are many confines, wards, and
-My will, not all the world:
-only emperor for diet: we fat all creatures else to fat us, and
-Why, anything — but to the purpose. You were sent for; and
-No, by this hand.
-I cannot live to hear the news from England;
-Which let thy wiseness fear: away thy hand!
-It must be shortly known to him from England
-speech of some dozen or sixteen lines which I would set down and
-have tribute of me; the adventurous knight shall use his foil and
-He did comply with his dug before he suck'd it. Thus has he, — and
-Thus set it down: — he shall with speed to England
-into England.
-No, my good lord; but, as you did command,
-one flesh; and so, my mother. — Come, for England!
-O royal knavery! an exact command, — 
 O good Horatio, I'll take the ghost's word for a thousand
-An eye like Mars, to threaten and command;
-Do, if it will not stand.
-And hitherto doth love on fortune tend:
-my father died: — they say he made a good end, — 
-Against some part of Poland.
-Conjures the wandering stars, and makes them stand
-No more; and by a sleep to say we end
-As make your bouts more violent to that end, — 
-I dare damnation: — to this point I stand, — 
-I, his sole son, do this same villain send
-Love! his affections do not that way tend;
-Mad as the sea and wind, when both contend
-And each particular hair to stand on end
-the end.
+The important acting of your dread command?
+[Enter the King, Queen, Hamlet, Polonius, Laertes, Voltimand,
 picked out of ten thousand.
+Do, if it will not stand.
 For loan oft loses both itself and friend;
-And you must put me in your heart for friend,
-The time invites you; go, your servants tend.
-Perpend.
+Conjures the wandering stars, and makes them stand
+For England!
+the end.
 For who not needs shall never lack a friend;
-If circumstances lead me, I will find
-And thou shalt live in this fair world behind,
-I must be cruel, only to be kind:
-[Aside.] A little more than kin, and less than kind!
-Rich gifts wax poor when givers prove unkind.
-Honour'd, belov'd, and haply one as kind
-Thus bad begins, and worse remains behind. — 
+The time invites you; go, your servants tend.
 your friend.
-That thus hath cozen'd you at hoodman-blind?
-It is indifferent cold, my lord, indeed.
-mind.
-With all the strength and armour of the mind,
+As make your bouts more violent to that end, — 
+Perpend.
+[Aside.] A little more than kin, and less than kind!
+And you must put me in your heart for friend,
+And thou shalt live in this fair world behind,
+Rich gifts wax poor when givers prove unkind.
+I must be cruel, only to be kind:
 Take these again; for to the noble mind
+With all the strength and armour of the mind,
 lungs are tickle o' the sere; and the lady shall say her mind
 The flash and outbreak of a fiery mind;
+my father died: — they say he made a good end, — 
+You from the Polack wars, and you from England,
+That thus hath cozen'd you at hoodman-blind?
+It is offended.
+It is indifferent cold, my lord, indeed.
+It is not very strange; for my uncle is king of Denmark, and
+And duller shouldst thou be than the fat weed
+And each particular hair to stand on end
+mind.
+Too slightly timber'd for so loud a wind,
 That father lost, lost his; and the survivor bound,
-As it hath us'd to do, — that I have found
-Your party in converse, him you would sound,
+Upon my life, Lamond.
 The single and peculiar life is bound,
+And, like a man to double business bound,
+As it hath us'd to do, — that I have found
 He tells me, my sweet queen, he hath found
-He rais'd a sigh so piteous and profound
-But, better look'd into, he truly found
 It waves you to a more removed ground:
-Millions of acres on us, till our ground,
-With what, i' the name of God?
-Form of the thing, each word made true and good,
-Do you see this, O God?
+choose but weep, to think they would lay him i' the cold ground.
+But, better look'd into, he truly found
 Hic et ubique? then we'll shift our ground. — 
 His canon 'gainst self-slaughter! O God! O God!
-Too slightly timber'd for so loud a wind,
-Full thirty times hath Phoebus' cart gone round
-Upon my life, Lamond.
-And, like a man to double business bound,
-Neptune's salt wash and Tellus' orbed ground,
-Why, then 'tis none to you; for there is nothing either good
-That to the use of actions fair and good
-As, stars with trains of fire and dews of blood,
-My brother shall know of it: and so I thank you for your good
-Friends to this ground.
-Upon what ground?
 O God!
-Good.
+As, stars with trains of fire and dews of blood,
 which this ass now o'erreaches; one that would circumvent God,
-No medicine in the world can do thee good;
-'Fore God, my lord, well spoken, with good accent and good
-A savageness in unreclaimed blood,
 Hold it a fashion, and a toy in blood:
-Were thicker than itself with brother's blood, — 
-Will want true colour; tears perchance for blood.
-It is not, nor it cannot come to good;
-choose but weep, to think they would lay him i' the cold ground.
-Contagion to this world: now could I drink hot blood,
-Repast them with my blood.
-O'er which his melancholy sits on brood;
-Excitements of my reason and my blood,
-[Aside.] Wormwood, wormwood!
-This presence knows, and you must needs have heard,
-Our hasty sending. Something have you heard
-Hoist with his own petard: and 't shall go hard
-'Tis given out that, sleeping in my orchard,
- So, as a painted tyrant, Pyrrhus stood;
-Never to speak of this that you have heard,
 He took me by the wrist, and held me hard;
-As did that one; and that, in my regard,
-Brief let me be. — Sleeping within my orchard,
-Follow him at foot; tempt him with speed aboard;
-Lord.
-Lord.
-Lord.
+Hoist with his own petard: and 't shall go hard
 Upon a fearful summons. I have heard
-Fie upon't! foh! — About, my brain! I have heard
+O'er which his melancholy sits on brood;
+No medicine in the world can do thee good;
+Our hasty sending. Something have you heard
+Full thirty times hath Phoebus' cart gone round
+Neptune's salt wash and Tellus' orbed ground,
+He rais'd a sigh so piteous and profound
+Millions of acres on us, till our ground,
+Do you see this, O God?
+Form of the thing, each word made true and good,
+That to the use of actions fair and good
+It is not, nor it cannot come to good;
+We go to gain a little patch of ground
+Friends to this ground.
+With what, i' the name of God?
+Why, then 'tis none to you; for there is nothing either good
+Good.
+A savageness in unreclaimed blood,
+My brother shall know of it: and so I thank you for your good
+Your party in converse, him you would sound,
+Will want true colour; tears perchance for blood.
+Were thicker than itself with brother's blood, — 
+Excitements of my reason and my blood,
+ So, as a painted tyrant, Pyrrhus stood;
+Repast them with my blood.
+Contagion to this world: now could I drink hot blood,
+[Aside.] Wormwood, wormwood!
+Never to speak of this that you have heard,
+This presence knows, and you must needs have heard,
+'Tis given out that, sleeping in my orchard,
+Brief let me be. — Sleeping within my orchard,
+As did that one; and that, in my regard,
+Have you had quiet guard?
 That drop of blood that's calm proclaims me bastard;
 [Enter a Lord.]
-My honoured lord!
-No, my good lord.
-[Exit Lord.]
 should be old as I am, if, like a crab, you could go backward.
+A damn'd defeat was made. Am I a coward?
 A churchyard.
+Fie upon't! foh! — About, my brain! I have heard
+Follow him at foot; tempt him with speed aboard;
+'Fore God, my lord, well spoken, with good accent and good
+Lord.
+My honoured lord!
+My good lord, —
+Lord.
+No, my good lord.
 But, my good lord, —
 Ay, my good lord.
-In what, my dear lord?
+Lord.
 Th' ambassadors from Norway, my good lord,
-I'll blessing beg of you. — For this same lord
-My good lord, —
 How is't, my noble lord?
+I'll blessing beg of you. — For this same lord
 O'erbears your offices. The rabble call him lord;
+My most dear lord!
 O, my dear lord, —
 Or of a courtier, which could say 'Good morrow, sweet lord!
-I mean, the matter that you read, my lord.
-Nor I, my lord.
-Arm'd, my lord.
-Where the dead body is bestow'd, my lord,
+In what, my dear lord?
 Not I, my lord.
-Have you had quiet guard?
-A damn'd defeat was made. Am I a coward?
-We go to gain a little patch of ground
-read, my lord?
+[Exit Lord.]
+Arm'd, my lord.
+Nor I, my lord.
+Where the dead body is bestow'd, my lord,
 My lord?
 To what end, my lord?
-Very good, my lord.
-My most dear lord!
+[Within.] My lord, my lord, —
 There's no offence, my lord.
-What if it tempt you toward the flood, my lord,
-Take you me for a sponge, my lord?
-Come, my lord.
+read, my lord?
 What treasure had he, my lord?
-At home, my lord.
+Very good, my lord.
+I mean, the matter that you read, my lord.
+Take you me for a sponge, my lord?
+Do you know me, my lord?
+Come, my lord.
 There, my lord.
 Where, my lord?
 Alas, look here, my lord!
-Do you know me, my lord?
-A thing, my lord!
+What if it tempt you toward the flood, my lord,
+And hath given countenance to his speech, my lord,
+I shall, my lord.
+At home, my lord.
+Most humbly do I take my leave, my lord.
+I have, my lord.
+Not a jot more, my lord.
 As gaming, my lord.
+What speech, my lord?
+Propose the oath, my lord.
+Nay, 'tis twice two months, my lord.
+Prison, my lord!
+No, my lord.
 Well, my lord:
-Well, my lord.
+What does this mean, my lord?
+What follows, then, my lord?
+Ay, by heaven, my lord.
+Will't please you go, my lord?
+Neither, my lord.
+I'll be your foil, Laertes; in mine ignorance
+Will you walk out of the air, my lord?
+Which have solicited. — the rest is silence.
+Which done, she took the fruits of my advice;
+We shall, my lord.
+Very well, my lord;
+'Tis brief, my lord.
+Very well, my lord.
+[Within.] Illo, ho, ho, my lord!
+These are but wild and whirling words, my lord.
+Unbated and envenom'd: the foul practice
+Unto that element: but long it could not be
+Unsifted in such perilous circumstance.
+A thing, my lord!
+Ay, very well, my lord.
 Save yourself, my lord:
 Fare you well, my lord.
 I will, my lord.
-Ay, very well, my lord.
-We do, my lord.
-No, my lord.
-Will't please you go, my lord?
-Which have solicited. — the rest is silence.
-'twere, the mirror up to nature; to show virtue her own image,
+Well, my lord.
 We will, my lord.
-Not a jot more, my lord.
-What speech, my lord?
-Most humbly do I take my leave, my lord.
-I have, my lord.
-We shall, my lord.
-'Tis brief, my lord.
-What does this mean, my lord?
-Neither, my lord.
-What follows, then, my lord?
-Unbated and envenom'd: the foul practice
-I'll be your foil, Laertes; in mine ignorance
-Unto that element: but long it could not be
-Will you walk out of the air, my lord?
-Unsifted in such perilous circumstance.
-Ungart'red, and down-gyved to his ankle;
-Which done, she took the fruits of my advice;
-Unto young Hamlet; for, upon my life,
-Prison, my lord!
-And hath given countenance to his speech, my lord,
-These are but wild and whirling words, my lord.
-I shall, my lord.
-[Within.] Illo, ho, ho, my lord!
-Nay, 'tis twice two months, my lord.
-What's that, my lord?
-Ay, by heaven, my lord.
 They bleed on both sides. — How is it, my lord?
-Upon my sword.
-'Twill not he seen in him there; there the men are as mad as he.
 A double blessing is a double grace;
 Which now, like fruit unripe, sticks on the tree;
-Upon my secure hour thy uncle stole,
-A cutpurse of the empire and the rule,
-Upon whose property and most dear life
-Propose the oath, my lord.
+Unto young Hamlet; for, upon my life,
 Very like a whale.
-[Within.] My lord, my lord, —
-Very well, my lord.
-Very well, my lord;
+Ungart'red, and down-gyved to his ankle;
+What's that, my lord?
+Upon my secure hour thy uncle stole,
+Upon my sword.
+Upon whose property and most dear life
+Upon what ground?
+We think not so, my lord.
 You shall not go, my lord.
 You will lose this wager, my lord.
 What is the matter, my lord?
-We think not so, my lord.
-I will do't, my lord.
-You are a good chorus, my lord.
 What is, my lord?
 What out of this, my lord?
-What, my lord?
+E'en so, my lord.
 What means this, my lord?
-What part is that, my lord?
-It might, my lord.
-Remember it, my lord!
-The woman will be out. — Adieu, my lord:
-Do not, my lord.
-Honest, my lord!
-I understand you not, my lord.
 What news, my lord?
-I hear him coming: let's withdraw, my lord.
- But with the whiff and wind of his fell sword
-pocky corses now-a-days that will scarce hold the laying in, — he
-your table!
-your memory, begin at this line; — let me see, let me see: — 
-What is it you will see?
-A ministering angel shall my sister be
-When he is drunk asleep; or in his rage;
- Black as his purpose,did the night resemble
-'Tis strange.
-I tell thee she is; and therefore make her grave straight: the
-'Tis too much prov'd, — that with devotion's visage
-We may of their encounter frankly judge;
-'Tis very strange.
-What said he?
-When he himself might his quietus make
-I'll play this bout first; set it by awhile. — 
-A hall in the Castle.
-A hall in the Castle.
-Which now, to claim my vantage doth invite me.
-A more remote part of the Castle.
-What thou hast said to me.
-When he is fit and season'd for his passage?
+What part is that, my lord?
+What, my lord?
 I know, no touch of it, my lord.
-What should we say, my lord?
- With less remorse than Pyrrhus' bleeding sword
 'Swounds, I should take it: for it cannot be
-A truant disposition, good my lord.
- Striking too short at Greeks: his antique sword,
- Takes prisoner Pyrrhus' ear: for lo! his sword,
- A pickaxe and a spade, a spade,
-A sword unbated, and, in a pass of practice,
- Where late the diadem stood, and for a robe,
-We'll put on those shall praise your excellence
-To offer it the show of violence;
- Pyrrhus at Priam drives; in rage strikes wide;
- The instant burst of clamour that she made, — 
- O, a pit of clay for to be made
-A ranker rate, should it be sold in fee.
-you not sent for? Is it your own inclining? Is it a free
-yet? Then there's hope a great man's memory may outlive his life
-I say, away! — Go on; I'll follow thee.
 I pray you pass with your best violence:
-To prick and sting her. Fare thee well at once!
- O, a pit of clay for to be made
-We will ourselves provide:
+ A pickaxe and a spade, a spade,
+We'll put on those shall praise your excellence
+What should we say, my lord?
+We do, my lord.
+It might, my lord.
+The woman will be out. — Adieu, my lord:
+A truant disposition, good my lord.
+You are a good chorus, my lord.
+A ministering angel shall my sister be
+ With less remorse than Pyrrhus' bleeding sword
+ Where late the diadem stood, and for a robe,
+A sword unbated, and, in a pass of practice,
+A ranker rate, should it be sold in fee.
+yet? Then there's hope a great man's memory may outlive his life
+'Tis too much prov'd, — that with devotion's visage
+'Tis strange.
+'Tis very strange.
 When the compulsive ardour gives the charge,
-I hop'd thou shouldst have been my Hamlet's wife;
-What is he that builds stronger than either the mason, the
+'twere, the mirror up to nature; to show virtue her own image,
+We may of their encounter frankly judge;
+What said he?
+Remember it, my lord!
+I tell thee she is; and therefore make her grave straight: the
+'Twill not he seen in him there; there the men are as mad as he.
+put another question to thee: if thou answerest me not to the
+ Black as his purpose,did the night resemble
+I'll play this bout first; set it by awhile. — 
+A more remote part of the Castle.
 A slave that is not twentieth part the tithe
-'I saw him enter such a house of sale,' — 
-A room in the Castle.
-'Tis deeply sworn. Sweet, leave me here awhile;
-Absent thee from felicity awhile,
-I shall obey, my lord.
+A hall in the Castle.
+A hall in the Castle.
+you cannot play upon me.
+To speak of horrors, — he comes before me.
+you go about to recover the wind of me, as if you would drive me
+A cutpurse of the empire and the rule,
+Which now, to claim my vantage doth invite me.
+ Alack, and fie for shame!
+Where, as they had deliver'd, both in time,
+What wilt thou do? thou wilt not murder me? — 
+I'll do't. — Dost thou come here to whine?
+To those of mine!
+What I have done
+Were nothing but to waste night, day, and time.
+To you yourself, to us, to every one.
+I'll speak to it, though hell itself should gape
+To you alone.
+Transports his poison'd shot, — may miss our name,
+I made to her in marriage; and to decline
+We will ourselves provide:
 When yond same star that's westward from the pole
 A room in the Castle.
 A room in the Castle.
-put another question to thee: if thou answerest me not to the
-Adieu, adieu! Hamlet, remember me.
+'Tis deeply sworn. Sweet, leave me here awhile;
 A room in the Castle.
 I pray you go with me.
-Who is't that can inform me?
-What do you think of me?
 I will, my lord; I pray you pardon me.
+'I saw him enter such a house of sale,' — 
 pipe? Call me what instrument you will, though you can fret me,
- Alack, and fie for shame!
-you cannot play upon me.
-To speak of horrors, — he comes before me.
+I think I hear them. — Stand, ho! Who is there?
+'Lord Hamlet is a prince, out of thy sphere;
+ At his heels a stone.
+A room in the Castle.
+I knew you must be edified by the margent ere you had done.
+'Tis gone!
+'Tis here!
+Well may it sort, that this portentous figure
+Where it draws blood no cataplasm so rare,
+A room in Polonius's house.
+A room in Polonius's house.
+To tell the secrets of my prison-house,
+'Tis here!
+I would I had been there.
+What, frighted with false fire!
+Whereon the numbers cannot try the cause,
+Where little fears grow great, great love grows there.
+What, art a heathen? How dost thou understand the Scripture?
+We heard it all. — My lord, do as you please;
+I'll be with you straight. Go a little before.
+ When he lay couched in the ominous horse, — 
+I pray you, give me leave.
+A violet in the youth of primy nature,
+ And thus o'ersized with coagulate gore,
+Was sick almost to doomsday with eclipse:
+A fault against the dead, a fault to nature,
+'Tis told me he hath very oft of late
+reckon my groans: but that I love thee best, O most best, believe
+Which we do tender, as we dearly grieve
+'Tis most true;
+I'll board him presently: — O, give me leave.
+pound! Didst perceive?
+I think it lacks of twelve.
+Whether love lead fortune, or else fortune love.
+Together with all forms, moods, shows of grief,
+A mote it is to trouble the mind's eye.
+I lov'd your father, and we love ourself;
+We shall express our duty in his eye;
+Upon the platform, 'twixt eleven and twelve,
+ 'One fair daughter, and no more,
+I will do't, my lord.
+I understand you not, my lord.
+Do not, my lord.
+I shall obey, my lord.
+I hear him coming: let's withdraw, my lord.
+ Striking too short at Greeks: his antique sword,
+Honest, my lord!
+ But with the whiff and wind of his fell sword
+ Takes prisoner Pyrrhus' ear: for lo! his sword,
+ The instant burst of clamour that she made, — 
+To prick and sting her. Fare thee well at once!
+ Pyrrhus at Priam drives; in rage strikes wide;
+To offer it the show of violence;
+ O, a pit of clay for to be made
+I say, away! — Go on; I'll follow thee.
+your memory, begin at this line; — let me see, let me see: — 
+What is it you will see?
+I hop'd thou shouldst have been my Hamlet's wife;
+When he is drunk asleep; or in his rage;
+you not sent for? Is it your own inclining? Is it a free
+pocky corses now-a-days that will scarce hold the laying in, — he
+When he himself might his quietus make
+your table!
+Absent thee from felicity awhile,
+What do you think of me?
+ O, a pit of clay for to be made
 To punish me with this, and this with me,
-What wilt thou do? thou wilt not murder me? — 
-Were nothing but to waste night, day, and time.
-Transports his poison'd shot, — may miss our name,
- By cock, they are to blame.
-To reason most absurd; whose common theme
  All in the morning bedtime,
-Where, as they had deliver'd, both in time,
-you go about to recover the wind of me, as if you would drive me
+What thou hast said to me.
+Adieu, adieu! Hamlet, remember me.
 What noise? who calls on Hamlet? O, here they come.
-I'll do't. — Dost thou come here to whine?
+ By cock, they are to blame.
+What is he that builds stronger than either the mason, the
+Who is't that can inform me?
+To reason most absurd; whose common theme
 To let this canker of our nature come
-I made to her in marriage; and to decline
-To those of mine!
-What are they that would speak with me?
-E'en so, my lord.
+ He is dead and gone;
  To be your Valentine.
  From another one?
-To you yourself, to us, to every one.
-Whilst, like a puff'd and reckless libertine,
- He is gone, he is gone,
-'Tis gone!
- He is dead and gone;
-I knew you must be edified by the margent ere you had done.
-I will speak daggers to her, but use none;
-I'll speak to it, though hell itself should gape
-Where it draws blood no cataplasm so rare,
- On Mars's armour, forg'd for proof eterne,
-What I have done
-'Tis here!
-'Tis here!
- Of Jove himself; and now reigns here
-'Lord Hamlet is a prince, out of thy sphere;
-What is the issue of the business there.
- Never departed more.
-Where little fears grow great, great love grows there.
-Well may it sort, that this portentous figure
- To their vile murders: roasted in wrath and fire,
-I think I hear them. — Stand, ho! Who is there?
- At his heels a stone.
-I took thee for thy better: take thy fortune;
-I would I had been there.
 Who's there?
-To you alone.
- And thus o'ersized with coagulate gore,
-A fault against the dead, a fault to nature,
-I'll be with you straight. Go a little before.
-A violet in the youth of primy nature,
-What ceremony else?
-A room in Polonius's house.
-Who was in life a foolish peating knave.
- When he lay couched in the ominous horse, — 
-To make them ranker. Forgive me this my virtue;
-'Tis most true;
-To outface me with leaping in her grave?
-Which we do tender, as we dearly grieve
-I think it lacks of twelve.
-What is he whose grief
-ordnance is shot off.]
-purpose, confess thyself, —
-After the Danish sword, and thy free awe
-A mote it is to trouble the mind's eye.
+ He is gone, he is gone,
+What is the issue of the business there.
+Whilst, like a puff'd and reckless libertine,
+What are they that would speak with me?
+When he is fit and season'd for his passage?
+I will speak daggers to her, but use none;
+ On Mars's armour, forg'd for proof eterne,
+ To their vile murders: roasted in wrath and fire,
+ Never departed more.
 When it prov'd otherwise?
-Was sick almost to doomsday with eclipse:
-We heard it all. — My lord, do as you please;
 What to ourselves in passion we propose,
+To make them ranker. Forgive me this my virtue;
  Doth rend the region; so, after Pyrrhus' pause,
-What ceremony else?
-A room in Polonius's house.
-'Tis told me he hath very oft of late
-What might be toward, that this sweaty haste
-I'll board him presently: — O, give me leave.
-reckon my groans: but that I love thee best, O most best, believe
-I pray you, give me leave.
 What have I done, that thou dar'st wag thy tongue
-To tell the secrets of my prison-house,
+What might be toward, that this sweaty haste
+ Of Jove himself; and now reigns here
+I took thee for thy better: take thy fortune;
+What ceremony else?
+What ceremony else?
 What would she have?
-pound! Didst perceive?
-Upon the platform, 'twixt eleven and twelve,
+To outface me with leaping in her grave?
+ But never doubt I love.
+After the Danish sword, and thy free awe
  To contract, O, the time for, ah, my behove,
  Doubt that the sun doth move;
-Whether love lead fortune, or else fortune love.
+Who was in life a foolish peating knave.
  O, that that earth which kept the world in awe
-We shall express our duty in his eye;
-When down her weedy trophies and herself
-pate full of fine dirt? will his vouchers vouch him no more of
-A pestilence on him for a mad rogue! 'a pour'd a flagon of
-I lov'd your father, and we love ourself;
  By his cockle bat and' staff
-Virtue itself of vice must pardon beg,
-Until my eyelids will no longer wag.
-Together with all forms, moods, shows of grief,
-What, art a heathen? How dost thou understand the Scripture?
- But never doubt I love.
-Where now it burns, Marcellus and myself,
-Which dreams, indeed, are ambition; for the very substance of
- At his head a grass green turf,
- Did nothing.
-Wherein I'll catch the conscience of the king.
+What is he whose grief
+ordnance is shot off.]
+pate full of fine dirt? will his vouchers vouch him no more of
+purpose, confess thyself, —
 praised my lord such-a-one's horse when he meant to beg
+Where now it burns, Marcellus and myself,
+When down her weedy trophies and herself
+A pestilence on him for a mad rogue! 'a pour'd a flagon of
 What company, at what expense; and finding,
 roof fretted with golden fire, — why, it appears no other thing
-I think it was to see my mother's wedding.
-Whereon the numbers cannot try the cause,
-I thank you: — keep the door. — O thou vile king,
-I saw him once; he was a goodly king.
-When thou liest howling.
+ At his head a grass green turf,
+Virtue itself of vice must pardon beg,
+ Did nothing.
 To lack discretion. Come, go we to the king:
-Upon the talk of the poisoning? —
-A chalice for the nonce; whereon but sipping,
-A broken voice, and his whole function suiting
-When I had seen this hot love on the wing, — 
-Very like, very like. Stay'd it long?
+I thank you: — keep the door. — O thou vile king,
 'Laertes shall be king! Laertes king!'
-What, frighted with false fire!
- 'One fair daughter, and no more,
+I saw him once; he was a goodly king.
+A chalice for the nonce; whereon but sipping,
+When I had seen this hot love on the wing, — 
+When thou liest howling.
+A broken voice, and his whole function suiting
+Wherein I'll catch the conscience of the king.
+I think it was to see my mother's wedding.
+Which dreams, indeed, are ambition; for the very substance of
+Very like, very like. Stay'd it long?
+Until my eyelids will no longer wag.
+Upon the talk of the poisoning? —
 What, is Horatio there?
  'Doubt thou the stars are fire;
 What, have you given him any hard words of late?
@@ -9175,9 +9175,9 @@ But how hath she
 Gentlemen, you are welcome to Elsinore. Your hands, come: the
 thou dost ill to say the gallows is built stronger than the
 Do they hold the same estimation they did when I was in the
+Even those you were wont to take such delight in, — the
 temperance that may give it smoothness. O, it offends me to the
 of our fellowship, by the consonancy of our youth, by the
-Even those you were wont to take such delight in, — the
 Cannot you tell that? every fool can tell that: it was the
 With arms encumber'd thus, or this head-shake,
 That thy rebellion looks so giant-like? — 
@@ -9230,15 +9230,15 @@ continent of what part a gentleman would see.
 Bear't that the opposed may beware of thee.
 Led by a delicate and tender prince;
 Go on; I'll follow thee.
-life.
+Thrown out his angle for my proper life,
 equivocation will undo us. By the Lord, Horatio, these three
-It was, as I have seen it in his life,
-He hath not fail'd to pester us with message,
 In thee there is not half an hour of life;
+life.
+He hath not fail'd to pester us with message,
 earth; of earth we make loam; and why of that loam whereto he
 No, no! They do but jest, poison in jest; no offence i' the
 crown, kisses it, pours poison in the king's ears, and exit. The
-Thrown out his angle for my proper life,
+It was, as I have seen it in his life,
 not guilty of his own death shortens not his own life.
 Nor the dejected 'havior of the visage,
 the toe of the peasant comes so near the heel of the courtier he
@@ -9784,127 +9784,43 @@ Lives almost by his looks; and for myself, —
 know, to divide him inventorially would dizzy the arithmetic of
 If it be made of penetrable stuff;
 O my son, what theme?
-O, treble woe
 be thou as chaste as ice, as pure as snow, thou shalt not escape
-Could not so mope.
 and sure, dear friends, my thanks are too dear a halfpenny. Were
+O, treble woe
+Could not so mope.
 O Hamlet, what a falling-off was there!
 O'er whom his very madness, like some ore
-O Hamlet, speak no more:
-And think it pastime. You shortly shall hear more:
-Think it no more:
-Will not peruse the foils; so that with ease,
 O, speak to me no more;
+O Hamlet, speak no more:
+Think it no more:
 They clepe us drunkards, and with swinish phrase
-O all you host of heaven! O earth! what else?
-brought, the gentleman willing, and the king hold his purpose,
-The perfume and suppliance of a minute;
-They find us touch'd, we will our kingdom give,
+Will not peruse the foils; so that with ease,
 The passion ending, doth the purpose lose.
+And think it pastime. You shortly shall hear more:
+brought, the gentleman willing, and the king hold his purpose,
+O all you host of heaven! O earth! what else?
 This bodes some strange eruption to our state.
-By the mass, I was about to say something: — Where did I leave?
 Still better, and worse.
+This above all, — to thine own self be true;
+By the mass, I was about to say something: — Where did I leave?
+They find us touch'd, we will our kingdom give,
+bad epitaph than their ill report while you live.
 Stew'd in corruption, honeying and making love
 awhile, but in the end accepts his love.]
-Observe his inclination in yourself.
-beck than I have thoughts to put them in, imagination to give
 Could not, with all their quantity of love,
 He swore, had neither motion, guard, nor eye,
-Being a thing immortal as itself?
-Occasion smiles upon a second leave.
+Laertes, I must commune with your grief,
+King.
+King.
 King.
 I could not but by her. The other motive,
-bad epitaph than their ill report while you live.
-Laertes, I must commune with your grief,
-This above all, — to thine own self be true;
+Occasion smiles upon a second leave.
+beck than I have thoughts to put them in, imagination to give
+The perfume and suppliance of a minute;
+Observe his inclination in yourself.
 King.
 King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
-King.
+Being a thing immortal as itself?
 King.
 King.
 King.
@@ -9920,92 +9836,176 @@ King.
 King.
 P. King.
 P. King.
-The king is a thing, —
 P. King.
+King.
+King.
+King.
 P. King.
 [Stabs the King.]
-Confederate season, else no creature seeing;
-Comes armed through our watch; so like the king
-Or is it some abuse, and no such thing?
-An earnest conjuration from the king, — 
-Poisoner wooes the Queen with gifts; she seems loth and unwilling
-At least, the whisper goes so. Our last king,
-Come, go with me: I will go seek the king.
-Awake the god of day; and at his warning,
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
 His silence will sit drooping.
+Come, go with me: I will go seek the king.
+Confederate season, else no creature seeing;
+Poisoner wooes the Queen with gifts; she seems loth and unwilling
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+King.
+At least, the whisper goes so. Our last king,
+The king is a thing, —
+King.
 shows and noise: I would have such a fellow whipped for o'erdoing
-Pity me not, but lend thy serious hearing
 The canker galls the infants of the spring
-If he steal aught the whilst this play is playing,
-The bird of dawning singeth all night long;
-Therefore I have entreated him along
-Strengthen your patience in our last night's speech;
-There's such divinity doth hedge a king,
-Am I not i' the right, old Jephthah?
-Believe so much in him, that he is young;
-Craves the conveyance of a promis'd march
-[A dead march.]
-I your commission will forthwith dispatch,
- Hath claw'd me in his clutch,
-Out of his subject: — and we here dispatch
-plentiful lack of wit, together with most weak hams: all which,
+Pity me not, but lend thy serious hearing
+Or is it some abuse, and no such thing?
+King.
 As one, in suffering all, that suffers nothing;
+There's such divinity doth hedge a king,
+Comes armed through our watch; so like the king
+An earnest conjuration from the king, — 
+Awake the god of day; and at his warning,
+The bird of dawning singeth all night long;
+Believe so much in him, that he is young;
+plentiful lack of wit, together with most weak hams: all which,
+Am I not i' the right, old Jephthah?
+If he steal aught the whilst this play is playing,
+Craves the conveyance of a promis'd march
+Therefore I have entreated him along
 I pray thee stay with us; go not to Wittenberg.
-And I with them the third night kept the watch:
-With martial stalk hath he gone by our watch.
+ Hath claw'd me in his clutch,
+Strengthen your patience in our last night's speech;
 Without the sensible and true avouch
-You have been talk'd of since your travel much,
-The chariest maid is prodigal enough
  As if I had never been such.
-The sun no sooner shall the mountains touch
+[A dead march.]
+Out of his subject: — and we here dispatch
+With martial stalk hath he gone by our watch.
+The chariest maid is prodigal enough
 That, swift as quicksilver, it courses through
+You have been talk'd of since your travel much,
+And I with them the third night kept the watch:
+The sun no sooner shall the mountains touch
+I your commission will forthwith dispatch,
 Appears before them and with solemn march
 A baseness to write fair, and labour'd much
 To cut his throat i' the church.
 Hamlet the Dane.
 Like Niobe, all tears; — why she, even she, — 
 Like John-a-dreams, unpregnant of my cause,
-This is one Lucianus, nephew to the King.
 O, ho! do you mark that? [To the King.]
 Hamlet, Son to the former, and Nephew to the present King.
-More relative than this. — the play's the thing
-And then it started, like a guilty thing
 Thoughts black, hands apt, drugs fit, and time agreeing;
-Nothing.
 They cry 'Choose we! Laertes shall be king!'
-Long live the king!
-light for the bore of the matter. These good fellows will bring
+[Writing.]
+More relative than this. — the play's the thing
 grave-making?
-Not a mouse stirring.
-Now for ourself and for this time of meeting:
-And sure I am two men there are not living
-This is too long.
 Most generous, and free from all contriving,
-My excellent good friends! How dost thou, Guildenstern? Ah,
-My virtue or my plague, be it either which, — 
+And then it started, like a guilty thing
+are unwrung.
+And thus do we of wisdom and of reach,
+assigns, and three liberal conceited carriages: that's the French
 his replies are! a happiness that often madness hits on, which
 Marcellus and Bernardo, on their watch
-Why this same strict and most observant watch
 Make you a wholesome answer; my wit's diseased: but, sir, such
+against the which he has imponed, as I take it, six French
+Nothing.
+My excellent good friends! How dost thou, Guildenstern? Ah,
+Long live the king!
+Nay, I know not: is it the king?
+light for the bore of the matter. These good fellows will bring
+Not a mouse stirring.
+Now for ourself and for this time of meeting:
+Now might I do it pat, now he is praying;
+And smelt so? Pah!
+My virtue or my plague, be it either which, — 
 And now no soil nor cautel doth besmirch
+Why this same strict and most observant watch
 form and pressure. Now, this overdone, or come tardy off, though
-Oph.
+And then this 'should' is like a spendthrift sigh,
+This is too long.
+This man shall set me packing:
 Nothing but to show you how a king may go a progress through
 Oph.
 Oph.
-And smelt so? Pah!
-Nay, I know not: is it the king?
-This man shall set me packing:
-Now might I do it pat, now he is praying;
-against the which he has imponed, as I take it, six French
-And then this 'should' is like a spendthrift sigh,
-[Writing.]
-assigns, and three liberal conceited carriages: that's the French
 Oph.
 Oph.
 Oph.
-are unwrung.
-And thus do we of wisdom and of reach,
+And sure I am two men there are not living
+This is one Lucianus, nephew to the King.
+Oph.
 Oph.
 Oph.
 Oph.
@@ -10055,136 +10055,134 @@ Oph.
 Oph.
 Oph.
  Stoops to his base; and with a hideous crash
-Oph.
-your and him, he shall not exceed you three hits: he hath
-What is between you? give me up the truth.
-This likes me well. These foils have all a length?
-And hears it roar beneath.
-Why thy canoniz'd bones, hearsed in death,
-This quarry cries on havoc. — O proud death,
 And from her fair and unpolluted flesh
 Oph.
 Oph.
-As love between them like the palm might flourish;
-We'll put the matter to the present push. — 
-Had I but time, — as this fell sergeant, death,
 For, though I am not splenetive and rash,
-Under the moon, can save the thing from death
-But that the dread of something after death, — 
-That I am guiltless of your father's death,
-That I shall live and tell him to his teeth,
-For which, they say, you spirits oft walk in death,
+Oph.
+As love between them like the palm might flourish;
 And for your part, Ophelia, I do wish
-Though yet of Hamlet our dear brother's death
+Under the moon, can save the thing from death
+This quarry cries on havoc. — O proud death,
+Why thy canoniz'd bones, hearsed in death,
+For which, they say, you spirits oft walk in death,
 Or thinking by our late dear brother's death
-Give, me superfluous death.
-The king shall drink to Hamlet's better breath;
 Be thou assur'd, if words be made of breath,
 Which I have told thee, of my father's death:
-tutor: suit the action to the word, the word to the action; with
-Tell him his pranks have been too broad to bear with,
-Than I to Hercules: within a month;
-[Enter King, Queen, Laertes, Lords, Osric, and Attendants with
-By what it fed on: and yet, within a month, — 
+And hears it roar beneath.
+This likes me well. These foils have all a length?
 To muddy death.
-Both.
-Both.
-Giving more light than heat, — extinct in both,
 Rosencrantz! Good lads, how do ye both?
+your and him, he shall not exceed you three hits: he hath
 thy damnable faces, and begin. Come: — 'The croaking raven doth
-'This must be so.' We pray you, throw to earth
-The cannons to the heavens, the heavens to earth,
+Though yet of Hamlet our dear brother's death
 Videlicet, a brothel, — or so forth. — 
-Visit her face too roughly. Heaven and earth!
-And with a larger tether may he walk
+[Enter King, Queen, Laertes, Lords, Osric, and Attendants with
 A very riband in the cap of youth,
-That unmatch'd form and feature of blown youth
-A dull and muddy-mettled rascal, peak,
+Visit her face too roughly. Heaven and earth!
 And in the morn and liquid dew of youth
 visitation? Come, deal justly with me: come, come; nay, speak.
-But from what cause he will by no means speak.
-And let the kettle to the trumpet speak,
-Why, now you speak
-And my young mistress thus I did bespeak:
-What should this mean? Are all the rest come back?
- Of reverend Priam, seem'd i' the air to stick:
- A very, very — pajock.
-A very noble youth: mark.
-Or my dear majesty your queen here, think,
-Alack,
-And that his soul may be as damn'd and black
-Rankly abus'd; but know, thou noble youth,
-What forgeries you please; marry, none so rank
-Break not your sleeps for that: — you must not think
-And, in this upshot, purposes mistook
-A serpent stung me; so the whole ear of Denmark
-The first row of the pious chanson will show you more; for look
-Why, there thou say'st: and the more pity that great folk
-There's ne'er a villain dwelling in all Denmark
-And let thine eye look like a friend on Denmark.
-A plain in Denmark.
-Wherein the spirit held his wont to walk.
-Gertrude, do not drink.
-We will bestow ourselves. — [To Ophelia.] Read on this book;
-Where is the beauteous majesty of Denmark?
-What might you think? No, I went round to work,
-We do it wrong, being so majestical,
-And marshal me to knavery. Let it work;
-Where every god did seem to set his seal,
-Which was the model of that Danish seal:
-Why such impress of shipwrights, whose sore task
-Till that her garments, heavy with their drink,
-With pestilent speeches of his father's death;
+What is between you? give me up the truth.
+A dull and muddy-mettled rascal, peak,
+We'll put the matter to the present push. — 
+Both.
 Dost thou think Alexander looked o' this fashion i' the earth?
-As the indifferent children of the earth.
-Cry to be heard, as 'twere from heaven to earth,
-The hand more instrumental to the mouth,
-Did sometimes march? By heaven I charge thee, speak!
-Stay! speak, speak! I charge thee speak!
-Your bait of falsehood takes this carp of truth:
 Extorted treasure in the womb of earth,
+Did sometimes march? By heaven I charge thee, speak!
+'This must be so.' We pray you, throw to earth
 For he himself is subject to his birth:
 For murder, though it have no tongue, will speak
-But what we do determine oft we break.
+The cannons to the heavens, the heavens to earth,
+Both.
+That unmatch'd form and feature of blown youth
+And let the kettle to the trumpet speak,
+Why, now you speak
+What should this mean? Are all the rest come back?
+And my young mistress thus I did bespeak:
 To be a preparation 'gainst the Polack;
+ Of reverend Priam, seem'd i' the air to stick:
+ A very, very — pajock.
+What forgeries you please; marry, none so rank
+Why, there thou say'st: and the more pity that great folk
+And that his soul may be as damn'd and black
+To hide the slain? — O, from this time forth,
+So levied as before, against the Polack:
 So bloodily hast struck?
+Does not divide the Sunday from the week;
+And with a larger tether may he walk
+Wherein the spirit held his wont to walk.
+Alack,
 As it did seem to shatter all his bulk
 As level as the cannon to his blank,
-So levied as before, against the Polack:
-To hide the slain? — O, from this time forth,
-Does not divide the Sunday from the week;
 Your wisdom best shall think.
-Claudius, King of Denmark.
-To his own scandal.
-Sprinkle cool patience! Whereon do you look?
-As e'er my conversation cop'd withal.
-At least, I am sure, it may be so in Denmark:
-Something is rotten in the state of Denmark.
-Who, in her duty and obedience, mark,
+Or my dear majesty your queen here, think,
+Had I but time, — as this fell sergeant, death,
+But that the dread of something after death, — 
+The king shall drink to Hamlet's better breath;
+tutor: suit the action to the word, the word to the action; with
+That I am guiltless of your father's death,
+With pestilent speeches of his father's death;
+Tell him his pranks have been too broad to bear with,
+By what it fed on: and yet, within a month, — 
+That I shall live and tell him to his teeth,
+Than I to Hercules: within a month;
+Cry to be heard, as 'twere from heaven to earth,
+The hand more instrumental to the mouth,
+Stay! speak, speak! I charge thee speak!
+But what we do determine oft we break.
+But from what cause he will by no means speak.
+The first row of the pious chanson will show you more; for look
 Say you? nay, pray you, mark.
-Than the main voice of Denmark goes withal.
+We will bestow ourselves. — [To Ophelia.] Read on this book;
+Who, in her duty and obedience, mark,
+As the indifferent children of the earth.
+Your bait of falsehood takes this carp of truth:
+Couch we awhile and mark.
+Break not your sleeps for that: — you must not think
+Something is rotten in the state of Denmark.
+A very noble youth: mark.
+Sprinkle cool patience! Whereon do you look?
+A serpent stung me; so the whole ear of Denmark
+At least, I am sure, it may be so in Denmark:
+Claudius, King of Denmark.
+There's ne'er a villain dwelling in all Denmark
+A plain in Denmark.
 Your lordship is right welcome back to Denmark.
+And let thine eye look like a friend on Denmark.
+To his own scandal.
+What might you think? No, I went round to work,
+And marshal me to knavery. Let it work;
+Why such impress of shipwrights, whose sore task
+We do it wrong, being so majestical,
+Which was the model of that Danish seal:
+Than the main voice of Denmark goes withal.
+As e'er my conversation cop'd withal.
+Where every god did seem to set his seal,
+Where is the beauteous majesty of Denmark?
 With juice of cursed hebenon in a vial,
 The sight is dismal;
+But this most foul, strange, and unnatural.
+What's near it with it: it is a massy wheel,
 Bow, stubborn knees; and, heart, with strings of steel,
 Do you see yonder cloud that's almost in shape of a camel?
 That thou, dead corse, again in complete steel,
-Couch we awhile and mark.
-But this most foul, strange, and unnatural.
-With variable objects, shall expel
 was converted might they not stop a beer-barrel?
-The wind sits in the shoulder of your sail,
+ Break all the spokes and fellies from her wheel,
 We shall know by this fellow: the players cannot keep counsel;
 When we have shuffled off this mortal coil,
-What's near it with it: it is a massy wheel,
- Break all the spokes and fellies from her wheel,
-There is a willow grows aslant a brook,
-And curd, like eager droppings into milk,
+With variable objects, shall expel
+Ros. and Guil.
+Ros. and Guil.
+Till that her garments, heavy with their drink,
+Give, me superfluous death.
+Giving more light than heat, — extinct in both,
+Rankly abus'd; but know, thou noble youth,
+Gertrude, do not drink.
+And, in this upshot, purposes mistook
 Pray you, mark.
-From whence though willingly I came to Denmark,
-Then, venom, to thy work.
+Guil.
 Grapple them unto thy soul with hoops of steel;
-And bear it to the chapel.
+And curd, like eager droppings into milk,
 Guil.
 Guil.
 Guil.
@@ -10200,87 +10198,87 @@ Guil.
 Guil.
 Guil.
 Guil.
-Guil.
-Guil.
-Guil.
-Guil.
-Guil.
-Guil.
-Guil.
-Guil.
-Guil.
-Guil.
-Guil.
-The Scripture says Adam digg'd: could he dig without arms? I'll
-To hell, allegiance! vows, to the blackest devil!
-Guil.
-Ros and Guil.
-All.
-All.
-Ros. and Guil.
-Ros. and Guil.
 The better to beguile. This is for all, — 
-Thus conscience does make cowards of us all;
 Guil.
-And so, without more circumstance at all,
-Ears without hands or eyes, smelling sans all,
+Guil.
+There is a willow grows aslant a brook,
+And bear it to the chapel.
+Then, venom, to thy work.
+The wind sits in the shoulder of your sail,
+Guil.
+Guil.
+From whence though willingly I came to Denmark,
+[Exeunt Ros. and Guil.]
+[Exeunt Ros. and Guil.]
+The Scripture says Adam digg'd: could he dig without arms? I'll
  Unless things mortal move them not at all, — 
 Or not at all.
-And where the offence is let the great axe fall.
-To be forestalled ere we come to fall,
-All.
+Guil.
+Guil.
+Ros and Guil.
+Guil.
 And bid me hold my peace. I pray you all,
-Prompted to my revenge by heaven and hell,
+And where the offence is let the great axe fall.
+And so, without more circumstance at all,
 Under the which he shall not choose but fall:
 Guil.
-[Exeunt Ros. and Guil.]
-[Exeunt Ros. and Guil.]
-But I am pigeon-liver'd, and lack gall
+Guil.
+Guil.
+Guil.
+Guil.
+Guil.
+To hell, allegiance! vows, to the blackest devil!
+Thus conscience does make cowards of us all;
+To be forestalled ere we come to fall,
  And never did the Cyclops' hammers fall
 And let me wring your heart: for so I shall,
-As if he had been loosed out of hell
-And for my means, I'll husband them so well,
 What feast is toward in thine eternal cell,
-Our indiscretion sometime serves us well,
-Thou pray'st not well.
  The which he loved passing well.'
 'And in part him; — but,' you may say, 'not well:
+As if he had been loosed out of hell
+Our indiscretion sometime serves us well,
 That's two of his weapons: — but well.
-Farewell!
+Thou pray'st not well.
 God b' wi' you, fare you well.
+Farewell.
 Farewell, Ophelia; and remember well
-Farewell.
-Farewell.
-We doubt it nothing: heartily farewell.
+Farewell!
 We must with all our majesty and skill
-— My good friends [to Ros. and Guild.], I'll leave you till
-Rough-hew them how we will.
-We will, we will.
-What is't, my lord? we will.
-Our sovereign process; which imports at full,
-[Throws up a skull.]
-And reason panders will.
-And thy best graces spend it at thy will! — 
-[Throws down the skull.]
-[Throws up another skull].
-Why, sir, his hide is so tann'd with his trade that he will
-Walks o'er the dew of yon high eastward hill:
-And nothing is at a like goodness still;
-That you, at such times seeing me, never shall,
-Bring with thee airs from heaven or blasts from hell,
-But the great cannon to the clouds shall tell;
-So you shall;
-To this effect, sir; after what flourish your nature will.
-Pol.
-Did he receive you well?
-A little ere the mightiest Julius fell,
-That we are made of stuff so flat and dull
-Pol.
 Thou wretched, rash, intruding fool, farewell!
+Farewell.
+And nothing is at a like goodness still;
+Why, sir, his hide is so tann'd with his trade that he will
+— My good friends [to Ros. and Guild.], I'll leave you till
+What is't, my lord? we will.
+Rough-hew them how we will.
+And reason panders will.
+ All flaxen was his poll:
+And thy best graces spend it at thy will! — 
+We will, we will.
+We doubt it nothing: heartily farewell.
+Ears without hands or eyes, smelling sans all,
+All.
+All.
+But I am pigeon-liver'd, and lack gall
+But the great cannon to the clouds shall tell;
+Prompted to my revenge by heaven and hell,
+And for my means, I'll husband them so well,
+Walks o'er the dew of yon high eastward hill:
+Our sovereign process; which imports at full,
+[Throws down the skull.]
+[Throws up a skull.]
+[Throws up another skull].
+Pol.
+That you, at such times seeing me, never shall,
+A little ere the mightiest Julius fell,
+So you shall;
+Did he receive you well?
 Your loves, as mine to you: farewell.
-Pol.
-Pol.
+To this effect, sir; after what flourish your nature will.
+Bring with thee airs from heaven or blasts from hell,
 Cudgel thy brains no more about it, for your dull ass will
+Pol.
+Pol.
 To show us so much gentry and good-will
 Pol.
 Pol.
@@ -10288,6 +10286,7 @@ Pol.
 Pol.
 Pol.
 Pol.
+That we are made of stuff so flat and dull
 Sweets to the sweet: farewell.
 Pol.
 Pol.
@@ -10303,8 +10302,9 @@ Pol.
 Pol.
 Pol.
 Pol.
+Pol.
 All may be well.
- All flaxen was his poll:
+All.
 Pol.
 Pol.
 Pol.
@@ -10879,19 +10879,19 @@ And now I'll do't; — and so he goes to heaven;
 And there assume some other horrible form
 This spirit, dumb to us, will speak to him:
 And thus a while the fit will work on him;
-Let's follow; 'tis not fit thus to obey him.
-No fairy takes, nor witch hath power to charm;
-honesty from what it is to a bawd than the force of honesty can
-gentleman.'
-And spur my dull revenge! What is a man,
-did the first murder! This might be the pate of a politician,
 More than his father's death, that thus hath put him
+Let's follow; 'tis not fit thus to obey him.
+honesty from what it is to a bawd than the force of honesty can
+And spur my dull revenge! What is a man,
+No fairy takes, nor witch hath power to charm;
+did the first murder! This might be the pate of a politician,
 Like a good child and a true gentleman.
+gentleman.'
 And thirty dozen moons with borrow'd sheen
-No, let's come in.
-Never to speak of this that you have seen,
 Hath seal'd thee for herself: for thou hast been
+Never to speak of this that you have seen,
 My lord, I have news to tell you. When Roscius was an actor in
+No, let's come in.
 And the king's rouse the heaven shall bruit again,
 Will nothing stick our person to arraign
 No more to undertake it, — I will work him
@@ -11167,28 +11167,28 @@ Now wears his crown.
 2 Clown.
 2 Clown.
 O heavy burden!
-It shows a will most incorrect to heaven;
-[Within] Let her come in.
-How chances it they travel? their residence, both in
-Of entrance to a quarrel; but, being in,
-your bounty. Take them in.
-again.
- He never will come again.
 As oft as any passion under heaven
+[Within] Let her come in.
 Is very cunning in.
-With this slave's offal: bloody, bawdy villain!
+Of entrance to a quarrel; but, being in,
+It shows a will most incorrect to heaven;
+How chances it they travel? their residence, both in
+ He never will come again.
+Well; — again.
+again.
+your bounty. Take them in.
 It is here, Hamlet: Hamlet, thou art slain;
 Within the book and volume of my brain,
+With this slave's offal: bloody, bawdy villain!
 Without more motive, into every brain
-Well; — again.
-[Trumpets sound, and cannon shot off within.]
-'Now the king drinks to Hamlet.' — Come, begin: — 
 many more of the same bevy that I know the drossy age dotes on, — 
-amazement and admiration.
-The undiscover'd country, from whose bourn
-demanded of a sponge! — what replication should be made by the son
-The very place puts toys of desperation,
+'Now the king drinks to Hamlet.' — Come, begin: — 
 Up from my cabin,
+[Trumpets sound, and cannon shot off within.]
+The very place puts toys of desperation,
+demanded of a sponge! — what replication should be made by the son
+The undiscover'd country, from whose bourn
+amazement and admiration.
 went to cuffs in the question.
 against their own succession?
 desert, and who should scape whipping? Use them after your own
@@ -11339,20 +11339,27 @@ Who does it, then? His madness: if't be so,
  Seeming to feel this blow, with flaming top
 When honour's at the stake. How stand I, then,
 [Within.] Heaven secure him!
-[Enter a Gentleman.]
 But pardon't, as you are a gentleman.
  And we cast away moan:
 Did the king sigh, but with a general groan.
 Fran.
 Fran.
 Fran.
-Fran.
+[Enter a Gentleman.]
 Fran.
 Fran.
 Fran.
 Fran.
 Fie on't! O fie! 'tis an unweeded garden,
+Fran.
 You are keen, my lord, you are keen.
+Queen.
+Queen.
+Queen.
+Queen.
+Queen.
+Queen.
+I know my course. The spirit that I have seen
 Shall I strike at it with my partisan?
 What we two nights have seen.
 Queen.
@@ -11390,6 +11397,12 @@ Queen.
 Queen.
 Queen.
 Queen.
+[Exit Queen.]
+Queen.
+Queen.
+Queen.
+Queen.
+[Enter a King and a Queen.]
 Queen.
 Queen.
 Queen.
@@ -11408,391 +11421,378 @@ Queen.
 Queen.
 Queen.
 Queen.
- But who, O who, had seen the mobled queen, —
+[Enter Queen.]
+Queen.
+Queen.
+P. Queen.
+P. Queen.
+P. Queen.
+Queen.
+P. Queen.
+P. Queen.
+Queen.
+Queen.
 What woman then?
-Queen.
-Queen.
-Queen.
-Queen.
-I know my course. The spirit that I have seen
-Queen.
-Queen.
-Queen.
-Queen.
-Queen.
-Queen.
-Queen.
-Queen.
-Queen.
-Queen.
-Queen.
-P. Queen.
-P. Queen.
-P. Queen.
-P. Queen.
-P. Queen.
- But if the gods themselves did see her then,
-Queen.
- And bowl the round nave down the hill of heaven,
-Had made his course to illume that part of heaven
-Would I had met my dearest foe in heaven
-received it, and others, whose judgments in such matters cried in
-piece of work is man! How noble in reason! how infinite in
+ But who, O who, had seen the mobled queen, —
 Be you and I behind an arras then;
+Would I had met my dearest foe in heaven
+piece of work is man! How noble in reason! how infinite in
+I do not think so; since he went into France I have been in
+ And bowl the round nave down the hill of heaven,
+ But if the gods themselves did see her then,
+received it, and others, whose judgments in such matters cried in
+Had made his course to illume that part of heaven
 I dare not confess that, lest I should compare with him in
-Peace, break thee off; look where it comes again!
  And will he not come again?
+ And will he not come again?
+I have in quick determination
+I shall not look upon his like again.
+seeks her own salvation?
+Queen.
+The Poisoner with some three or four Mutes, comes in again,
+Perchance 'twill walk again.
+Peace, break thee off; look where it comes again!
 I doubt it is no other but the main, — 
 I had forgot: 'tis so concluded on.
- And will he not come again?
-Had he the motive and the cue for passion
-Polonius, Lord Chamberlain.
-your whoreson dead body. Here's a skull now; this skull hath lain
-I stand in pause where I shall first begin,
-Our son shall win.
-I do not think so; since he went into France I have been in
-Perchance 'twill walk again.
-If one could match you: the scrimers of their nation
-sequel at the heels of this mother's admiration?
+Would have reverted to my bow again,
 I mean, sir, for his weapon; but in the imputation laid on
-I'll cross it, though it blast me. — Stay, illusion!
+Polonius, Lord Chamberlain.
 Give us the foils; come on.
-I have in quick determination
-or bad but thinking makes it so: to me it is a prison.
-seeks her own salvation?
-Good Gertrude, set some watch over your son. — 
-Our thoughts are ours, their ends none of our own:
-Our wills and fates do so contrary run
-Go softly on.
+Had he the motive and the cue for passion
+sequel at the heels of this mother's admiration?
 Queen returns, finds the King dead, and makes passionate action.
-If it assume my noble father's person,
-The King and Queen and all are coming down.
-What shall I do?
-If she unmask her beauty to the moon:
-If it shall please you to make me a wholesome answer, I will do
-What's his weapon?
-I shall not look upon his like again.
+I'll cross it, though it blast me. — Stay, illusion!
  And his sandal shoon.
+Good Gertrude, set some watch over your son. — 
+If it assume my noble father's person,
+or bad but thinking makes it so: to me it is a prison.
+If one could match you: the scrimers of their nation
+If she unmask her beauty to the moon:
+Go softly on.
+What's his weapon?
+Guildenstern.]
 Both countenance and excuse. — Ho, Guildenstern!
 [Re-enter Rosencrantz and Guildenstern.]
+Our wills and fates do so contrary run
+Our thoughts are ours, their ends none of our own:
 The cock, that is the trumpet to the morn,
+The King and Queen and all are coming down.
+Our son shall win.
+I stand in pause where I shall first begin,
 players do, I had as lief the town crier spoke my lines. Nor do
 That you know aught of me: — this is not to do,
-Bernardo?
-Between who?
-Yes, by Saint Patrick, but there is, Horatio,
-Gonzago'?
-[Retiring with Horatio.]
-Give him this money and these notes, Reynaldo.
 I once did hold it, as our statists do,
+Give him this money and these notes, Reynaldo.
+Yes, by Saint Patrick, but there is, Horatio,
+I think it be no other but e'en so:
 Be rul'd; you shall not go.
+Bernardo?
+Gonzago'?
+very warlike appointment gave us chase. Finding ourselves too
+promise-crammed: you cannot feed capons so.
 scarcely lie in this box; and must the inheritor himself have no
-If't be the affliction of his love or no
+Pro.
+Between who?
+What shall I do?
 I do beseech you, give him leave to go.
-The Poisoner with some three or four Mutes, comes in again,
-Guildenstern.]
-Would have reverted to my bow again,
-[Exit Queen.]
-So oft it chances in particular men
+If it shall please you to make me a wholesome answer, I will do
+[Retiring with Horatio.]
+I do repent; but heaven hath pleas'd it so,
+If damned custom have not braz'd it so
+I will say so.
+I would not hear your enemy say so;
+I mean, my head upon your lap?
+I commend my duty to your lordship.
+I shall th' effect of this good lesson keep
+The bark is ready, and the wind at help,
+Give him the cup.
+sir, an aery of children, little eyases, that cry out on the top
+Hail to your lordship!
+ A blanket, in the alarm of fear caught up; — 
+What means your lordship?
+Go to.
 Slanders, sir: for the satirical slave says here that old men
+So oft it chances in particular men
 Gentlemen! —
+Still am I call'd; — unhand me, gentlemen; —
 Rest, rest, perturbed spirit! — So, gentlemen,
 That he might not beteem the winds of heaven
-Still am I call'd; — unhand me, gentlemen; —
 Show me the steep and thorny way to heaven;
 But never the offence. To bear all smooth and even,
-Take it to heart? Fie! 'tis a fault to heaven,
 twenty, forty, fifty, a hundred ducats a-piece for his picture in
 Come hither, gentlemen,
 valanc'd since I saw thee last; comest thou to beard me in
-[Enter a King and a Queen.]
-[Enter Queen.]
 But, soft, behold! lo, where it comes again!
+That one may smile, and smile, and be a villain;
 Remorseless, treacherous, lecherous, kindless villain!
+[A noise within.]
+That our devices still are overthrown;
+[A flourish of trumpets, and ordnance shot off within.]
+Sleep rock thy brain,
+Take it to heart? Fie! 'tis a fault to heaven,
+your whoreson dead body. Here's a skull now; this skull hath lain
+So horridly to shake our disposition
+So many journeys may the sun and moon
+Does it not, thinks't thee, stand me now upon, — 
+Question it, Horatio.
+Ay, that they do, my lord; Hercules and his load too.
+So art thou to revenge, when thou shalt hear.
+I am glad of it: a knavish speech sleeps in a foolish ear.
+ And on his grave rain'd many a tear. —
+Be thou familiar, but by no means vulgar.
+ Doubt truth to be a liar;
+Being nature's livery, or fortune's star, — 
+If't be the affliction of his love or no
+But I am very sorry, good Horatio,
+Be wary then; best safety lies in fear:
 [Behind.] O, I am slain!
 That he which hath your noble father slain
-But in battalions! First, her father slain:
-That one may smile, and smile, and be a villain;
-Sleep rock thy brain,
-[March within.]
-Since nature cannot choose his origin, — 
-[A flourish of trumpets, and ordnance shot off within.]
-[A noise within.]
-[Flourish of trumpets within.]
 That is most certain.
+But in battalions! First, her father slain:
+[March within.]
 [March afar off, and shot within.]
-But in a fiction, in a dream of passion,
+Sith you have heard, and with a knowing ear,
+Disasters in the sun; and the moist star,
 Get from him why he puts on this confusion,
 That might your nature, honour, and exception
 Revisit'st thus the glimpses of the moon,
 But let that go.
-Question it, Horatio.
-[Francisco at his post. Enter to him Bernardo.]
-That our devices still are overthrown;
-But I am very sorry, good Horatio,
-That if you be honest and fair, your honesty should admit no
-Pro.
-Ay, that they do, my lord; Hercules and his load too.
-Give him the cup.
-I will say so.
-I think it be no other but e'en so:
-Go to.
-promise-crammed: you cannot feed capons so.
-I shall th' effect of this good lesson keep
- And on his grave rain'd many a tear. —
- A blanket, in the alarm of fear caught up; — 
-Wouldst thou not stir in this. Now, Hamlet, hear.
-If damned custom have not braz'd it so
-I would not hear your enemy say so;
-I mean, my head upon your lap?
-What means your lordship?
-I am glad of it: a knavish speech sleeps in a foolish ear.
- Doubt truth to be a liar;
-And pious action we do sugar o'er
-I do repent; but heaven hath pleas'd it so,
-sir, an aery of children, little eyases, that cry out on the top
-I commend my duty to your lordship.
-Be thou familiar, but by no means vulgar.
+Ber.
+Ber.
+Ber.
+Ber.
+Ber.
+Ber.
+Ber.
+But in a fiction, in a dream of passion,
+Ber.
+Ber.
+Ber.
+Ber.
+Ber.
+Laer.
+Laer.
+Laer.
+Ber.
+Laer.
+Laer.
+Laer.
+Laer.
+Laer.
+Laer.
+Laer.
+Laer.
+Laer.
+Laer.
+Laer.
+Laer.
+Laer.
+Laer.
+Laer.
+Laer.
+Laer.
+Laer.
+Laer.
+Since nature cannot choose his origin, — 
+[Flourish of trumpets within.]
 Cut off even in the blossoms of my sin,
-Compounded it with dust, whereto 'tis kin.
-Such was the very armour he had on
 Say you so? come on.
+Such was the very armour he had on
 For he was likely, had he been put on,
 But, in the gross and scope of my opinion,
 That flesh is heir to, — 'tis a consummation
 But with much forcing of his disposition.
-[Exeunt Rosencrantz and Guildenstern.]
-But now, my cousin Hamlet, and my son —
-[Exeunt Rosencrantz and Guildenstern.]
-[Exeunt Rosencrantz and Guildenstern.]
-But since, so jump upon this bloody question,
-[Exit Second Clown.]
-That he should weep for her? What would he do,
-[Exeunt all but Hamlet and Horatio.]
-So many journeys may the sun and moon
-[Exeunt Rosencrantz and Guildenstern.]
-[Exit Horatio.]
-[Exit Horatio.]
-[Exit Horatio.]
-Ber.
-But two months dead! — nay, not so much, not two:
-[Exit Reynaldo.]
-Ber.
-Ber.
-Ber.
-Ber.
-Ber.
-Ber.
-Ber.
-Ber.
-Ber.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Ber.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Laer.
-Ber.
 Faith, there has been much to do on both sides; and the nation
-So horridly to shake our disposition
-Shall in the general censure take corruption
+But since, so jump upon this bloody question,
+Dies in his own too much: that we would do,
+[Exeunt all but Hamlet and Horatio.]
+[Exit Horatio.]
+[Exit Horatio.]
+[Exit Horatio.]
+[Exit Second Clown.]
+[Exit Reynaldo.]
+[Francisco at his post. Enter to him Bernardo.]
+That if you be honest and fair, your honesty should admit no
+Your wisdom should show itself more richer to signify this to
+But two months dead! — nay, not so much, not two:
+That he should weep for her? What would he do,
+But now, my cousin Hamlet, and my son —
+Youth to itself rebels, though none else near.
+And pious action we do sugar o'er
+Ber.
+Laer.
+Ber.
+Laer.
+Laer.
+Laer.
+Laer.
+Laer.
+Laer.
+Laer.
 By this encompassment and drift of question,
 That I must call't in question.
-For what we know must be, and is as common
+Shall in the general censure take corruption
 By the o'ergrowth of some complexion,
+Than that which dearest father bears his son
+For what we know must be, and is as common
+Start up and stand an end. O gentle son,
+You laying these slight sullies on my son
+Denmark's a prison.
 That capability and godlike reason
 [Enter King, Rosencrantz, and Guildenstern.]
-Does it not, thinks't thee, stand me now upon, — 
-[Enter Polonius, Rosencrantz, and Guildenstern.]
 [Enter King, Queen, Rosencrantz and Guildenstern.]
+[Enter Polonius, Rosencrantz, and Guildenstern.]
 [Enter Rosencrantz and Guildenstern.]
-[Enter Polonius and Reynaldo.]
-[Enter Horatio, Marcellus, and Bernardo.]
 [Enter Rosencrantz and Guildenstern.]
-For out o' doors he went without their help,
-Saw who?
-[Enter Queen and Horatio.]
-You mainly were stirr'd up.
-[Enter Horatio.]
 [Enter Rosencrantz and Guildenstern.]
-You laying these slight sullies on my son
-But, orderly to end where I begun, — 
-Why, what should be the fear?
-Ber.
-So art thou to revenge, when thou shalt hear.
-Hail to your lordship!
-Ber.
-Laer.
-[Exeunt Horatio, Marcellus, and Bernardo.]
-Be wary then; best safety lies in fear:
-Mar. and Ber.
-I beseech you, remember, — 
-Bernardo, Officer.
-For we will fetters put upon this fear,
-Being nature's livery, or fortune's star, — 
-Pluck them asunder.
-And, as I think, they have already order
-Laer.
-And, but that great command o'ersways the order,
-Forth at your eyes your spirits wildly peep;
-Denmark's a prison.
-Than that which dearest father bears his son
+[Exeunt Rosencrantz and Guildenstern.]
+[Exeunt Rosencrantz and Guildenstern.]
+[Exeunt Rosencrantz and Guildenstern.]
 Since frost itself as actively doth burn,
+[Exeunt Horatio, Marcellus, and Bernardo.]
+But, orderly to end where I begun, — 
+E'en so.
+[Behind.] What, ho! help, help, help!
+Why, what should be the fear?
+Laer.
+Laer.
+Since nature makes them partial, should o'erhear
+Laer.
+[Exeunt Rosencrantz and Guildenstern.]
+Laer.
+Thanks, Rosencrantz and gentle Guildenstern.
 Deliberate pause: diseases desperate grown
-Start up and stand an end. O gentle son,
+[Enter Polonius and Reynaldo.]
+You shall do marvellous wisely, good Reynaldo,
+[Enter Horatio, Marcellus, and Bernardo.]
+Saw who?
 Say, why is this? wherefore? what should we do?
 [Enter Hamlet and Horatio.]
-to speak in thine ear will make thee dumb; yet are they much too
-You shall do marvellous wisely, good Reynaldo,
-very warlike appointment gave us chase. Finding ourselves too
-Faith, I must leave thee, love, and shortly too;
+[Enter Horatio.]
 Sweet Gertrude, leave us too;
-Christians, nor the gait of Christian, pagan, nor man, have so
-That I have positively said ''Tis so,'
+to speak in thine ear will make thee dumb; yet are they much too
+Faith, I must leave thee, love, and shortly too;
 Shall I re-deliver you e'en so?
-You should not have believ'd me; for virtue cannot so
-Your wisdom should show itself more richer to signify this to
+Such dear concernings hide? who would do so?
+Forth at your eyes your spirits wildly peep;
+For out o' doors he went without their help,
+That I have positively said ''Tis so,'
+[Enter Queen and Horatio.]
 Devoutly to be wish'd. To die, — to sleep; — 
-Sith you have heard, and with a knowing ear,
-[Beneath.] Swear.
 Speak;I am bound to hear.
+Wouldst thou not stir in this. Now, Hamlet, hear.
+You mainly were stirr'd up.
+Laer.
+Laer.
+Laer.
+For we will fetters put upon this fear,
+You should not have believ'd me; for virtue cannot so
 And wants not buzzers to infect his ear
-Since nature makes them partial, should o'erhear
-[Beneath.] Swear.
-[Beneath.] Swear.
-Youth to itself rebels, though none else near.
-Disasters in the sun; and the moist star,
-he knew me not at first; he said I was a fishmonger: he is far
-[Beneath.] Swear.
-[Behind.] What, ho! help, help, help!
-Thanks, Rosencrantz and gentle Guildenstern.
-Ber.
-Ber.
-Ber.
 For God's love let me hear.
 Ber.
-Mar. and Ber.
+Ber.
+Ber.
+Laer.
+Laer.
+Laer.
+Laer.
+Laer.
+Laer.
+Laer.
+Laer.
+Laer.
+Laer.
+Laer.
+Laer.
+Laer.
+Laer.
+Laer.
+Laer.
+Laer.
+I beseech you, remember, — 
+Bernardo, Officer.
+Laer.
+Laer.
+Laer.
 My lord, as I was sewing in my chamber,
-Marcellus, Officer.
+ As hush as death, anon the dreadful thunder
+[Points to his head and shoulder.]
+Laer.
+Laer.
+Laer.
+Pluck them asunder.
+Revenge his foul and most unnatural murder.
+That we can let our beard be shook with danger,
+Rapier and dagger.
+That they are not a pipe for Fortune's finger
 That hurts by easing. But to the quick o' the ulcer: — 
 Laer.
-Will you do this, keep close within your chamber.
-Most like: — it harrows me with fear and wonder.
- As hush as death, anon the dreadful thunder
-Murder!
-Laer.
-And what's untimely done: so haply slander, — 
-[Enter Hamlet and Guildenstern.]
-Swear.
-Consent to swear.
+Christians, nor the gait of Christian, pagan, nor man, have so
 Ber.
-[Points to his head and shoulder.]
-Of those effects for which I did the murder, — 
-You know the wager?
-Such dear concernings hide? who would do so?
-Revenge his foul and most unnatural murder.
-Rapier and dagger.
-A countenance more in sorrow than in anger.
+[Enter Hamlet and Guildenstern.]
+Laer.
+Compounded it with dust, whereto 'tis kin.
+Swear.
+[Beneath.] Swear.
+[Beneath.] Swear.
+Consent to swear.
+[Beneath.] Swear.
+[Beneath.] Swear.
+he knew me not at first; he said I was a fishmonger: he is far
+Mar. and Ber.
+Will you do this, keep close within your chamber.
+Mar. and Ber.
+Marcellus, Officer.
+Most like: — it harrows me with fear and wonder.
 Can serve my turn? Forgive me my foul murder! — 
-Thou find'st to be too busy is some danger. — 
-That we can let our beard be shook with danger,
-[Enter a Messenger.]
-Longer, longer.
-That they are not a pipe for Fortune's finger
-[Exit Messenger.]
-Excellent well; you're a fishmonger.
-Requite him for your father.
-This must not be:' and then I precepts gave her,
-I will not speak with her.
-Then you live about her waist, or in the middle of her
+You know the wager?
+A countenance more in sorrow than in anger.
+And, but that great command o'ersways the order,
 Shards, flints, and pebbles should be thrown on her,
-Make up my sum. — What wilt thou do for her?
-father?
-Came this from Hamlet to her?
-Give me my father!
-To sing a requiem and such rest to her
-unto him. He takes her up, and declines his head upon her
-Conceit upon her father.
-entertainment than yours. You are welcome: but my uncle-father
-Ghost of Hamlet's Father.
-But, you must know, your father lost a father;
-Not that I think you did not love your father;
-To give these mourning duties to your father;
-The apparition comes: I knew your father;
-Play something like the murder of my father
-Nay, come, let's go together.
-Been thus encounter'd. A figure like your father,
+Excellent well; you're a fishmonger.
 Whether 'tis nobler in the mind to suffer
-E'en so.
+Longer, longer.
+I will not speak with her.
+unto him. He takes her up, and declines his head upon her
+Came this from Hamlet to her?
+And what's untimely done: so haply slander, — 
+To sing a requiem and such rest to her
+Make up my sum. — What wilt thou do for her?
+Of those effects for which I did the murder, — 
+Ghost of Hamlet's Father.
+Conceit upon her father.
+But, you must know, your father lost a father;
 Drabbing: — you may go so far.
-Dies in his own too much: that we would do,
+Thou find'st to be too busy is some danger. — 
+And, as I think, they have already order
+[Exit Messenger.]
+Murder!
+This must not be:' and then I precepts gave her,
+To give these mourning duties to your father;
+Most throughly for my father.
+Not that I think you did not love your father;
+To draw him on to pleasures, and to gather,
 Than is the throne of Denmark to thy father.
+Where is my father?
+[Enter a Messenger.]
+Then you live about her waist, or in the middle of her
+Been thus encounter'd. A figure like your father,
+The apparition comes: I knew your father;
 My father, — methinks I see my father.
 My father's brother; but no more like my father
-The King my father!
-Most throughly for my father.
-Where is my father?
-hither?
 Why does the drum come hither?
-To draw him on to pleasures, and to gather,
+hither?
 Lords, Ladies, Officers, Soldiers, Sailors, Messengers, and other
-[Within.] Mother, mother, mother!
-dare scarce come thither.
+Requite him for your father.
+father?
+Play something like the murder of my father
+entertainment than yours. You are welcome: but my uncle-father
+Nay, come, let's go together.
 Pale as his shirt; his knees knocking each other;
-The bark is ready, and the wind at help,
+dare scarce come thither.
+[Within.] Mother, mother, mother!
+The King my father!
+Give me my father!
 Do not forget. This visitation
 My lord, the king your father.
 [A noise within.]
@@ -12610,999 +12610,999 @@ So fast they follow: — your sister's drown'd, Laertes.
  'It came to pass, as most like it was — '
  'As by lot, God wot,'
 What, ho, Horatio!
-alone became their prisoner. They have dealt with me like thieves
-To the ambassadors of England gives
 Into the madness wherein now he raves,
 should have countenance in this world to drown or hang themselves
-Together with remembrance of ourselves.
-have grey beards; that their faces are wrinkled; their eyes
-No, nothing but ourselves.
-Though all the earth o'erwhelm them, to men's eyes.
-kingdom. To-morrow shall I beg leave to see your kingly eyes:
-Of mine own eyes.
-Who like not in their judgment, but their eyes;
-That's a fair thought to lie between maids' legs.
-[Sings.]
-[Sings.]
-[Sings.]
-[Sings.]
-[Sings.]
-[Sings.]
-[Sings.]
-[Sings.]
-[Sings.]
-how the wheel becomes it! It is the false steward, that stole his
-him asleep, leaves him. Anon comes in a fellow, takes off his
 Oph. [Sings.]
 [Sings.]
-To whose huge spokes ten thousand lesser things
-Of your precedent lord; a vice of kings;
+Though all the earth o'erwhelm them, to men's eyes.
+[Sings.]
+[Sings.]
+[Sings.]
+Together with remembrance of ourselves.
+Of mine own eyes.
+have grey beards; that their faces are wrinkled; their eyes
+kingdom. To-morrow shall I beg leave to see your kingly eyes:
+That's a fair thought to lie between maids' legs.
+No, nothing but ourselves.
+[Sings.]
+[Sings.]
+[Sings.]
 Richer than that which four successive kings
 O, this is the poison of deep grief; it springs
-[Digs and sings.]
-Save me and hover o'er me with your wings,
 We'll make a solemn wager on your cunnings, — 
-To my sick soul, as sin's true nature is,
-You are not ignorant of what excellence Laertes is, —
-Most holy and religious fear it is
-O, this is counter, you false Danish dogs!
-What majesty should be, what duty is,
-Murder most foul, as in the best it is;
-If with too credent ear you list his songs,
-man; good: if the man go to this water and drown himself, it is,
-Nay, their endeavour keeps in the wonted pace: but there is,
-scorn her own image, and the very age and body of the time his
-great buyer of land, with his statutes, his recognizances, his
-You go to seek the Lord Hamlet; there he is.
+[Sings.]
+[Sings.]
+In thews and bulk; but as this temple waxes,
+[Digs and sings.]
 My mother: father and mother is man and wife; man and wife is
+O, this is counter, you false Danish dogs!
+Nay, their endeavour keeps in the wonted pace: but there is,
+Most holy and religious fear it is
+You go to seek the Lord Hamlet; there he is.
+how the wheel becomes it! It is the false steward, that stole his
+man; good: if the man go to this water and drown himself, it is,
+scorn her own image, and the very age and body of the time his
+What majesty should be, what duty is,
+You are not ignorant of what excellence Laertes is, —
+If with too credent ear you list his songs,
+[Sings.]
+him asleep, leaves him. Anon comes in a fellow, takes off his
 If you oppos'd them. Sir, this report of his
+Into the chapel. I pray you, haste in this.
 Odd's bodikin, man, better: use every man after his
 This?
 In ear and ear. O my dear Gertrude, this,
-Now, out of this, —
-Into the chapel. I pray you, haste in this.
-To make oppression bitter; or ere this
 Let's further think of this;
-not mend his pace with beating; and when you are asked this
-In thews and bulk; but as this temple waxes,
 Of habits evil, is angel yet in this, — 
-Wherefore should you do this?
-O, what a rash and bloody deed is this!
-To tell us this.
-To whom do you speak this?
-Where should we have our thanks?
-[Retires and kneels.]
-chamber, and tell her, let her paint an inch thick, to this
 Look here upon this picture, and on this, — 
-Why ask you this?
-What dost thou mean by this?
-[The Queen falls.]
-To his good friends thus wide I'll ope my arms;
-Weigh what convenience both of time and means
-Is there not rain enough in the sweet heavens
-O, there has been much throwing about of brains.
-O, help him, you sweet heavens!
-Is the main motive of our preparations,
-O, for two special reasons;
-O, reform it altogether. And let those that play your clowns
-discourse most eloquent music. Look you, these are the stops.
-Is not parchment made of sheep-skins?
-flowers.]
-My lord, I have remembrances of yours
-Players.
-Upon our first, he sent out to suppress
-Who calls me villain? breaks my pate across?
-Wherein they say you shine: your sum of parts
-My lord, there was no such stuff in my thoughts.
-Of accidental judgments, casual slaughters;
-Of carnal, bloody and unnatural acts;
-No, by no means.
-Mad let us grant him then: and now remains
-To cast beyond ourselves in our opinions
-the doctor; for me to put him to his purgation would perhaps
-To assume a pleasing shape; yea, and perhaps
-Makes us traduc'd and tax'd of other nations:
-Or I could make a prologue to my brains,
-[Sleeps.]
-In Denmark's crown have worn. Give me the cups;
-Mess.
-Mess.
-Who, impotent and bed-rid, scarcely hears
-[Trumpets sound. The dumb show enters.]
-Or by some habit, that too much o'er-leavens
-in the earth three-and-twenty years.
-Two Clowns, Grave-diggers.
-Or paddling in your neck with his damn'd fingers,
-Madam, it so fell out that certain players
-favours?
-To both your honours.
-Our crown, our life, and all that we call ours,
-It lifted up it head, and did address
-Two thousand souls and twenty thousand ducats
-Why you proceeded not against these feats,
-O heavens! is't possible a young maid's wits
-Of this his nephew's purpose, — to suppress
-Was falsely borne in hand, — sends out arrests
-further trade with us?
-Touching this dreaded sight, twice seen of us:
-great baby you see there is not yet out of his swaddling clouts.
-We will haste us.
-Till the last trumpet; for charitable prayers,
-Mad call I it; for to define true madness,
-Till I have caught her once more in mine arms:
-To give in evidence. What then? what rests?
-When our deep plots do fail; and that should teach us
-Lights, lights, lights!
-Might, by the sovereign power you have of us,
-Whose image even but now appear'd to us,
-Thrift, thrift, Horatio! The funeral bak'd meats
-phrase: but you shall hear. Thus:
-If that his majesty would aught with us,
-[Scattering flowers.]
-[Sings.]
-Your loneliness. — We are oft to blame in this, — 
 Possess it merely. That it should come to this!
+So excellent a king; that was, to this,
+chamber, and tell her, let her paint an inch thick, to this
+Now, out of this, —
+Wherefore should you do this?
 Take up the bodies. — Such a sight as this
 What warlike noise is this?
+it means, say you this:
+What dost thou mean by this?
+Why ask you this?
 That not your trespass, but my madness speaks:
-The heartache, and the thousand natural shocks
-Why, what a king is this!
-So excellent a king; that was, to this,
-Your visitation shall receive such thanks
-With this affair along: — or all, our thanks.
-[Laertes falls.]
+Where should we have our thanks?
+king of infinite space, were it not that I have bad dreams.
+That I, in forgery of shapes and tricks,
+Weigh what convenience both of time and means
 Seems, madam! Nay, it is; I know not seems.
 Sith I have cause, and will, and strength, and means
+Mad let us grant him then: and now remains
+Or I could make a prologue to my brains,
 Let four captains
-show, he'll not shame to tell you what it means.
+Makes us traduc'd and tax'd of other nations:
+Your visitation shall receive such thanks
+The heartache, and the thousand natural shocks
+O, what a rash and bloody deed is this!
+Why, what a king is this!
+Murder most foul, as in the best it is;
+alone became their prisoner. They have dealt with me like thieves
+To the ambassadors of England gives
+Who like not in their judgment, but their eyes;
+To whose huge spokes ten thousand lesser things
+great buyer of land, with his statutes, his recognizances, his
+not mend his pace with beating; and when you are asked this
+To my sick soul, as sin's true nature is,
+To make oppression bitter; or ere this
+To whom do you speak this?
+To tell us this.
+Your loneliness. — We are oft to blame in this, — 
+[Laertes falls.]
 Keeps wassail, and the swaggering up-spring reels;
-it means, say you this:
-With thoughts beyond the reaches of our souls?
-king of infinite space, were it not that I have bad dreams.
-They have proclaim'd their malefactions;
+Save me and hover o'er me with your wings,
+Or by some habit, that too much o'er-leavens
+To his good friends thus wide I'll ope my arms;
 [Ghost beckons.]
+Larded with many several sorts of reasons,
+Ros.
+Ros.
+Ros.
+Ros.
+Ros.
+Ros.
+Ros.
+in the earth three-and-twenty years.
+Ros.
+[Pours the poison into the sleeper's ears.]
+I lov'd Ophelia; forty thousand brothers
+Who, impotent and bed-rid, scarcely hears
+[Enter Hamlet and cartain Players.]
+My lord, I have remembrances of yours
+She turns to favour and to prettiness.
+Rosencrantz, Guildenstern, and others.]
+remember: and there is pansies, that's for thoughts.
+Who calls me villain? breaks my pate across?
+Leave us.
+great baby you see there is not yet out of his swaddling clouts.
+Of this his nephew's purpose, — to suppress
+Roughly awake, I here proclaim was madness.
+Or paddling in your neck with his damn'd fingers,
+Ros.
+Ros.
+She speaks much of her father; says she hears
+Ros.
+[Enter Fortinbras, the English Ambassadors, and others.]
+[Trumpets sound. The dumb show enters.]
+Two Clowns, Grave-diggers.
+Mess.
+Mess.
+So tell him, with the occurrents, more and less,
+Was falsely borne in hand, — sends out arrests
+Two thousand souls and twenty thousand ducats
+We will haste us.
+Yours, yours.
+Mad call I it; for to define true madness,
+Upon our first, he sent out to suppress
+Wherein they say you shine: your sum of parts
+Lights, lights, lights!
+Madam, it so fell out that certain players
+To give in evidence. What then? what rests?
+Might, by the sovereign power you have of us,
+When our deep plots do fail; and that should teach us
+it is not so: — it begins with Pyrrhus: —
+Whether aught, to us unknown, afflicts him thus,
+What is the reason that you use me thus?
+Whereon his brains still beating puts him thus
+Touching this dreaded sight, twice seen of us:
+Whose image even but now appear'd to us,
+I like him not; nor stands it safe with us
+further trade with us?
+Ros.
+[Sings.]
+With this affair along: — or all, our thanks.
+The lady protests too much, methinks.
+[Retires and kneels.]
+[The Queen falls.]
+With thoughts beyond the reaches of our souls?
+These tedious old fools!
+Till I have caught her once more in mine arms:
+show, he'll not shame to tell you what it means.
+No, by no means.
+Is there not rain enough in the sweet heavens
+Is not parchment made of sheep-skins?
+O, help him, you sweet heavens!
+O, for two special reasons;
+Ros.
+O, there has been much throwing about of brains.
+To cast beyond ourselves in our opinions
+They have proclaim'd their malefactions;
+O, reform it altogether. And let those that play your clowns
+Ros.
+The insolence of office, and the spurns
+Ros.
+Ros.
+Ros.
+Ros.
+Ros.
+Ros.
+Ros.
+Ros.
+Ros.
+Ros.
+Ros.
+It lifted up it head, and did address
+Ros.
+Is the main motive of our preparations,
+Ros.
+Ros.
+Ros.
+Ros.
+Ros.
+Ros.
+Ros.
+Ros.
+Ros.
+Ros.
+Ros.
+[Scattering flowers.]
+Of accidental judgments, casual slaughters;
+Till the last trumpet; for charitable prayers,
+Ros.
+In Denmark's crown have worn. Give me the cups;
+[Re-enter the Players, with recorders.]
+flowers.]
+To both your honours.
+Players.
+To assume a pleasing shape; yea, and perhaps
+favours?
+shall be the end of my business.
+It could not move thus.
+This is mere madness:
+the doctor; for me to put him to his purgation would perhaps
+That I essentially am not in madness,
+Thrift, thrift, Horatio! The funeral bak'd meats
+How long hath she been thus?
+Of carnal, bloody and unnatural acts;
+Why you proceeded not against these feats,
+My lord, there was no such stuff in my thoughts.
+This unprevailing woe; and think of us
+Thus it remains, and the remainder thus.
+[Exeunt Voltimand and Cornelius.]
+[Re-enter King and Polonius.]
+Laertes, Son to Polonius.
+it make the unskilful laugh, cannot but make the judicious
+Where is Polonius?
+Marcellus?
+Welcome, Horatio: — Welcome, good Marcellus.
 The fair Ophelia! — Nymph, in thy orisons
 Ros.
 Ros.
 Ros.
 Ros.
-Larded with many several sorts of reasons,
-The insolence of office, and the spurns
-The lady protests too much, methinks.
-Ros.
-Ros.
-Ros.
-Ros.
-Ros.
-Ros.
-Ros.
-These tedious old fools!
-Ros.
-Ros.
-Ros.
-Ros.
-Ros.
-Ros.
-Ros.
-Ros.
-Ros.
-Ros.
-Ros.
-Ros.
-Ros.
-Ros.
-Ros.
-Ros.
-Ros.
-Ros.
-Ros.
-Ros.
-Ros.
-Ros.
-Ros.
-Ros.
-Ros.
-Ros.
-Ros.
-Ros.
-Ros.
-Ros.
-Ros.
-Ros.
-Ros.
-Ros.
-These words like daggers enter in mine ears;
-She speaks much of her father; says she hears
-That I have? He would drown the stage with tears
-The carriages, sir, are the hangers.
 The light and careless livery that it wears
-[Pours the poison into the sleeper's ears.]
+Ros.
+Ros.
+The carriages, sir, are the hangers.
+That was and is the question of these wars.
 souls, it touches us not: let the gall'd jade wince; our withers
-[Re-enter the Players, with recorders.]
+[Sleeps.]
+discourse most eloquent music. Look you, these are the stops.
 The very faculties of eyes and ears.
-Rosencrantz, Guildenstern, and others.]
-[Enter Fortinbras, the English Ambassadors, and others.]
-The counterfeit presentment of two brothers.
-I lov'd Ophelia; forty thousand brothers
-[Exeunt Ros, Guil., Hor., and Players.]
-Thick and and unwholesome in their thoughts and whispers
 [Enter four or five Players.]
+The counterfeit presentment of two brothers.
+[Exeunt Ros, Guil., Hor., and Players.]
 [Exeunt Players.]
-[Enter Hamlet and cartain Players.]
 With most miraculous organ, I'll have these players
 [Enter Sailors.]
-Then came each actor on his ass, —
 Yea, this solidity and compound mass,
-Yours, yours.
-The portraiture of his: I'll court his favours:
-So tell him, with the occurrents, more and less,
-Without debatement further, more or less,
-This is mere madness:
-That I essentially am not in madness,
-That it might please you to give quiet pass
-Roughly awake, I here proclaim was madness.
-She turns to favour and to prettiness.
 With such dexterity to incestuous sheets!
-Thence to a watch; thence into a weakness;
-remember: and there is pansies, that's for thoughts.
-[Exeunt King, Queen, and Attendants.]
-shame and the odd hits.
-[Enter King, Rosencrantz, Guildenstern, and Attendants.]
-[Exeunt Attendants.]
-That you must teach me. But let me conjure you, by the rights
-The gallows-maker; for that frame outlives a thousand tenants.
-With witchcraft of his wit, with traitorous gifts, — 
-That no revenue hast, but thy good spirits,
-[Exeunt Rosencrantz, Guildenstern, and some Attendants].
-Your bedded hairs, like life in excrements,
+The portraiture of his: I'll court his favours:
+Without debatement further, more or less,
+That I have? He would drown the stage with tears
+Thick and and unwholesome in their thoughts and whispers
+These words like daggers enter in mine ears;
 There are the players.
-That was and is the question of these wars.
-That, on the view and know of these contents,
-Without the which we are pictures or mere beasts:
-Leave us.
-This unprevailing woe; and think of us
-I like him not; nor stands it safe with us
-it is not so: — it begins with Pyrrhus: —
-What is the reason that you use me thus?
-Whether aught, to us unknown, afflicts him thus,
-It could not move thus.
-Whereon his brains still beating puts him thus
-[Draws forth Polonius.]
-Speak of it: — stay, and speak! — Stop it, Marcellus!
-[Enter Hamlet, Horatio, and Marcellus.]
-Thus it remains, and the remainder thus.
-say? [To Polonius.]
-[Enter Horatio and Marcellus.]
-[Enter Horatio and Marcellus.]
-I did enact Julius Caesar; I was kill'd i' the Capitol; Brutus
-Yet have I in me something dangerous,
-[Enter Lucianus.]
-[Enter Polonius, with Voltimand and Cornelius.]
+Our crown, our life, and all that we call ours,
 You go not till I set you up a glass
-How long hath she been thus?
-That I, in forgery of shapes and tricks,
-shall be the end of my business.
+Then came each actor on his ass, —
+That you must teach me. But let me conjure you, by the rights
+Thence to a watch; thence into a weakness;
+shame and the odd hits.
+O heavens! is't possible a young maid's wits
+[Exeunt King, Queen, and Attendants.]
+[Exeunt Rosencrantz, Guildenstern, and some Attendants].
+The gallows-maker; for that frame outlives a thousand tenants.
+That no revenue hast, but thy good spirits,
+That it might please you to give quiet pass
+With witchcraft of his wit, with traitorous gifts, — 
+Without the which we are pictures or mere beasts:
 [Exeunt Voltimand and Cornelius.]
-[Exeunt Voltimand and Cornelius.]
-[Re-enter King and Polonius.]
+How now? a rat? [Draws.]
+This physic but prolongs thy sickly days.
+Who is to be buried in't?
+Look to't, I charge you; come your ways.
+Now, Hamlet, where's Polonius?
+What think you on't?
+strumpet. What's the news?
+There's letters seal'd: and my two schoolfellows, — 
+Is't not possible to understand in another tongue? You will do't,
+To't.
+Not when I saw't.
+Truly, and I hold ambition of so airy and light a quality that
+needs marry, marry a fool; for wise men know well enough what
+What?
+They are not near my conscience; their defeat
+knave jowls it to the ground,as if 'twere Cain's jawbone, that
+Whips out his rapier, cries 'A rat, a rat!'
+Tweaks me by the nose? gives me the lie i' the throat
+How dost thou, good lord?' This might be my lord such-a-one, that
+tell how. But, my lord, his majesty bade me signify to you that
+How now! What noise is that?
+dreadfully attended. But, in the beaten way of friendship, what
+To pay ourselves what to ourselves is debt:
+To serve in such a difference. What devil was't
+Nay, but swear't.
+How now! What news?
+It hath the primal eldest curse upon't, — 
+This was your husband. — Look you now what follows:
+Thou still hast been the father of good news.
+Is thought-sick at the act.
+What did you enact?
+The leperous distilment; whose effect
+Nor any unproportion'd thought his act.
+To lay our service freely at your feet,
+counsel. — Come, my coach! — Good night, ladies; good night, sweet
+When in one line two crafts directly meet. — 
+Most necessary 'tis that we forget
+This gentle and unforc'd accord of Hamlet
+No, no! the drink, the drink! — O my dear Hamlet! — 
+The queen carouses to thy fortune, Hamlet.
+Must give us pause: there's the respect
+Thy loving father, Hamlet.
+Letters, my lord, from Hamlet:
+How fares our cousin Hamlet?
+Was't Hamlet wrong'd Laertes? Never Hamlet:
+My lord, he's going to his mother's closet:
+Nor earth to me give food, nor heaven light!
+Let not thy mother lose her prayers, Hamlet:
+No more, sweet Hamlet.
+Marry, sir, here's my drift;
+Well, good night.
+ladies; good night, good night.
+How say you by that? — [Aside.] Still harping on my daughter: — yet
+gentleman, full of most excellent differences, of very soft
+What art thou, that usurp'st this time of night,
+With us to watch the minutes of this night;
+With wondrous potency. Once more, good-night:
+Why, how now, Hamlet!
+What, Gertrude? How does Hamlet?
+Lord, we know what we are, but know not what we may be. God be at
+Of your precedent lord; a vice of kings;
+[Exeunt Attendants.]
+If that his majesty would aught with us,
+[Enter King, Rosencrantz, Guildenstern, and Attendants.]
+phrase: but you shall hear. Thus:
+[Enter Polonius, with Voltimand and Cornelius.]
 [Exeunt King and Polonius.]
 [Enter Queen and Polonius.]
 [To Polonius.]
-[Pointing to Polonius.]
-Laertes, Son to Polonius.
-[Enter Polonius.]
-[Enter Polonius.]
-[Enter Polonius.]
-[Enter Polonius.]
-Where is Polonius?
-it make the unskilful laugh, cannot but make the judicious
-Now, Hamlet, where's Polonius?
-question of the play be then to be considered: that's villanous
+[Draws forth Polonius.]
+That, on the view and know of these contents,
 Ophelia, Daughter to Polonius.
-[Exit Polonius.]
-[Exit Polonius.]
-[Exit Polonius.]
-Marcellus?
+Yet have I in me something dangerous,
+[Enter Hamlet, Horatio, and Marcellus.]
+[Enter Horatio and Marcellus.]
 Of blue Olympus.
-[Exit Polonius.]
-[Exit Polonius.]
-Over his kingdom. You know the rendezvous.
-How now? a rat? [Draws.]
-There's letters seal'd: and my two schoolfellows, — 
-This was your husband. — Look you now what follows:
-Welcome, Horatio: — Welcome, good Marcellus.
-Thou still hast been the father of good news.
-How now! What news?
-That suck'd the honey of his music vows,
-[The cock crows.]
-reputation and profit, was better both ways.
-[Exeunt severally; Hamlet, dragging out Polonius.]
+[Enter Horatio and Marcellus.]
 If you do meet Horatio and Marcellus,
-[Enter Polonius.]
-strumpet. What's the news?
-This physic but prolongs thy sickly days.
-Look to't, I charge you; come your ways.
-On Fortinbras; which he, in brief, obeys;
+Speak of it: — stay, and speak! — Stop it, Marcellus!
+I did enact Julius Caesar; I was kill'd i' the Capitol; Brutus
+That suck'd the honey of his music vows,
 I ha't:
+as your daughter may conceive: — friend, look to't.
 I do not think't.
-Who is to be buried in't?
-[Aside.] Though this be madness, yet there is a method in't. — 
-on't.
+That monster custom, who all sense doth eat,
+all welcome. We'll e'en to't like French falconers, fly at
 That has no relish of salvation in't; — 
-I think it be thine indeed, for thou liest in't.
 Indeed, la, without an oath, I'll make an end on't:
-What think you on't?
-It hath the primal eldest curse upon't, — 
+on't.
 I have sworn't.
-Is't not possible to understand in another tongue? You will do't,
-I will do't:
-To't.
-Truly, and I hold ambition of so airy and light a quality that
+Spurns enviously at straws; speaks things in doubt,
+now? your gambols? your songs? your flashes of merriment, that
+So Guildenstern and Rosencrantz go to't.
+[Aside.] Though this be madness, yet there is a method in't. — 
+On Fortinbras; which he, in brief, obeys;
+That are but mutes or audience to this act,
+Tears in his eyes, distraction in's aspect,
+Speak to her, Hamlet.
+Such an act
+Your bedded hairs, like life in excrements,
 beauty of the world! the paragon of animals! And yet, to me, what
 That we find out the cause of this effect;
-as your daughter may conceive: — friend, look to't.
-She is importunate; indeed distract:
 [Enter Ghost and Hamlet.]
-What, Gertrude? How does Hamlet?
-What?
-knave jowls it to the ground,as if 'twere Cain's jawbone, that
-[Hamlet moves him to put on his hat.]
-Nay, but swear't.
-Lord, we know what we are, but know not what we may be. God be at
-That monster custom, who all sense doth eat,
-So Guildenstern and Rosencrantz go to't.
-Not when I saw't.
-now? your gambols? your songs? your flashes of merriment, that
-I must to England; you know that?
-How now! What noise is that?
-all welcome. We'll e'en to't like French falconers, fly at
-Tweaks me by the nose? gives me the lie i' the throat
-That are but mutes or audience to this act,
-To pay ourselves what to ourselves is debt:
-Most necessary 'tis that we forget
-Let not thy mother lose her prayers, Hamlet:
-Whips out his rapier, cries 'A rat, a rat!'
-[Enter Hamlet.]
-[Enter Hamlet.]
-[Enter Hamlet.]
-[Enter Hamlet.]
-Must give us pause: there's the respect
-To serve in such a difference. What devil was't
-I would know that.
-needs marry, marry a fool; for wise men know well enough what
-tell how. But, my lord, his majesty bade me signify to you that
-Spurns enviously at straws; speaks things in doubt,
-Such an act
-Tears in his eyes, distraction in's aspect,
-dreadfully attended. But, in the beaten way of friendship, what
-counsel. — Come, my coach! — Good night, ladies; good night, sweet
-Speak to her, Hamlet.
+[Within.] Lord Hamlet, —
+She is importunate; indeed distract:
+[Within.] Hamlet! Lord Hamlet!
+So please you, something touching the Lord Hamlet.
 Than a command to parley. For Lord Hamlet,
 That I will speak to thee: I'll call thee Hamlet,
-No, no! the drink, the drink! — O my dear Hamlet! — 
-My lord, he's going to his mother's closet:
-No more, sweet Hamlet.
-Was't Hamlet wrong'd Laertes? Never Hamlet:
-So please you, something touching the Lord Hamlet.
-Nor earth to me give food, nor heaven light!
-Nor any unproportion'd thought his act.
-gentleman, full of most excellent differences, of very soft
-Sport and repose lock from me day and night!
-That aptly is put on. Refrain to-night;
-ladies; good night, good night.
-Your skill shall, like a star in the darkest night,
-In the dead vast and middle of the night,
-Never make known what you have seen to-night.
-If you have hitherto conceal'd this sight,
-Is sicklied o'er with the pale cast of thought;
-sir, though I most powerfully and potently believe, yet I hold it
-O, throw away the worser part of it,
-excellent voice, in this little organ, yet cannot you make it
-So have I heard, and do in part believe it.
-Let us impart what we have seen to-night
-The death I gave him. So again, good-night. — 
-What, has this thing appear'd again to-night?
-My lord, I think I saw him yesternight.
+[Enter Hamlet.]
+[Enter Hamlet.]
+[Enter Hamlet.]
+[Enter Hamlet.]
+Or 'If we list to speak'; or 'There be, an if they might'; — 
 That ever I was born to set it right! — 
+Your skill shall, like a star in the darkest night,
+That aptly is put on. Refrain to-night;
 Indeed would make one think there might be thought,
 Termagant; it out-herods Herod: pray you avoid it.
-So be it!
+sir, though I most powerfully and potently believe, yet I hold it
 So by his father lost: and this, I take it,
-I chiefly loved: 'twas AEneas' tale to Dido, and thereabout of it
-My lord, I did intend it.
-To pay five ducats, five, I would not farm it;
-Of Hamlet's transformation; so I call it,
+If you have hitherto conceal'd this sight,
+The death I gave him. So again, good-night. — 
+Sport and repose lock from me day and night!
+In the dead vast and middle of the night,
+So have I heard, and do in part believe it.
+O, throw away the worser part of it,
 bet against the Danish: why is this all imponed, as you call it?
-How dost thou, good lord?' This might be my lord such-a-one, that
-Never believe it:
-Than your particular demands will touch it:
-No; you'll reveal it.
+I chiefly loved: 'twas AEneas' tale to Dido, and thereabout of it
 So mortal that, but dip a knife in it,
-Let us haste to hear it,
-Is not more ugly to the thing that helps it
-They are not near my conscience; their defeat
-What did you enact?
-[Exeunt Ghost and Hamlet.]
-[Within.] Lord Hamlet, —
-This gentle and unforc'd accord of Hamlet
-How fares our cousin Hamlet?
-To lay our service freely at your feet,
-Is thought-sick at the act.
-[Within.] Hamlet! Lord Hamlet!
-[Exeunt all but Hamlet.]
-[Exeunt all but Hamlet.]
-Marry, sir, here's my drift;
-How say you by that? — [Aside.] Still harping on my daughter: — yet
-Or rather say, the cause of this defect,
-The leperous distilment; whose effect
-Or 'If we list to speak'; or 'There be, an if they might'; — 
-What art thou, that usurp'st this time of night,
-Or look'd upon this love with idle sight; — 
-I will watch to-night;
-Where is this sight?
-It falls right.
-Marry, well bethought:
-It fits your wisdom so far to believe it
-How say you then; would heart of man once think it? — 
-imagination trace the noble dust of Alexander till he find it
-With wondrous potency. Once more, good-night:
-Pray you, let's have no words of this; but when they ask you what
-When in one line two crafts directly meet. — 
-The queen carouses to thy fortune, Hamlet.
-Thy loving father, Hamlet.
-Letters, my lord, from Hamlet:
-Pays homage to us, — thou mayst not coldly set
-Well, good night.
-With us to watch the minutes of this night;
-Thou liv'st; report me and my cause aright
-With the brave beast: so far he topp'd my thought
-sweet, and by very much more handsome than fine. One speech in it
-Time qualifies the spark and fire of it.
-Why, then the Polack never will defend it.
-To let you know of it.
-It beckons you to go away with it,
-We would not understand what was most fit;
-Whose was it?
-If Hamlet give the first or second hit,
-Then Hamlet does it not, Hamlet denies it.
-The queen, your mother, in most great affliction of spirit,
-The potent poison quite o'er-crows my spirit:
-Thus much the business is: — we have here writ
-Therefore, since brevity is the soul of wit,
-The hearers to collection; they aim at it,
-We will try it.
-I am thy father's spirit;
-Which is the mightier: in his lawless fit
-It waves me forth again; — I'll follow it.
-Reynaldo, Servant to Polonius.
-[Lying down at Ophelia's feet.]
-Why, how now, Hamlet!
-[Ghost beckons Hamlet.]
-I never gave you aught.
-repair hither, and say you are not fit.
-[Exit.]
-Why, right; you are i' the right;
-[Exit.]
-[Exit.]
-[Exit.]
-[Exit.]
-[Exit.]
-[Exit.]
-[Exit.]
-[Exit.]
-[Exit.]
-[Exit.]
-[Exit.]
-[Exit.]
-[Exit.]
+Than your particular demands will touch it:
+Of Hamlet's transformation; so I call it,
 O heat, dry up my brains! tears seven times salt,
-[Exit.]
-[Exit.]
-I pr'ythee, take thy fingers from my throat;
-[Exit.]
-[Exit.]
 Observe mine uncle: if his occulted guilt
 So full of artless jealousy is guilt,
 O that this too too solid flesh would melt,
-[Exit.]
+I am thy father's spirit;
 calumny. Get thee to a nunnery, go: farewell. Or, if thou wilt
-Of general assault.
-Will he tell us what this show meant?
+So be it!
+Let us impart what we have seen to-night
+My lord, I think I saw him yesternight.
+It falls right.
+Is sicklied o'er with the pale cast of thought;
+Why, then the Polack never will defend it.
+With the brave beast: so far he topp'd my thought
+Why, right; you are i' the right;
+excellent voice, in this little organ, yet cannot you make it
+Never believe it:
+How say you then; would heart of man once think it? — 
+sweet, and by very much more handsome than fine. One speech in it
+Then Hamlet does it not, Hamlet denies it.
+No; you'll reveal it.
+It beckons you to go away with it,
+Never make known what you have seen to-night.
+Where is this sight?
+Thou liv'st; report me and my cause aright
+Marry, well bethought:
+My lord, I did intend it.
+It fits your wisdom so far to believe it
+To let you know of it.
+To pay five ducats, five, I would not farm it;
+Let us haste to hear it,
+Whose was it?
+Time qualifies the spark and fire of it.
+Is not more ugly to the thing that helps it
+It waves me forth again; — I'll follow it.
+The hearers to collection; they aim at it,
+Thus much the business is: — we have here writ
+It will not speak; then will I follow it.
+Which is the mightier: in his lawless fit
 It spills itself in fearing to be spilt.
-I should be greeted, if not from Lord Hamlet.
+The potent poison quite o'er-crows my spirit:
+The queen, your mother, in most great affliction of spirit,
+Volt.
 Why, even in that was heaven ordinant.
-I prithee do not mock me, fellow-student.
-[Exit Servant.]
-The associates tend, and everything is bent
-Where joy most revels, grief doth most lament;
+Therefore, since brevity is the soul of wit,
+We will try it.
+Will he tell us what this show meant?
+Of general assault.
+We would not understand what was most fit;
+imagination trace the noble dust of Alexander till he find it
+What, has this thing appear'd again to-night?
+Ros.
+say? [To Polonius.]
+[Pointing to Polonius.]
+Reynaldo, Servant to Polonius.
+[Enter Polonius.]
+[Enter Polonius.]
+[Enter Polonius.]
+[Enter Polonius.]
+[Enter Polonius.]
+[Exit Polonius.]
+[Exit Polonius.]
+[Exeunt severally; Hamlet, dragging out Polonius.]
+[Exit Polonius.]
+[Exit Polonius.]
+Over his kingdom. You know the rendezvous.
+I think it be thine indeed, for thou liest in't.
+[Exit Polonius.]
+[Enter Lucianus.]
+question of the play be then to be considered: that's villanous
+I will do't:
+[The cock crows.]
+I must to England; you know that?
+Pray you, let's have no words of this; but when they ask you what
+I would know that.
+I pr'ythee, take thy fingers from my throat;
+Or rather say, the cause of this defect,
+[Exeunt Ghost and Hamlet.]
+I should be greeted, if not from Lord Hamlet.
+I never gave you aught.
+[Lying down at Ophelia's feet.]
+[Ghost beckons Hamlet.]
+repair hither, and say you are not fit.
+reputation and profit, was better both ways.
+[Hamlet moves him to put on his hat.]
+[Exeunt all but Hamlet.]
+[Exeunt all but Hamlet.]
+Pays homage to us, — thou mayst not coldly set
+I will watch to-night;
+[Exit.]
+Or look'd upon this love with idle sight; — 
+If Hamlet give the first or second hit,
+[Exit.]
+[Exit.]
+[Exit.]
+[Exit.]
+[Exit.]
+[Exit.]
+[Exit.]
+[Exit.]
+[Exit.]
+[Exit.]
+[Exit.]
+[Exit.]
+[Exit.]
+[Exit.]
+[Exit.]
+[Enter Horatio and a Servant.]
 Servant.
+[Exit Servant.]
+I prithee do not mock me, fellow-student.
+[Exit.]
 I stand aloof; and will no reconcilement
-Sir, I lack advancement.
 I know, you are not ignorant, —
-How in my words somever she be shent,
-Judgment!
-I am sorry that with better heed and judgment
 Is not to stir without great argument,
+Where joy most revels, grief doth most lament;
+[Exit.]
+[Exit.]
 Up, sword, and know thou a more horrid hent:
 Why, man, they did make love to this employment;
-Take each man's censure, but reserve thy judgment.
-[Enter Horatio and a Servant.]
-This grave shall have a living monument:
-Yet what can it when one cannot repent?
-Which is not tomb enough and continent
-Upon his will I seal'd my hard consent:
+[Exeunt.]
+Sir, I lack advancement.
+Judgment!
+[Exeunt.]
+[Exeunt.]
 To give it due content.
-Was our sea-fight; and what to this was sequent
-Of thinking too precisely on the event, — 
-Makes mouths at the invisible event;
-Will be some danger: which for to prevent,
-This is but scratch'd withal: I'll touch my point
 [Exeunt.]
 [Exeunt.]
 [Exeunt.]
 [Exeunt.]
 [Exeunt.]
+[Exeunt.]
+[Exeunt.]
+[Exeunt.]
+I thank your lordship, t'is very hot.
+[Exeunt.]
+How in my words somever she be shent,
+This grave shall have a living monument:
+Which is not tomb enough and continent
 To give them seals never, my soul, consent!
-[Exeunt.]
-[Exeunt.]
-[Exeunt.]
-[Exeunt.]
-[Exeunt.]
-[Exeunt.]
-I would you did, sir; yet, in faith, if you did, it would not
-That thou so many princes at a shot
+Will be some danger: which for to prevent,
+My stronger guilt defeats my strong intent;
 No reckoning made, but sent to my account
 [Exeunt.]
-O, fear me not.
-not.
-I have nothing with this answer, Hamlet; these words are not
+This is but scratch'd withal: I'll touch my point
+epitaph is 'For, O, for, O, the hobby-horse is forgot!'
+I would you did, sir; yet, in faith, if you did, it would not
 To you in satisfaction; but if not,
 My lord, we will not.
-In heaven: send thither to see: if your messenger find him not
-[Exeunt.]
-epitaph is 'For, O, for, O, the hobby-horse is forgot!'
-I thank your lordship, t'is very hot.
-Of all their conference. If she find him not,
-Mark the encounter: if he love her not,
 Sailors, my lord, they say; I saw them not:
-Looking before and after, gave us not
-Very well. — Follow that lord; and look you mock him not.
-Nay, that follows not.
-If thou hast nature in thee, bear it not;
-Try what repentance can: what can it not?
 might it not?
-it, — might it not?
-insert in't? could you not?
-Shall you my son. You have me, have you not?
 Nay, I know not.
-I hope all will be well. We must be patient: but I cannot
-have seen play, — and heard others praise, and that highly, — not
-Or you deny me right. Go but apart,
-continual practice: I shall win at the odds. But thou wouldst not
-More matter, with less art.
-There's tricks i' the world, and hems, and beats her heart;
-Let her not walk i' the sun: conception is a blessing, but not
-I pr'ythee, when thou see'st that act a-foot,
-This something-settled matter in his heart;
-Thy knotted and combined locks to part,
-The rugged Pyrrhus, like th' Hyrcanian beast, —
-How long will a man lie i' the earth ere he rot?
-We'll teach you to drink deep ere you depart.
-Well said, old mole! canst work i' the earth so fast?
-question next, say 'a grave-maker;' the houses he makes last
-the dead, not for the quick; therefore thou liest.
-This heavy-headed revel east and west
-[Re-enter Ghost.]
-[Exeunt Polonius with all the Players but the First.]
-[Exit Ghost.]
-The trumpet to the cannoneer without,
-[Exit Ghost.]
-Make you to ravel all this matter out,
-The story is extant, and written in very choice Italian; you
-Why, look you now, how unworthy a thing you make of me! You
-[Exit Ghost.]
-To hear of it: they are about the court,
-say, spacious in the possession of dirt.
+Shall you my son. You have me, have you not?
+Try what repentance can: what can it not?
+If thou hast nature in thee, bear it not;
 Should have kept short, restrain'd, and out of haunt
-In what particular thought to work I know not;
-No, indeed, are they not.
 To what base uses we may return, Horatio! Why may not
-Sir, I cannot.
-The head is not more native to the heart,
-My lord, from head to foot.
-In my heart's core, ay, in my heart of heart,
-The harlot's cheek, beautied with plastering art,
-I find thee apt;
+No, indeed, are they not.
 My lord, I cannot.
-If thou didst ever hold me in thy heart,
-Such as it is; — and for my own poor part,
-My lord, I will use them according to their desert.
-Lest with this piteous action you convert
-That she should lock herself from his resort,
-O, yet defend me, friends! I am but hurt.
-I hold it fit that we shake hands and part:
-It warms the very sickness in my heart
+Nay, that follows not.
+The associates tend, and everything is bent
+I am sorry that with better heed and judgment
+Take each man's censure, but reserve thy judgment.
+Yet what can it when one cannot repent?
+Upon his will I seal'd my hard consent:
+That thou so many princes at a shot
+Was our sea-fight; and what to this was sequent
+have seen play, — and heard others praise, and that highly, — not
+I have nothing with this answer, Hamlet; these words are not
+Makes mouths at the invisible event;
+O, fear me not.
+Of all their conference. If she find him not,
+Very well. — Follow that lord; and look you mock him not.
+Let her not walk i' the sun: conception is a blessing, but not
+I find thee apt;
+In what particular thought to work I know not;
+In heaven: send thither to see: if your messenger find him not
+The harlot's cheek, beautied with plastering art,
+More matter, with less art.
+The head is not more native to the heart,
+continual practice: I shall win at the odds. But thou wouldst not
+Of thinking too precisely on the event, — 
+Mark the encounter: if he love her not,
+it, — might it not?
+not.
 You lie out on't, sir, and therefore 'tis not yours: for my part,
-To make it truster of your own report
-My news shall be the fruit to that great feast.
+O, yet defend me, friends! I am but hurt.
 That you vouchsafe your rest here in our court
+That she should lock herself from his resort,
+In my heart's core, ay, in my heart of heart,
+Well said, old mole! canst work i' the earth so fast?
+That I have utter'd: bring me to the test,
+That spirit upon whose weal depend and rest
+servants; for, to speak to you like an honest man, I am most
+We'll teach you to drink deep ere you depart.
+My lord, from head to foot.
+Sir, I cannot.
+There's tricks i' the world, and hems, and beats her heart;
+It warms the very sickness in my heart
+My lord, I will use them according to their desert.
+Such as it is; — and for my own poor part,
+Thy knotted and combined locks to part,
+To ears of flesh and blood. — List, list, O, list! — 
+That I distrust you. Yet, though I distrust,
+say, spacious in the possession of dirt.
+[Exit Ghost.]
+That inward breaks, and shows no cause without
+My news shall be the fruit to that great feast.
+The kettle-drum and trumpet thus bray out
+The rugged Pyrrhus, like th' Hyrcanian beast, —
 Such love must needs be treason in my breast:
 The ocean, overpeering of his list,
 [Enter Ghost.]
 [Enter Ghost.]
-That I have utter'd: bring me to the test,
-She married: — O, most wicked speed, to post
-servants; for, to speak to you like an honest man, I am most
-That spirit upon whose weal depend and rest
-Seek for thy noble father in the dust:
+To make it truster of your own report
+[Exit Ghost.]
 So to seduce! — won to his shameful lust
-That I distrust you. Yet, though I distrust,
-The kettle-drum and trumpet thus bray out
-That inward breaks, and shows no cause without
-When churchyards yawn, and hell itself breathes out
-it. Adieu.
+Treachery! seek it out.
+Where is this king? — Sirs, stand you all without.
+Seek for thy noble father in the dust:
+She married: — O, most wicked speed, to post
+The trumpet to the cannoneer without,
 I am dead, Horatio. — Wretched queen, adieu! — 
+The story is extant, and written in very choice Italian; you
+So, proceed you.
+Who hath reliev'd you?
+Whose motive, in this case, should stir me most
+I hope all will be well. We must be patient: but I cannot
+How long will a man lie i' the earth ere he rot?
+This something-settled matter in his heart;
+I hold it fit that we shake hands and part:
+If thou didst ever hold me in thy heart,
+Or you deny me right. Go but apart,
+This heavy-headed revel east and west
+the dead, not for the quick; therefore thou liest.
+question next, say 'a grave-maker;' the houses he makes last
+Lest with this piteous action you convert
+[Exeunt Polonius with all the Players but the First.]
+When churchyards yawn, and hell itself breathes out
+Sailors, sir: they say they have letters for you.
+[Re-enter Ghost.]
+Why, look you now, how unworthy a thing you make of me! You
+I pr'ythee, when thou see'st that act a-foot,
+To whom he more adheres. If it will please you
 I beseech you.
 Sir, my good friend; I'll change that name with you:
-So, proceed you.
-inoculate our old stock but we shall relish of it: I loved you
-It is an honest ghost, that let me tell you:
+What I have said to you.
+How is it that the clouds still hang on you?
+Where you may see the inmost part of you.
 I do beseech you.
-My stronger guilt defeats my strong intent;
-Volt.
-None, my lord, but that the world's grown honest.
-May violets spring! — I tell thee, churlish priest,
-O, confound the rest!
-To ears of flesh and blood. — List, list, O, list! — 
-dungeons, Denmark being one o' the worst.
-None wed the second but who kill'd the first.
-Whose motive, in this case, should stir me most
-In second husband let me be accurst!
-Most lazar-like, with vile and loathsome crust
-No, nor mine now. My lord, you play'd once i' the university, you
-To whom he more adheres. If it will please you
-Treachery! seek it out.
-for love; very near this. I'll speak to him again. — What do you
-my leave of you.
-Laertes, was your father dear to you?
+What is't, Ophelia, he hath said to you?
 Speak the speech, I pray you, as I pronounced it to you,
-Whereof he is the head. Then if he says he loves you,
-So grace and mercy at your most need help you,
-my mother: therefore no more, but to the matter: my mother, you
-O Jephthah, judge of Israel, what a treasure hadst thou!
-My lord, I have news to tell you.
-Sailors, sir: they say they have letters for you.
-Thaw, and resolve itself into a dew!
-given you one face, and you make yourselves another: you jig, you
-My fate cries out,
-Is strict in his arrest, — O, I could tell you, — 
+You, as your business and desires shall point you, — 
 What's the matter now?
-I be so able as now.
+That it went hand in hand even with the vow
+What hour now?
 See you now;
 See what a grace was seated on this brow;
-sing? will they not say afterwards, if they should grow
-What is't, Ophelia, he hath said to you?
-[To Rosencrantz and Guildenstern, who go out.]
-Where is this king? — Sirs, stand you all without.
-Who hath reliev'd you?
-To let his madness range. Therefore prepare you;
-Ophelia, walk you here. — Gracious, so please you,
-I will prophesy he comes to tell me of the players; mark it. — You
-My too-much-changed son. — Go, some of you,
-I'll rant as well as thou.
-Moreover that we much did long to see you,
-Where you may see the inmost part of you.
-How is it that the clouds still hang on you?
-hath sent me to you.
-What I have said to you.
-philosophy could find it out.
+So grace and mercy at your most need help you,
 We'll wait upon you.
+[Exit Ghost.]
+To hear of it: they are about the court,
+To let his madness range. Therefore prepare you;
 With all my love I do commend me to you:
+There's fennel for you, and columbines: — there's rue for you;
 This marvel to you.
-have sent for you.
-I'll visit you.
-I'll warrant you:
-Mark you,
-May do, to express his love and friending to you,
+Whereof he is the head. Then if he says he loves you,
 Who shall stay you?
-You, as your business and desires shall point you, — 
-I pray you.
 the end: he keeps them, like an ape, in the corner of his jaw;
 Will not debate the question of this straw:
-The queen, the courtiers: who is that they follow?
-How to forget that learning; but, sir, now
-What hour now?
-That it went hand in hand even with the vow
-How purpos'd, sir, I pray you?
-There's fennel for you, and columbines: — there's rue for you;
+Thaw, and resolve itself into a dew!
 Therefore let's follow.
-That roars so loud, and thunders in the index?
-Till our scale turn the beam. O rose of May!
-To flaming youth let virtue be as wax,
-With all his crimes broad blown, as flush as May;
+I be so able as now.
 Say.
-Doth make the night joint-labourer with the day:
-And it must follow, as the night the day,
-How does your honour for this many a day?
-The cat will mew, and dog will have his day.
-The changeling never known. Now, the next day
- To-morrow is Saint Valentine's day
-I Play.
-And do such bitter business as the day
+How to forget that learning; but, sir, now
+To flaming youth let virtue be as wax,
 From the first corse till he that died to-day,
+The queen, the courtiers: who is that they follow?
+Till our scale turn the beam. O rose of May!
+How purpos'd, sir, I pray you?
+Doth make the night joint-labourer with the day:
+And do such bitter business as the day
+With all his crimes broad blown, as flush as May;
+How does your honour for this many a day?
+And it must follow, as the night the day,
+I Play.
+I Play.
+sing? will they not say afterwards, if they should grow
+That roars so loud, and thunders in the index?
+ To-morrow is Saint Valentine's day
+The changeling never known. Now, the next day
 I Play.
 I Play.
 I Play.
-I Play.
-I Play.
- The hart ungalled play;
+The cat will mew, and dog will have his day.
 The pangs of despis'd love, the law's delay,
- Imperious Caesar, dead and turn'd to clay,
+I Play.
+That guilty creatures, sitting at a play,
 Belike this show imports the argument of the play.
-Give o'er the play.
-You are naught, you are naught: I'll mark the play.
-That would not let me sleep: methought I lay
-What do you call the play?
 But if you hold it fit, after the play,
+For they are actions that a man might play;
+say, —
+Give o'er the play.
+That would not let me sleep: methought I lay
+ The hart ungalled play;
+You are naught, you are naught: I'll mark the play.
+What do you call the play?
+And will this brother's wager frankly play. — 
 That you have ta'en these tenders for true pay,
 And still your fingers on your lips, I pray.
 And then, sir, does he this, — he does — What was I about to say? — 
-say, —
-For they are actions that a man might play;
- Might stop a hole to keep the wind away.
 They bear the mandate; they must sweep my way
-And will this brother's wager frankly play. — 
- So runs the world away. — 
 Art more engag'd! Help, angels! Make assay:
 Very strangely, they say.
-That guilty creatures, sitting at a play,
-It would have much amaz'd you.
-It will not speak; then will I follow it.
-[To Guildenstern.] What say you?
-I shall obey you: — 
-It was about to speak, when the cock crew.
-Not of that dye which their investments show,
-know a hawk from a handsaw.
-it is but a shadow's shadow.
-My words fly up, my thoughts remain below:
-Of these dilated articles allow.
-Lost by his father, with all bonds of law,
-but how does it well? it does well to those that do ill: now,
-Let's do't, I pray; and I this morning know
-Not that I know.
-It did me yeoman's service. Wilt thou know
-Now, what my love is, proof hath made you know;
-No jocund health that Denmark drinks to-day
-Madam, how like you this play?
-and then, you know,
-My lord, I'll hit him now.
-My lord, I do not know;
-I saw him yesterday, or t'other day,
-Pull'd the poor wretch from her melodious lay
-[They prepare to play.]
-Let Hercules himself do what he may,
-Or are you like the painting of a sorrow,
-Madam, I wish it may.
-My soul is full of discord and dismay.
-gently: for in the very torrent, tempest, and, as I may say,
-And hit the woundless air. — O, come away!
-Or then, or then; with such, or such; and, as you say,
-Look you, I'll go pray.
-O Gertrude, come away!
-And at the sound it shrunk in haste away,
-If Hamlet from himself be ta'en away,
-O, say!
-answer as I can make, you shall command; or rather, as you say,
-Do the boys carry it away?
-top of my bent. — I will come by and by.
-For bearers of this greeting to old Norway;
-Was, as you know, by Fortinbras of Norway,
-Fortinbras, Prince of Norway.
-Nothing, neither way.
-Away, I do beseech you, both away
-Laertes before you fall to play.
-Re-speaking earthly thunder. Come away.
-[They play.]
-See, it stalks away!
-[They play.]
-Why, look you there! look how it steals away!
+ So runs the world away. — 
 Give me some light: — away!
+ Might stop a hole to keep the wind away.
+ Imperious Caesar, dead and turn'd to clay,
+Looking before and after, gave us not
+insert in't? could you not?
+O, confound the rest!
+None, my lord, but that the world's grown honest.
+dungeons, Denmark being one o' the worst.
+None wed the second but who kill'd the first.
+my mother: therefore no more, but to the matter: my mother, you
+O Jephthah, judge of Israel, what a treasure hadst thou!
+No, nor mine now. My lord, you play'd once i' the university, you
+Most lazar-like, with vile and loathsome crust
+Make you to ravel all this matter out,
+given you one face, and you make yourselves another: you jig, you
+My fate cries out,
+It would have much amaz'd you.
+it. Adieu.
+May violets spring! — I tell thee, churlish priest,
+[To Rosencrantz and Guildenstern, who go out.]
+I'll rant as well as thou.
+Moreover that we much did long to see you,
+Mark you,
 [They play.]
-That, laps'd in time and passion, lets go by
-I dare not drink yet, madam; by-and-by.
-No, in despite of sense and secrecy,
-Say, Voltimand, what from our brother Norway?
-That he is open to incontinency;
-I have sent to seek him and to find the body.
-Rey.
-Rey.
-Rey.
-Rey.
-Rey.
-One word more, good lady.
-Rey.
-Rey.
-Rey.
-Rey.
-Rey.
-Rey.
-Rey.
-argal, she drowned herself wittingly.
-Rey.
-Out of my weakness and my melancholy, — 
-[Laertes wounds Hamlet; then, in scuffling, they
-Than are dreamt of in your philosophy.
-On wholesome life usurp immediately.
-I embrace it freely;
-I'm sorry they offend you, heartily;
-Is she to be buried in Christian burial when she wilfully
-appurtenance of welcome is fashion and ceremony: let me comply
-You do not understand yourself so clearly
-No, believe me, 'tis very cold; the wind is northerly.
-My lord, the queen would speak with you, and presently.
-pluck out the heart of my mystery; you would sound me from my
-fortunes turn Turk with me, — with two Provincial roses on my
-I am very proud, revengeful, ambitious; with more offences at my
-I will win for him if I can; if not, I will gain nothing but my
-gleaned, it is but squeezing you, and, sponge, you shall be dry
-O, your only jig-maker! What should a man do but be merry?
-That does afflict our natures. I am sorry, — 
-Yea, from the table of my memory
-That are so fortified against our story,
-Purpose is but the slave to memory;
-O my lord, if my duty be too bold, my love is too unmannerly.
-ancient gentlemen but gardeners, ditchers, and grave-makers: they
-Subscrib'd it: gave't the impression; plac'd it safely,
-I humbly thank you, sir. Dost know this water-fly?
-sir, really.
-No such matter: I will not sort you with the rest of my
-That's not my meaning: but breathe his faults so quaintly
-feather. I have of late, — but wherefore I know not, — lost all my
-Sir, a whole history.
-Of man and country.
-If thou dost marry, I'll give thee this plague for thy dowry, — 
-Is not this something more than fantasy?
-Than to entreaty.
-Of violent birth, but poor validity:
-In neither aught, or in extremity.
-Sir, I will walk here in the hall: if it please his majesty,
-That blurs the grace and blush of modesty;
-No, faith, not a jot; but to follow him thither with modesty
-Passing through nature to eternity.
-That he is mad, 'tis true: 'tis true 'tis pity;
-Over the nasty sty, —
-If you desire to know the certainty
-That live and feed upon your majesty.
-That they may seem the taints of liberty;
-That you do bend your eye on vacancy,
-Yes, faith, heartily.
-Here in the lobby.
-the stairs into the lobby.
- Here stooping to your clemency,
+have sent for you.
 Marry, I'll teach you: think yourself a baby;
-so: three of the carriages, in faith, are very dear to fancy,
-To wash it white as snow? Whereto serves mercy
-Here, as before, never, so help you mercy,
-The very cause of Hamlet's lunacy.
+know a hawk from a handsaw.
+hath sent me to you.
+That you do bend your eye on vacancy,
+Let Hercules himself do what he may,
+My lord, I have news to tell you.
+It was about to speak, when the cock crew.
+it is but a shadow's shadow.
+Laertes, was your father dear to you?
+Let's do't, I pray; and I this morning know
+My lord, I do not know;
+[They play.]
+Laertes before you fall to play.
+[They play.]
 Well, God-a-mercy.
-We have sworn, my lord, already.
-the players ready?
+gently: for in the very torrent, tempest, and, as I may say,
+ Here stooping to your clemency,
+May do, to express his love and friending to you,
+philosophy could find it out.
+for love; very near this. I'll speak to him again. — What do you
+Is strict in his arrest, — O, I could tell you, — 
+My lord, I'll hit him now.
+My too-much-changed son. — Go, some of you,
+It is an honest ghost, that let me tell you:
+It did me yeoman's service. Wilt thou know
+No jocund health that Denmark drinks to-day
+My words fly up, my thoughts remain below:
+[They prepare to play.]
+My soul is full of discord and dismay.
+Or then, or then; with such, or such; and, as you say,
+Madam, how like you this play?
+And hit the woundless air. — O, come away!
+Away, I do beseech you, both away
+Was, as you know, by Fortinbras of Norway,
+No, in despite of sense and secrecy,
 make you ready.
-With turbulent and dangerous lunacy?
-Thou know'st already.
+And at the sound it shrunk in haste away,
+Madam, I wish it may.
+my leave of you.
+We have sworn, my lord, already.
  He is dead and gone, lady,
-The natural gates and alleys of the body;
- For us, and for our tragedy,
+In second husband let me be accurst!
+inoculate our old stock but we shall relish of it: I loved you
+Ophelia, walk you here. — Gracious, so please you,
+I'll visit you.
+I shall obey you: — 
+Not of that dye which their investments show,
+but how does it well? it does well to those that do ill: now,
+I'll warrant you:
+Now, what my love is, proof hath made you know;
+and then, you know,
+Pull'd the poor wretch from her melodious lay
+Look you, I'll go pray.
+Not that I know.
+[To Guildenstern.] What say you?
+Lost by his father, with all bonds of law,
+Or are you like the painting of a sorrow,
+O, say!
+If Hamlet from himself be ta'en away,
+O Gertrude, come away!
+answer as I can make, you shall command; or rather, as you say,
+Nothing, neither way.
+I saw him yesterday, or t'other day,
+I pray you.
+Of these dilated articles allow.
+Re-speaking earthly thunder. Come away.
+See, it stalks away!
+Why, look you there! look how it steals away!
+Do the boys carry it away?
+For bearers of this greeting to old Norway;
+Fortinbras, Prince of Norway.
+To wash it white as snow? Whereto serves mercy
+Say, Voltimand, what from our brother Norway?
+That, laps'd in time and passion, lets go by
 Go seek him out; speak fair, and bring the body
-How do you, pretty lady?
-What have you done, my lord, with the dead body?
-Here was a gentleman of Normandy, — 
-The body is with the king, but the king is not with the body.
-All my smooth body.
- Why then, belike he likes it not, perdy.
-With which she followed my poor father's body
-That, open'd, lies within our remedy.
-The best actors in the world, either for tragedy, comedy,
-And makes each petty artery in this body
+top of my bent. — I will come by and by.
+ For us, and for our tragedy,
+ For if the king like not the comedy,
+Unto the voice and yielding of that body
 But not express'd in fancy; rich, not gaudy:
 We both obey,
-This warlike volley.
-Unto the voice and yielding of that body
-What, are they children? who maintains 'em? How are they
+And makes each petty artery in this body
+All my smooth body.
+ Why then, belike he likes it not, perdy.
+What have you done, my lord, with the dead body?
+I will prophesy he comes to tell me of the players; mark it. — You
+the stairs into the lobby.
+The very cause of Hamlet's lunacy.
+Here in the lobby.
+With turbulent and dangerous lunacy?
+Here, as before, never, so help you mercy,
+so: three of the carriages, in faith, are very dear to fancy,
+the players ready?
+One word more, good lady.
+How do you, pretty lady?
+That, open'd, lies within our remedy.
+The best actors in the world, either for tragedy, comedy,
 How is it with you, lady?
-Why — 
+Here was a gentleman of Normandy, — 
+Thou know'st already.
+I have sent to seek him and to find the body.
+The natural gates and alleys of the body;
+With which she followed my poor father's body
+The body is with the king, but the king is not with the body.
+Rey.
+Rey.
+Rey.
+Rey.
+Rey.
+Rey.
+Rey.
+Rey.
+Rey.
+Rey.
+Rey.
+Rey.
+Rey.
+[Laertes wounds Hamlet; then, in scuffling, they
+ancient gentlemen but gardeners, ditchers, and grave-makers: they
 Why?
+This warlike volley.
 Why — 
-humanity so abominably.
-Worse than the mutinies in the bilboes. Rashly,
-Come, for the third, Laertes: you but dally;
-Though nothing sure, yet much unhappily.
-It may be, very likely.
-How strangely?
-What, look'd he frowningly?
-For good Polonius' death; and we have done but greenly
-And for your rapier most especially,
-Which are not sterling. Tender yourself more dearly;
-Most constantly.
-With this contagion, that, if I gall him slightly,
-Why, 'tis a loving and a fair reply:
-Most free in his reply.
-The oppressor's wrong, the proud man's contumely,
-Good my lord, what is your cause of distemper? you do, surely,
+Why — 
 they?
-Where we shall find him most conveniently.
-And the queen too, and that presently.
- We beg your hearing patiently.
+What, are they children? who maintains 'em? How are they
+That he is open to incontinency;
+I dare not drink yet, madam; by-and-by.
+humanity so abominably.
+It may be, very likely.
+Good my lord, what is your cause of distemper? you do, surely,
+On wholesome life usurp immediately.
+argal, she drowned herself wittingly.
+Though nothing sure, yet much unhappily.
+Yes, faith, heartily.
+I embrace it freely;
+How strangely?
+The oppressor's wrong, the proud man's contumely,
+Subscrib'd it: gave't the impression; plac'd it safely,
+I humbly thank you, sir. Dost know this water-fly?
+What, look'd he frowningly?
+Worse than the mutinies in the bilboes. Rashly,
+sir, really.
+Than are dreamt of in your philosophy.
+Out of my weakness and my melancholy, — 
+Why, 'tis a loving and a fair reply:
+Most constantly.
 Would not this, sir, and a forest of feathers — if the rest of my
+ We beg your hearing patiently.
+Most free in his reply.
+That's not my meaning: but breathe his faults so quaintly
+fortunes turn Turk with me, — with two Provincial roses on my
+I am very proud, revengeful, ambitious; with more offences at my
+pluck out the heart of my mystery; you would sound me from my
+I will win for him if I can; if not, I will gain nothing but my
+With this contagion, that, if I gall him slightly,
+And for your rapier most especially,
+I'm sorry they offend you, heartily;
+Is she to be buried in Christian burial when she wilfully
+Which are not sterling. Tender yourself more dearly;
+My lord, the queen would speak with you, and presently.
 heroes the beggars' shadows. Shall we to the court? for, by my
-there were no sallets in the lines to make the matter savoury,
-He likewise gives a frock or livery
-His madness is poor Hamlet's enemy.
-Directly seasons him his enemy.
-We shall obey, were she ten times our mother. Have you any
-Ha, ha boy! say'st thou so? art thou there, truepenny? — 
-Have we, as 'twere with a defeated joy, — 
-Each opposite that blanks the face of joy
-Meet what I would have well, and it destroy!
- Hey no nonny, nonny, hey nonny
-Faith, if he be not rotten before he die, — as we have many
-Happy in that we are not over-happy;
-How cheerfully on the false trail they cry!
-To the next abstinence: the next more easy;
-Horatio says 'tis but our fantasy,
-tragedians of the city.
-For women's fear and love holds quantity;
-For goodness, growing to a plurisy,
-To youth and liberty.
-How comes it? do they grow rusty?
-Ecstasy!
-From me, whose love was of that dignity
-Hamlet, this deed, for thine especial safety, — 
-Been struck so to the soul that presently
-And hath abatements and delays as many
-And there did seem in him a kind of joy
 Why, here in Denmark: I have been sexton here, man and boy,
-Whereon old Norway, overcome with joy,
+Each opposite that blanks the face of joy
 The violence of either grief or joy
-Their own enactures with themselves destroy:
-spectators to laugh too, though in the meantime some necessary
-As England was his faithful tributary;
-I am justly kill'd with mine own treachery.
-Before You visit him, to make inquiry
-To tell my story. —
-When in your motion you are hot and dry, — 
-At — closes in the consequence' — ay, marry!
-To his unmaster'd importunity.
-Thy natural magic and dire property
-musty.
-Could beauty, my lord, have better commerce than with honesty?
-To give th' assay of arms against your majesty.
-discourse to your beauty.
+ Hey no nonny, nonny, hey nonny
+appurtenance of welcome is fashion and ceremony: let me comply
+You do not understand yourself so clearly
+For good Polonius' death; and we have done but greenly
+feather. I have of late, — but wherefore I know not, — lost all my
+Where we shall find him most conveniently.
+Ha, ha boy! say'st thou so? art thou there, truepenny? — 
 willingly part withal, — except my life, except my life, except my
+And hath abatements and delays as many
+Faith, if he be not rotten before he die, — as we have many
+Been struck so to the soul that presently
+Have we, as 'twere with a defeated joy, — 
+Their own enactures with themselves destroy:
+And there did seem in him a kind of joy
+His madness is poor Hamlet's enemy.
+O my lord, if my duty be too bold, my love is too unmannerly.
+We shall obey, were she ten times our mother. Have you any
+Whereon old Norway, overcome with joy,
+Meet what I would have well, and it destroy!
+How cheerfully on the false trail they cry!
+gleaned, it is but squeezing you, and, sponge, you shall be dry
+When in your motion you are hot and dry, — 
+spectators to laugh too, though in the meantime some necessary
 And borrowing dulls the edge of husbandry.
-And our vain blows malicious mockery.
-With this regard, their currents turn awry,
-This bodiless creation ecstasy
-And meant to wreck thee; but beshrew my jealousy!
+Purpose is but the slave to memory;
+Yea, from the table of my memory
 Well ratified by law and heraldry,
-And these few precepts in thy memory
-As in their birth, — wherein they are not guilty,
-And that in Hamlet's hearing, for a quality
-gone, far gone: and truly in my youth I suffered much extremity
-And who in want a hollow friend doth try,
+Sir, a whole history.
+That are so fortified against our story,
+I am justly kill'd with mine own treachery.
+No such matter: I will not sort you with the rest of my
+And the queen too, and that presently.
+No, believe me, 'tis very cold; the wind is northerly.
+Happy in that we are not over-happy;
+As England was his faithful tributary;
+And our vain blows malicious mockery.
+O, your only jig-maker! What should a man do but be merry?
+To tell my story. —
+That does afflict our natures. I am sorry, — 
+Of man and country.
+He likewise gives a frock or livery
+there were no sallets in the lines to make the matter savoury,
+If thou dost marry, I'll give thee this plague for thy dowry, — 
 A station like the herald Mercury
+With this regard, their currents turn awry,
+Directly seasons him his enemy.
+Come, for the third, Laertes: you but dally;
+Before You visit him, to make inquiry
+And these few precepts in thy memory
+To the next abstinence: the next more easy;
+And who in want a hollow friend doth try,
+Is not this something more than fantasy?
+Horatio says 'tis but our fantasy,
+Ecstasy!
+This bodiless creation ecstasy
+For goodness, growing to a plurisy,
+Than to entreaty.
+At — closes in the consequence' — ay, marry!
+And meant to wreck thee; but beshrew my jealousy!
+tragedians of the city.
+Hamlet, this deed, for thine especial safety, — 
+And that in Hamlet's hearing, for a quality
+In neither aught, or in extremity.
+Of violent birth, but poor validity:
+From me, whose love was of that dignity
+gone, far gone: and truly in my youth I suffered much extremity
+To youth and liberty.
+For women's fear and love holds quantity;
+Passing through nature to eternity.
+As in their birth, — wherein they are not guilty,
+If you desire to know the certainty
+That they may seem the taints of liberty;
+That blurs the grace and blush of modesty;
+Thy natural magic and dire property
+Over the nasty sty, —
 The lives of many. The cease of majesty
-impart a thing to you from his majesty.
+No, faith, not a jot; but to follow him thither with modesty
+To give th' assay of arms against your majesty.
+How comes it? do they grow rusty?
+To his unmaster'd importunity.
+discourse to your beauty.
+musty.
 As needful in our loves, fitting our duty?
 And we did think it writ down in our duty
-Did Hamlet so envenom with his envy
-Costly thy habit as thy purse can buy,
-Buzz, buzz!
 Farewell; and let your haste commend your duty.
-In that and all things will we show our duty.
-[Enter Rosencrantz.]
+Sir, I will walk here in the hall: if it please his majesty,
+Costly thy habit as thy purse can buy,
 Thanks, Guildenstern and gentle Rosencrantz:
- For if the king like not the comedy,
+Did Hamlet so envenom with his envy
+Could beauty, my lord, have better commerce than with honesty?
+[Enter Rosencrantz.]
+Buzz, buzz!
+In that and all things will we show our duty.
+That live and feed upon your majesty.
+That he is mad, 'tis true: 'tis true 'tis pity;
+impart a thing to you from his majesty.
  For bonny sweet Robin is all my joy, —
  By Gis and by Saint Charity,
 
