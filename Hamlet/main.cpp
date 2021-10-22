@@ -9,7 +9,7 @@ const int MAX_LENGTH = 256;
 
 struct TextElem {
     char* text = NULL;
-    long long int offset = 0;
+    size_t size = 0;
 };
 
 
@@ -27,7 +27,7 @@ char *ParseFileToArray(FILE *file, const int cnt_lines, const int file_size, Tex
 int getCntLines(FILE *file);
 int getFileSize(FILE *file);
 TextElem * Copy(TextElem *indexes, const int cnt_elem);
-int FindLastLetter(const char* str);
+int FindLastLetter(const TextElem &text_elem);
 
 void MyQiuckSort(TextElem *base, size_t num, size_t size, int (*cmp) (const void *, const void *));
 
@@ -39,6 +39,7 @@ int main() {
     const char file_in_name[]    = "/Users/andrew_borovets/Desktop/proga/DED/Compiler-technologies-and-professional-programming/Hamlet/hamlet.txt";
     const char file_begin_name[] = "/Users/andrew_borovets/Desktop/proga/DED/Compiler-technologies-and-professional-programming/Hamlet/beginning.txt";
     const char file_end_name[]   = "/Users/andrew_borovets/Desktop/proga/DED/Compiler-technologies-and-professional-programming/Hamlet/end.txt";
+
 
     FILE* file_out = fopen(file_out_name, "w+");
     if (file_out == NULL) {
@@ -149,31 +150,30 @@ void Print(const char *some_text, const int cnt_lines, TextElem *indexes, FILE *
     char* text = indexes[0].text;
 
     for (int i = 0; i < cnt_lines; ++i) {
-        fwrite(text + indexes[i].offset, sizeof(char), strlen(some_text + indexes[i].offset), file);
+        fwrite(indexes[i].text, sizeof(char), indexes[i].size, file);
     }
 }
 
 
 
 int comp (const void* a, const void* b) {
-    char* text = (*(TextElem*)a).text;
-    long offset_a = (*(TextElem*)a).offset;
-    long offset_b = (*(TextElem*)b).offset;
+    TextElem text_elem_a = *(TextElem*)a;
+    TextElem text_elem_b = *(TextElem*)b;
 
-    return strcmp(text + offset_a, text + offset_b);
+    return strcmp(text_elem_a.text, text_elem_b.text);
 }
 
 
 int reverse_comp(const void* a, const void* b) {
-    char* text = (*(TextElem*)a).text;
-    int offset_a = (*(TextElem*)a).offset;
-    int offset_b = (*(TextElem*)b).offset;
+    TextElem text_elem_a = *(TextElem*)a;
+    TextElem text_elem_b = *(TextElem*)b;
 
-    char* str_a = text + offset_a;
-    char* str_b = text + offset_b;
+    char* str_a = text_elem_a.text;
+    char* str_b = text_elem_b.text;
 
-    int ind_last_letter_a = FindLastLetter(str_a);
-    int ind_last_letter_b = FindLastLetter(str_b);
+
+    int ind_last_letter_a = FindLastLetter(text_elem_a);
+    int ind_last_letter_b = FindLastLetter(text_elem_b);
 
     int ind_a = ind_last_letter_a;
     int ind_b = ind_last_letter_b;
@@ -189,8 +189,10 @@ int reverse_comp(const void* a, const void* b) {
     return 0;
 }
 
-int FindLastLetter(const char* str) {
-    size_t size = strlen(str);
+int FindLastLetter(const TextElem &text_elem) {
+    size_t size = text_elem.size;
+    char* str = text_elem.text;
+
     int ind = size - 1;
     while (ind >= 0) {
         if ((str[ind] >= 65 && str[ind] <= 90)
@@ -199,7 +201,8 @@ int FindLastLetter(const char* str) {
         }
         --ind;
     }
-    return size;
+
+    return size - 1;
 }
 
 
@@ -226,11 +229,12 @@ char *ParseFileToArray(FILE *file, const int cnt_lines, const int file_size, Tex
     int ind_line = 0;
     while(!feof (file)) {
         if (fgets(cur_ptr, MAX_LENGTH, file)) {
-            int pep = cur_ptr - text;
-            TextElem ele = {text, pep};
-            indexes[ind_line] = ele;
-
+            size_t offset = cur_ptr - text;
             cur_ptr = strchr(cur_ptr, '\0') + 1;
+
+            TextElem elem = {text + offset, size_t (cur_ptr - (text + offset) - 1)};
+            indexes[ind_line] = elem;
+
             ++ind_line;
         }
     }
@@ -286,12 +290,7 @@ int getFileSize(FILE *file) {
 TextElem * Copy(TextElem *indexes, const int cnt_elem) {
     TextElem* new_indexes = (TextElem*) calloc(cnt_elem, sizeof(TextElem));
     for (int i = 0; i < cnt_elem; ++i) {
-
         new_indexes[i] = indexes[i];
-        TextElem lol = indexes[i];
-        TextElem lollol = new_indexes[i];
-        int l = 345;
-
     }
 
     return new_indexes;
