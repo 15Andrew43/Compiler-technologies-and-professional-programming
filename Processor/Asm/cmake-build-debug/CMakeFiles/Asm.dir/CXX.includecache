@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/andrew_borovets/Desktop/proga/DED/Compiler-technologies-and-professional-programming/Processor/Asm/main.cpp
+stdio.h
+-
+cstdlib
+-
+assert.h
+-
+cstring
+-
+
