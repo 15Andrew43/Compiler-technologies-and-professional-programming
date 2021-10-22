@@ -7,5 +7,8 @@ push 12
 push 1
 sub
 add
+push 1543
+push 179
+add
 out
 hlt
