@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/andrew_borovets/Desktop/proga/DED/Compiler-technologies-and-professional-programming/Processor/Cpu/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx" "/Users/andrew_borovets/Desktop/proga/DED/Compiler-technologies-and-professional-programming/Processor/Cpu/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_6a8c6.dir/testCXXCompiler.cxx.o"
+  "/Users/andrew_borovets/Desktop/proga/DED/Compiler-technologies-and-professional-programming/Processor/Cpu/main.cpp" "/Users/andrew_borovets/Desktop/proga/DED/Compiler-technologies-and-professional-programming/Processor/Cpu/cmake-build-debug/CMakeFiles/Cpu.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
