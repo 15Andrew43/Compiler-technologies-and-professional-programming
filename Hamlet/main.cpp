@@ -95,6 +95,11 @@ int main() {
     free(text_elems);
     free(sorted_indexes);
     free(text);
+
+    fclose(file_out);
+    fclose(file_in);
+    fclose(file_begin);
+    fclose(file_end);
     return 0;
 }
 
