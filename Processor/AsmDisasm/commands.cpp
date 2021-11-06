@@ -79,11 +79,13 @@ void pushAsm(const Commands &commands, const char* text, FILE* out_file) {
         number_cmd |= 64;
         number_cmd |= 128;
     }
-
     fwrite(&number_cmd, sizeof(char), 1, out_file);
-    fwrite(&ch, sizeof(char), 1, out_file);
-    fwrite(&digit, sizeof(int), 1, out_file);
-    fflush (out_file);
+    if ((number_cmd & 32) == 32) {
+        fwrite(&digit, sizeof(int), 1, out_file);
+    }
+    if ((number_cmd & 64) == 64) {
+        fwrite(&ch, sizeof(char), 1, out_file);
+    }
 
 }
 
@@ -97,33 +99,54 @@ int FindSymb(const char *text, int len) {
 }
 
 void popAsm(const Commands &commands, const char* text, FILE* out_file) {
-    PrintDigit(out_file, 1);
-    PrintSep(out_file, "\n");
+    unsigned char number_cmd = 0;
+    number_cmd |= 1;
+
+    char cmd[len_cmd];
+    sscanf(text, "%s", cmd);
+    int len = strlen(cmd);
+    int offset = FindSymb(text, len);
+
+    if (offset != 0) {
+        int ok = -1;
+        char ch = 0;
+
+        sscanf(text + offset, "%cx%n", &ch, &ok);
+        if (ok == 1) {
+            number_cmd |= 64;
+        }
+    }
+    fwrite(&number_cmd, sizeof(char), 1, out_file);
 }
 
 void addAsm(const Commands &commands, const char* text, FILE* out_file) {
-    PrintDigit(out_file, 2);
-    PrintSep(out_file, "\n");
+    unsigned char number_cmd = 0;
+    number_cmd |= 2;
+    fwrite(&number_cmd, sizeof(char), 1, out_file);
 }
 
 void subAsm(const Commands &commands, const char* text, FILE* out_file) {
-    PrintDigit(out_file, 3);
-    PrintSep(out_file, "\n");
+    unsigned char number_cmd = 0;
+    number_cmd |= 3;
+    fwrite(&number_cmd, sizeof(char), 1, out_file);
 }
 
 void mulAsm(const Commands &commands, const char* text, FILE* out_file) {
-    PrintDigit(out_file, 4);
-    PrintSep(out_file, "\n");
+    unsigned char number_cmd = 0;
+    number_cmd |= 4;
+    fwrite(&number_cmd, sizeof(char), 1, out_file);
 }
 
 void outAsm(const Commands &commands, const char* text, FILE* out_file) {
-    PrintDigit(out_file, 5);
-    PrintSep(out_file, "\n");
+    unsigned char number_cmd = 0;
+    number_cmd |= 5;
+    fwrite(&number_cmd, sizeof(char), 1, out_file);
 }
 
 void htlAsm(const Commands &commands, const char* text, FILE* out_file) {
-    PrintDigit(out_file, 6);
-    PrintSep(out_file, "\n");
+    unsigned char number_cmd = 0;
+    number_cmd |= 6;
+    fwrite(&number_cmd, sizeof(char), 1, out_file);
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
