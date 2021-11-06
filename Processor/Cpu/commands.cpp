@@ -190,7 +190,7 @@ int getCode(const char* asm_file_name, const char* code_file_name) {
 Error DoCPU(const char *code_file_name) {
     CPU cpu = CPUConstructor(code_file_name, RAMSize);
 
-    WorkCPU(&cpu);
+    Error error = WorkCPU(&cpu);
 
     CPUDestuctor(&cpu);
     return Ok;
@@ -199,18 +199,17 @@ Error DoCPU(const char *code_file_name) {
 Error WorkCPU(CPU *ptr_cpu) {
     Stack stack = ptr_cpu->stack;
     Code code = ptr_cpu->code;
-    int ip = ptr_cpu->ip;
     int* RAM = (int*) ptr_cpu->RAM;
     int* registers = ptr_cpu->resisters;
 
     Commands cmds;
 
-    for (int i = 0; i < code.size; ++i) {
-        int cmd = code.code[i];
-        if (i < n_cmds) {
-            cmds.cmdsCPU[i](ptr_cpu);
+    while (ptr_cpu->ip < ptr_cpu->code.size) {
+        int cmd = code.code[ptr_cpu->ip];
+        Error error = cmds.cmdsCPU[cmd](ptr_cpu);
+        if (error == htl) {
+            return htl;
         }
-
     }
 
     return Ok;
@@ -224,7 +223,7 @@ CPU CPUConstructor(const char *code_file_name, const size_t RAMSize) {
     Code code = ReadCode(code_file_name);
     assert(code.code != NULL);
     cpu.code = code;
-    PrintArray(code.code, code.size);
+//    PrintArray(code.code, code.size);
     cpu.ip = 0;
     cpu.RAM = (int*) calloc(RAMSize, sizeof(int));
     return cpu;
@@ -294,30 +293,59 @@ int getCntCmds(FILE *file) {
 
 
 
-void pushCPU(CPU* cpu) {
-
+Error pushCPU(CPU* ptr_cpu) {
+    StackPush(&(ptr_cpu->stack), ptr_cpu->code.code[ptr_cpu->ip + 1]);
+    ptr_cpu->ip += 2;
+    return Ok;
 }
 
-void popCPU(CPU* cpu) {
-
+Error popCPU(CPU* ptr_cpu) {
+    int elem = -1;
+    StackPop(&(ptr_cpu->stack), &elem);
+    ptr_cpu->ip += 1;
+    return Ok;
 }
 
-void addCPU(CPU* cpu) {
-
+Error addCPU(CPU* ptr_cpu) {
+    int prev = -1;
+    int prev_prev = -1;
+    StackPop(&(ptr_cpu->stack), &prev);
+    StackPop(&(ptr_cpu->stack), &prev_prev);
+    StackPush(&(ptr_cpu->stack), prev_prev + prev);
+    ptr_cpu->ip += 1;
+    return Ok;
 }
 
-void subCPU(CPU* cpu) {
-
+Error subCPU(CPU* ptr_cpu) {
+    int prev = -1;
+    int prev_prev = -1;
+    StackPop(&(ptr_cpu->stack), &prev);
+    StackPop(&(ptr_cpu->stack), &prev_prev);
+    StackPush(&(ptr_cpu->stack), prev_prev - prev);
+    ptr_cpu->ip += 1;
+    return Ok;
 }
 
-void mulCPU(CPU* cpu) {
-
+Error mulCPU(CPU* ptr_cpu) {
+    int prev = -1;
+    int prev_prev = -1;
+    StackPop(&(ptr_cpu->stack), &prev);
+    StackPop(&(ptr_cpu->stack), &prev_prev);
+    StackPush(&(ptr_cpu->stack), prev_prev * prev);
+    ptr_cpu->ip += 1;
+    return Ok;
 }
 
-void outCPU(CPU* cpu) {
-
+Error outCPU(CPU* ptr_cpu) {
+    while (ptr_cpu->stack.size > 0) {
+        int prev = -1;
+        StackPop(&(ptr_cpu->stack), &prev);
+        printf("%d ", prev);
+    }
+    ptr_cpu->ip += 1;
+    return Ok;
 }
 
-void htlCPU(CPU* cpu) {
-
+Error htlCPU(CPU* ptr_cpu) {
+    return htl;
 }

@@ -16,6 +16,7 @@ const size_t RAMSize = 1024; // bytes
 const size_t MaxCodeSize = 1000;
 
 enum Error {
+    htl = -1,
     Ok = 0,
 
 };
@@ -88,13 +89,13 @@ void mulDisasm(const Commands &commands, const char* text, FILE* out_file);
 void outDisasm(const Commands &commands, const char* text, FILE* out_file);
 void htlDisasm(const Commands &commands, const char* text, FILE* out_file);
 
-void pushCPU(CPU* cpu);
-void popCPU(CPU* cpu);
-void addCPU(CPU* cpu);
-void subCPU(CPU* cpu);
-void mulCPU(CPU* cpu);
-void outCPU(CPU* cpu);
-void htlCPU(CPU* cpu);
+Error pushCPU(CPU* cpu);
+Error popCPU(CPU* cpu);
+Error addCPU(CPU* cpu);
+Error subCPU(CPU* cpu);
+Error mulCPU(CPU* cpu);
+Error outCPU(CPU* cpu);
+Error htlCPU(CPU* cpu);
 
 
 struct Commands {
@@ -128,7 +129,7 @@ struct Commands {
             outDisasm,
             htlDisasm,
     };
-    void (*cmdsCPU[n_cmds]) (CPU* cpu) = {
+    Error (*cmdsCPU[n_cmds]) (CPU* cpu) = {
             pushCPU,
             popCPU,
             addCPU,
