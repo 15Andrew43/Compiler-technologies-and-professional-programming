@@ -3,4 +3,4 @@ project(Asm)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Asm main.cpp)
+add_executable(Asm main.cpp commands.cpp commands.h stack.cpp stack.h)

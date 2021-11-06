@@ -129,6 +129,30 @@ Asm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Asm.dir/build.make CMakeFiles/Asm.dir/build
 .PHONY : Asm/fast
 
+commands.o: commands.cpp.o
+.PHONY : commands.o
+
+# target to build an object file
+commands.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Asm.dir/build.make CMakeFiles/Asm.dir/commands.cpp.o
+.PHONY : commands.cpp.o
+
+commands.i: commands.cpp.i
+.PHONY : commands.i
+
+# target to preprocess a source file
+commands.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Asm.dir/build.make CMakeFiles/Asm.dir/commands.cpp.i
+.PHONY : commands.cpp.i
+
+commands.s: commands.cpp.s
+.PHONY : commands.s
+
+# target to generate assembly for a file
+commands.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Asm.dir/build.make CMakeFiles/Asm.dir/commands.cpp.s
+.PHONY : commands.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -153,6 +177,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Asm.dir/build.make CMakeFiles/Asm.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+stack.o: stack.cpp.o
+.PHONY : stack.o
+
+# target to build an object file
+stack.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Asm.dir/build.make CMakeFiles/Asm.dir/stack.cpp.o
+.PHONY : stack.cpp.o
+
+stack.i: stack.cpp.i
+.PHONY : stack.i
+
+# target to preprocess a source file
+stack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Asm.dir/build.make CMakeFiles/Asm.dir/stack.cpp.i
+.PHONY : stack.cpp.i
+
+stack.s: stack.cpp.s
+.PHONY : stack.s
+
+# target to generate assembly for a file
+stack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Asm.dir/build.make CMakeFiles/Asm.dir/stack.cpp.s
+.PHONY : stack.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,9 +210,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Asm"
+	@echo "... commands.o"
+	@echo "... commands.i"
+	@echo "... commands.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... stack.o"
+	@echo "... stack.i"
+	@echo "... stack.s"
 .PHONY : help
 
 

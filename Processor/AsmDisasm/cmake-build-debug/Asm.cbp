@@ -80,7 +80,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/avborovets/Desktop/PROGA/COMPILER-TECHNOLOGIES-AND-PROFFESIONAL-PROGRAMMING/Compiler-technologies-and-professional-programming/Processor/AsmDisasm/commands.cpp">
+			<Option target="Asm"/>
+		</Unit>
+		<Unit filename="/Users/avborovets/Desktop/PROGA/COMPILER-TECHNOLOGIES-AND-PROFFESIONAL-PROGRAMMING/Compiler-technologies-and-professional-programming/Processor/AsmDisasm/commands.h">
+			<Option target="Asm"/>
+		</Unit>
 		<Unit filename="/Users/avborovets/Desktop/PROGA/COMPILER-TECHNOLOGIES-AND-PROFFESIONAL-PROGRAMMING/Compiler-technologies-and-professional-programming/Processor/AsmDisasm/main.cpp">
+			<Option target="Asm"/>
+		</Unit>
+		<Unit filename="/Users/avborovets/Desktop/PROGA/COMPILER-TECHNOLOGIES-AND-PROFFESIONAL-PROGRAMMING/Compiler-technologies-and-professional-programming/Processor/AsmDisasm/stack.cpp">
+			<Option target="Asm"/>
+		</Unit>
+		<Unit filename="/Users/avborovets/Desktop/PROGA/COMPILER-TECHNOLOGIES-AND-PROFFESIONAL-PROGRAMMING/Compiler-technologies-and-professional-programming/Processor/AsmDisasm/stack.h">
 			<Option target="Asm"/>
 		</Unit>
 		<Unit filename="/Users/avborovets/Desktop/PROGA/COMPILER-TECHNOLOGIES-AND-PROFFESIONAL-PROGRAMMING/Compiler-technologies-and-professional-programming/Processor/AsmDisasm/CMakeLists.txt">

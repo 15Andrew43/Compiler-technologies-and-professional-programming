@@ -79,17 +79,47 @@ CMakeFiles/Asm.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Asm.dir/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/avborovets/Desktop/PROGA/COMPILER-TECHNOLOGIES-AND-PROFFESIONAL-PROGRAMMING/Compiler-technologies-and-professional-programming/Processor/AsmDisasm/main.cpp -o CMakeFiles/Asm.dir/main.cpp.s
 
+CMakeFiles/Asm.dir/commands.cpp.o: CMakeFiles/Asm.dir/flags.make
+CMakeFiles/Asm.dir/commands.cpp.o: ../commands.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avborovets/Desktop/PROGA/COMPILER-TECHNOLOGIES-AND-PROFFESIONAL-PROGRAMMING/Compiler-technologies-and-professional-programming/Processor/AsmDisasm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Asm.dir/commands.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Asm.dir/commands.cpp.o -c /Users/avborovets/Desktop/PROGA/COMPILER-TECHNOLOGIES-AND-PROFFESIONAL-PROGRAMMING/Compiler-technologies-and-professional-programming/Processor/AsmDisasm/commands.cpp
+
+CMakeFiles/Asm.dir/commands.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Asm.dir/commands.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/avborovets/Desktop/PROGA/COMPILER-TECHNOLOGIES-AND-PROFFESIONAL-PROGRAMMING/Compiler-technologies-and-professional-programming/Processor/AsmDisasm/commands.cpp > CMakeFiles/Asm.dir/commands.cpp.i
+
+CMakeFiles/Asm.dir/commands.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Asm.dir/commands.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/avborovets/Desktop/PROGA/COMPILER-TECHNOLOGIES-AND-PROFFESIONAL-PROGRAMMING/Compiler-technologies-and-professional-programming/Processor/AsmDisasm/commands.cpp -o CMakeFiles/Asm.dir/commands.cpp.s
+
+CMakeFiles/Asm.dir/stack.cpp.o: CMakeFiles/Asm.dir/flags.make
+CMakeFiles/Asm.dir/stack.cpp.o: ../stack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avborovets/Desktop/PROGA/COMPILER-TECHNOLOGIES-AND-PROFFESIONAL-PROGRAMMING/Compiler-technologies-and-professional-programming/Processor/AsmDisasm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Asm.dir/stack.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Asm.dir/stack.cpp.o -c /Users/avborovets/Desktop/PROGA/COMPILER-TECHNOLOGIES-AND-PROFFESIONAL-PROGRAMMING/Compiler-technologies-and-professional-programming/Processor/AsmDisasm/stack.cpp
+
+CMakeFiles/Asm.dir/stack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Asm.dir/stack.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/avborovets/Desktop/PROGA/COMPILER-TECHNOLOGIES-AND-PROFFESIONAL-PROGRAMMING/Compiler-technologies-and-professional-programming/Processor/AsmDisasm/stack.cpp > CMakeFiles/Asm.dir/stack.cpp.i
+
+CMakeFiles/Asm.dir/stack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Asm.dir/stack.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/avborovets/Desktop/PROGA/COMPILER-TECHNOLOGIES-AND-PROFFESIONAL-PROGRAMMING/Compiler-technologies-and-professional-programming/Processor/AsmDisasm/stack.cpp -o CMakeFiles/Asm.dir/stack.cpp.s
+
 # Object files for target Asm
 Asm_OBJECTS = \
-"CMakeFiles/Asm.dir/main.cpp.o"
+"CMakeFiles/Asm.dir/main.cpp.o" \
+"CMakeFiles/Asm.dir/commands.cpp.o" \
+"CMakeFiles/Asm.dir/stack.cpp.o"
 
 # External object files for target Asm
 Asm_EXTERNAL_OBJECTS =
 
 Asm: CMakeFiles/Asm.dir/main.cpp.o
+Asm: CMakeFiles/Asm.dir/commands.cpp.o
+Asm: CMakeFiles/Asm.dir/stack.cpp.o
 Asm: CMakeFiles/Asm.dir/build.make
 Asm: CMakeFiles/Asm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/avborovets/Desktop/PROGA/COMPILER-TECHNOLOGIES-AND-PROFFESIONAL-PROGRAMMING/Compiler-technologies-and-professional-programming/Processor/AsmDisasm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Asm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/avborovets/Desktop/PROGA/COMPILER-TECHNOLOGIES-AND-PROFFESIONAL-PROGRAMMING/Compiler-technologies-and-professional-programming/Processor/AsmDisasm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Asm"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Asm.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

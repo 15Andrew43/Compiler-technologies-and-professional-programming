@@ -12,12 +12,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="873f34ae-bf65-48c9-9706-f8df295f476a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cpu.dir/commands.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cpu.dir/commands.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Cpu" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Cpu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commands.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/commands.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commands.h" beforeDir="false" afterPath="$PROJECT_DIR$/commands.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AsmDisasm/commands.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AsmDisasm/commands.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AsmDisasm/stack.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AsmDisasm/stack.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AsmDisasm/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../AsmDisasm/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AsmDisasm/cmake-build-debug/Asm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AsmDisasm/cmake-build-debug/Asm.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../AsmDisasm/cmake-build-debug/Asm.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AsmDisasm/cmake-build-debug/CMakeFiles/Asm.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../AsmDisasm/cmake-build-debug/CMakeFiles/Asm.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AsmDisasm/cmake-build-debug/CMakeFiles/Asm.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../AsmDisasm/cmake-build-debug/CMakeFiles/Asm.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AsmDisasm/cmake-build-debug/CMakeFiles/Asm.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../AsmDisasm/cmake-build-debug/CMakeFiles/Asm.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AsmDisasm/cmake-build-debug/CMakeFiles/Asm.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../AsmDisasm/cmake-build-debug/CMakeFiles/Asm.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AsmDisasm/cmake-build-debug/CMakeFiles/Asm.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../AsmDisasm/cmake-build-debug/CMakeFiles/Asm.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AsmDisasm/cmake-build-debug/CMakeFiles/Asm.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../AsmDisasm/cmake-build-debug/CMakeFiles/Asm.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AsmDisasm/cmake-build-debug/CMakeFiles/Asm.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../AsmDisasm/cmake-build-debug/CMakeFiles/Asm.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AsmDisasm/cmake-build-debug/CMakeFiles/Asm.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../AsmDisasm/cmake-build-debug/CMakeFiles/Asm.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AsmDisasm/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../AsmDisasm/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AsmDisasm/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../AsmDisasm/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AsmDisasm/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../AsmDisasm/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AsmDisasm/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../AsmDisasm/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AsmDisasm/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../AsmDisasm/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AsmDisasm/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../AsmDisasm/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +90,7 @@
       <updated>1634910071339</updated>
       <workItem from="1634910072628" duration="1000" />
       <workItem from="1634920293311" duration="766000" />
-      <workItem from="1636192604866" duration="10343000" />
+      <workItem from="1636192604866" duration="10825000" />
     </task>
     <servers />
   </component>
