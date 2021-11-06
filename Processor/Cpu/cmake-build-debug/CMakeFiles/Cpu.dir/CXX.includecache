@@ -6,3 +6,29 @@
 
 #IncludeRegexTransform: 
 
+/Users/avborovets/Desktop/PROGA/COMPILER-TECHNOLOGIES-AND-PROFFESIONAL-PROGRAMMING/Compiler-technologies-and-professional-programming/Processor/Cpu/commands.cpp
+commands.h
+/Users/avborovets/Desktop/PROGA/COMPILER-TECHNOLOGIES-AND-PROFFESIONAL-PROGRAMMING/Compiler-technologies-and-professional-programming/Processor/Cpu/commands.h
+
+/Users/avborovets/Desktop/PROGA/COMPILER-TECHNOLOGIES-AND-PROFFESIONAL-PROGRAMMING/Compiler-technologies-and-professional-programming/Processor/Cpu/commands.h
+stdio.h
+-
+cstdlib
+-
+assert.h
+-
+cstring
+-
+stack.h
+/Users/avborovets/Desktop/PROGA/COMPILER-TECHNOLOGIES-AND-PROFFESIONAL-PROGRAMMING/Compiler-technologies-and-professional-programming/Processor/Cpu/stack.h
+
+/Users/avborovets/Desktop/PROGA/COMPILER-TECHNOLOGIES-AND-PROFFESIONAL-PROGRAMMING/Compiler-technologies-and-professional-programming/Processor/Cpu/stack.h
+stdio.h
+-
+stdlib.h
+-
+assert.h
+-
+string.h
+-
+

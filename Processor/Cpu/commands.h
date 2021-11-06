@@ -12,16 +12,6 @@
 
 
 
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-
-
-
 const size_t RAMSize = 1024; // bytes
 const size_t MaxCodeSize = 1000;
 
@@ -82,23 +72,29 @@ const size_t len_int = 32;
 
 struct Commands;
 
-void pushAsm(const Commands &commands, const char* text, FILE* out_file, int i);
-void popAsm(const Commands &commands, const char* text, FILE* out_file, int i);
-void addAsm(const Commands &commands, const char* text, FILE* out_file, int i);
-void subAsm(const Commands &commands, const char* text, FILE* out_file, int i);
-void mulAsm(const Commands &commands, const char* text, FILE* out_file, int i);
-void outAsm(const Commands &commands, const char* text, FILE* out_file, int i);
-void htlAsm(const Commands &commands, const char* text, FILE* out_file, int i);
+void pushAsm(const Commands &commands, const char* text, FILE* out_file);
+void popAsm(const Commands &commands, const char* text, FILE* out_file);
+void addAsm(const Commands &commands, const char* text, FILE* out_file);
+void subAsm(const Commands &commands, const char* text, FILE* out_file);
+void mulAsm(const Commands &commands, const char* text, FILE* out_file);
+void outAsm(const Commands &commands, const char* text, FILE* out_file);
+void htlAsm(const Commands &commands, const char* text, FILE* out_file);
 
-void pushDisasm(const Commands &commands, const char *text, FILE *out_file, int i);
-void popDisasm(const Commands &commands, const char* text, FILE* out_file, int i);
-void addDisasm(const Commands &commands, const char* text, FILE* out_file, int i);
-void subDisasm(const Commands &commands, const char* text, FILE* out_file, int i);
-void mulDisasm(const Commands &commands, const char* text, FILE* out_file, int i);
-void outDisasm(const Commands &commands, const char* text, FILE* out_file, int i);
-void htlDisasm(const Commands &commands, const char* text, FILE* out_file, int i);
+void pushDisasm(const Commands &commands, const char* text, FILE* out_file);
+void popDisasm(const Commands &commands, const char* text, FILE* out_file);
+void addDisasm(const Commands &commands, const char* text, FILE* out_file);
+void subDisasm(const Commands &commands, const char* text, FILE* out_file);
+void mulDisasm(const Commands &commands, const char* text, FILE* out_file);
+void outDisasm(const Commands &commands, const char* text, FILE* out_file);
+void htlDisasm(const Commands &commands, const char* text, FILE* out_file);
 
-
+void pushCPU(CPU* cpu);
+void popCPU(CPU* cpu);
+void addCPU(CPU* cpu);
+void subCPU(CPU* cpu);
+void mulCPU(CPU* cpu);
+void outCPU(CPU* cpu);
+void htlCPU(CPU* cpu);
 
 
 struct Commands {
@@ -114,7 +110,7 @@ struct Commands {
             "out",
             "hlt"
     };
-    void (*cmdsAsm[n_cmds]) (const Commands &commands, const char* text, FILE* out_file, int i) = {
+    void (*cmdsAsm[n_cmds]) (const Commands &commands, const char* text, FILE* out_file) = {
             pushAsm,
             popAsm,
             addAsm,
@@ -123,7 +119,7 @@ struct Commands {
             outAsm,
             htlAsm,
     };
-    void (*cmdsDisasm[n_cmds]) (const Commands &commands, const char* text, FILE* out_file, int i) = {
+    void (*cmdsDisasm[n_cmds]) (const Commands &commands, const char* text, FILE* out_file) = {
             pushDisasm,
             popDisasm,
             addDisasm,
@@ -132,16 +128,15 @@ struct Commands {
             outDisasm,
             htlDisasm,
     };
-    CPU cpu;
-//    void (*cmdsCPU[n_cmds]) (CPU* cpu) = {
-////            pushCPU,
-////            popCPU,
-////            addCPU,
-////            subCPU,
-////            mulCPU,
-////            outCPU,
-////            htlCPU,
-//    };
+    void (*cmdsCPU[n_cmds]) (CPU* cpu) = {
+            pushCPU,
+            popCPU,
+            addCPU,
+            subCPU,
+            mulCPU,
+            outCPU,
+            htlCPU,
+    };
 };
 
 
@@ -163,8 +158,11 @@ int getCode(const char* asm_file_name, const char* code_file_name);
 
 
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Error DoCPU(const char *code_file_name);
+Error WorkCPU(CPU *ptr_cpu);
 
-
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 

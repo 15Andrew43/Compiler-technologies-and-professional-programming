@@ -13,97 +13,97 @@ void PrintSep(FILE* out_file, const char* sep) {
     fwrite(sep, sizeof(char), strlen(sep), out_file);
 }
 
-void pushAsm(const Commands &commands, const char* text, FILE* out_file, int i) {
+void pushAsm(const Commands &commands, const char* text, FILE* out_file) {
     char cmd[len_cmd];
     int digit = -1;
     sscanf(text, "%s %d", cmd, &digit);
 
-    PrintDigit(out_file, i);
+    PrintDigit(out_file, 0);
     PrintSep(out_file, " ");
     PrintDigit(out_file, digit);
     PrintSep(out_file, "\n");
 }
 
-void popAsm(const Commands &commands, const char* text, FILE* out_file, int i) {
-    PrintDigit(out_file, i);
+void popAsm(const Commands &commands, const char* text, FILE* out_file) {
+    PrintDigit(out_file, 1);
     PrintSep(out_file, "\n");
 }
 
-void addAsm(const Commands &commands, const char* text, FILE* out_file, int i) {
-    PrintDigit(out_file, i);
+void addAsm(const Commands &commands, const char* text, FILE* out_file) {
+    PrintDigit(out_file, 2);
     PrintSep(out_file, "\n");
 }
 
-void subAsm(const Commands &commands, const char* text, FILE* out_file, int i) {
-    PrintDigit(out_file, i);
+void subAsm(const Commands &commands, const char* text, FILE* out_file) {
+    PrintDigit(out_file, 3);
     PrintSep(out_file, "\n");
 }
 
-void mulAsm(const Commands &commands, const char* text, FILE* out_file, int i) {
-    PrintDigit(out_file, i);
+void mulAsm(const Commands &commands, const char* text, FILE* out_file) {
+    PrintDigit(out_file, 4);
     PrintSep(out_file, "\n");
 }
 
-void outAsm(const Commands &commands, const char* text, FILE* out_file, int i) {
-    PrintDigit(out_file, i);
+void outAsm(const Commands &commands, const char* text, FILE* out_file) {
+    PrintDigit(out_file, 5);
     PrintSep(out_file, "\n");
 }
 
-void htlAsm(const Commands &commands, const char* text, FILE* out_file, int i) {
-    PrintDigit(out_file, i);
+void htlAsm(const Commands &commands, const char* text, FILE* out_file) {
+    PrintDigit(out_file, 6);
     PrintSep(out_file, "\n");
 }
 
-////////////////////////////////Xx/////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 void PrintStr(FILE *out_file, const char* str) {
     fwrite(str, sizeof(char), strlen(str), out_file);
 }
 
-void pushDisasm(const Commands &commands, const char *text, FILE *out_file, int i) {
+void pushDisasm(const Commands &commands, const char *text, FILE *out_file) {
     int cmd;
     char digit[len_int];
     sscanf(text, "%d %s", &cmd, digit);
 
-    PrintStr(out_file, commands.cmds[i]);
+    PrintStr(out_file, commands.cmds[0]);
     PrintSep(out_file, " ");
     PrintStr(out_file, digit);
     PrintSep(out_file, "\n");
 }
 
-void popDisasm(const Commands &commands, const char* text, FILE* out_file, int i) {
-    PrintStr(out_file, commands.cmds[i]);
+void popDisasm(const Commands &commands, const char* text, FILE* out_file) {
+    PrintStr(out_file, commands.cmds[1]);
     PrintSep(out_file, "\n");
 }
 
-void addDisasm(const Commands &commands, const char* text, FILE* out_file, int i) {
-    PrintStr(out_file, commands.cmds[i]);
+void addDisasm(const Commands &commands, const char* text, FILE* out_file) {
+    PrintStr(out_file, commands.cmds[2]);
     PrintSep(out_file, "\n");
 }
 
-void subDisasm(const Commands &commands, const char* text, FILE* out_file, int i) {
-    PrintStr(out_file, commands.cmds[i]);
+void subDisasm(const Commands &commands, const char* text, FILE* out_file) {
+    PrintStr(out_file, commands.cmds[3]);
     PrintSep(out_file, "\n");
 }
 
-void mulDisasm(const Commands &commands, const char* text, FILE* out_file, int i) {
-    PrintStr(out_file, commands.cmds[i]);
+void mulDisasm(const Commands &commands, const char* text, FILE* out_file) {
+    PrintStr(out_file, commands.cmds[4]);
     PrintSep(out_file, "\n");
 }
 
-void outDisasm(const Commands &commands, const char* text, FILE* out_file, int i) {
-    PrintStr(out_file, commands.cmds[i]);
+void outDisasm(const Commands &commands, const char* text, FILE* out_file) {
+    PrintStr(out_file, commands.cmds[5]);
     PrintSep(out_file, "\n");
 }
 
-void htlDisasm(const Commands &commands, const char* text, FILE* out_file, int i) {
-    PrintStr(out_file, commands.cmds[i]);
+void htlDisasm(const Commands &commands, const char* text, FILE* out_file) {
+    PrintStr(out_file, commands.cmds[6]);
     PrintSep(out_file, "\n");
 }
 
 
-/////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 void DoCmdFromAsm(const char* text, const Commands &commands, char *cmd) {
@@ -112,7 +112,7 @@ void DoCmdFromAsm(const char* text, const Commands &commands, char *cmd) {
 
     for (int i = 0; i < n_cmds; ++i) {
         if (strcmp(cmd, commands.cmds[i]) == 0) {
-            commands.cmdsAsm[i](commands, text, code_file, i);
+            commands.cmdsAsm[i](commands, text, code_file);
             break;
         }
     }
@@ -122,7 +122,7 @@ void DoCmdFromCode(char *text, Commands commands, int cmd) {
     FILE* asm_file = commands.asm_file;
     FILE* code_file = commands.code_file;
 
-    commands.cmdsDisasm[cmd](commands, text, asm_file, cmd);
+    commands.cmdsDisasm[cmd](commands, text, asm_file);
 }
 
 int getAsm(const char* asm_file_name, const char* code_file_name) {
@@ -180,6 +180,8 @@ int getCode(const char* asm_file_name, const char* code_file_name) {
     free(cmd);
     fclose(asm_file);
     fclose(code_file);
+
+    return Ok;
 }
 
 
@@ -203,10 +205,17 @@ Error WorkCPU(CPU *ptr_cpu) {
 
     Commands cmds;
 
-//    DoCmds(ptr_cpu, &cmds);
+    for (int i = 0; i < code.size; ++i) {
+        int cmd = code.code[i];
+        if (i < n_cmds) {
+            cmds.cmdsCPU[i](ptr_cpu);
+        }
+
+    }
 
     return Ok;
 }
+
 
 
 CPU CPUConstructor(const char *code_file_name, const size_t RAMSize) {
@@ -281,4 +290,34 @@ int getCntCmds(FILE *file) {
     }
 
     return cnt_cmds;
+}
+
+
+
+void pushCPU(CPU* cpu) {
+
+}
+
+void popCPU(CPU* cpu) {
+
+}
+
+void addCPU(CPU* cpu) {
+
+}
+
+void subCPU(CPU* cpu) {
+
+}
+
+void mulCPU(CPU* cpu) {
+
+}
+
+void outCPU(CPU* cpu) {
+
+}
+
+void htlCPU(CPU* cpu) {
+
 }
