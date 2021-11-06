@@ -4,3 +4,7 @@ push bx+5
 push [5]
 push [bx]
 push [bx+5]
+pop
+pop
+pop
+pop cx

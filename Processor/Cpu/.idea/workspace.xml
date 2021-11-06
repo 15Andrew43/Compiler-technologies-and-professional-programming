@@ -13,11 +13,10 @@
   <component name="ChangeListManager">
     <list default="true" id="873f34ae-bf65-48c9-9706-f8df295f476a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../AsmDisasm/cmake-build-debug/Asm" beforeDir="false" afterPath="$PROJECT_DIR$/../AsmDisasm/cmake-build-debug/Asm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsmDisasm/cmake-build-debug/CMakeFiles/Asm.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../AsmDisasm/cmake-build-debug/CMakeFiles/Asm.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AsmDisasm/cmake-build-debug/CMakeFiles/Asm.dir/commands.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../AsmDisasm/cmake-build-debug/CMakeFiles/Asm.dir/commands.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AsmDisasm/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../AsmDisasm/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AsmDisasm/commands.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../AsmDisasm/commands.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../asm.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../asm.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../code.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../code.bin" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

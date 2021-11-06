@@ -80,10 +80,10 @@ void pushAsm(const Commands &commands, const char* text, FILE* out_file) {
         number_cmd |= 128;
     }
     fwrite(&number_cmd, sizeof(char), 1, out_file);
-    if ((number_cmd & 32) == 32) {
+    if (number_cmd & 32) {
         fwrite(&digit, sizeof(int), 1, out_file);
     }
-    if ((number_cmd & 64) == 64) {
+    if (number_cmd & 64) {
         fwrite(&ch, sizeof(char), 1, out_file);
     }
 
@@ -107,16 +107,21 @@ void popAsm(const Commands &commands, const char* text, FILE* out_file) {
     int len = strlen(cmd);
     int offset = FindSymb(text, len);
 
+    char ch = 0;
+
     if (offset != 0) {
         int ok = -1;
-        char ch = 0;
 
         sscanf(text + offset, "%cx%n", &ch, &ok);
-        if (ok == 1) {
+        if (ok == 2) {
+            ch -= 'a';
             number_cmd |= 64;
         }
     }
     fwrite(&number_cmd, sizeof(char), 1, out_file);
+    if (number_cmd & 64) {
+        fwrite(&ch, sizeof(char), 1, out_file);
+    }
 }
 
 void addAsm(const Commands &commands, const char* text, FILE* out_file) {
