@@ -1,9 +1,6 @@
 #include "commands.h"
 
 
-#include "commands.h"
-
-
 
 
 void PrintDigit(FILE* out_file, int i) {

@@ -1,21 +1,4 @@
-//
-// Created by Андрей Боровец on 06/11/2021.
-//
-
 #include "stack.h"
-
-
-
-//typedef int elem_t;
-
-//const size_t name_size = 50;
-//const int guard_value = -2281337;
-//
-//const elem_t empty_elem = 1543000000;
-//const int delta = 5;
-
-
-
 
 
 
@@ -32,21 +15,6 @@ int doCaseStk_OK(Stack* stack) {
 #endif
     return 0;
 }
-
-
-//int main() {
-//    Stack stack1 = StackConstructor("stack1");
-//    for (int i = 0; i < 20; ++i) {
-//        StackPush(&stack1, 1000 + i);
-//    }
-//
-//    int x = 0;
-//    for (int i = 0; i < 17; ++i) {
-//        StackPop(&stack1, &x);
-//    }
-//
-//    StackDestructor(&stack1);
-//}
 
 
 
