@@ -1,14 +1,6 @@
-push 11
-push 20
-add
-push 10
-mul
-push 12
-push 1
-sub
-add
-push 1543
-push 179
-add
-out
-hlt
+push 5
+push bx
+push bx+5
+push [5]
+push [bx]
+push [bx+5]

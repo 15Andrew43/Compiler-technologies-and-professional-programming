@@ -1,8 +1,6 @@
 #include "commands.h"
 
 
-
-
 void PrintDigit(FILE* out_file, int i) {
     char int_str[len_int];
     snprintf(int_str, len_int, "%d", i);
@@ -15,13 +13,87 @@ void PrintSep(FILE* out_file, const char* sep) {
 
 void pushAsm(const Commands &commands, const char* text, FILE* out_file) {
     char cmd[len_cmd];
-    int digit = -1;
-    sscanf(text, "%s %d", cmd, &digit);
+    sscanf(text, "%s", cmd);
+    int len = strlen(cmd);
+    int offset = FindSymb(text, len);
 
-    PrintDigit(out_file, 0);
-    PrintSep(out_file, " ");
-    PrintDigit(out_file, digit);
-    PrintSep(out_file, "\n");
+
+    int ok = -1;
+    char ch = 0;
+    int digit = 0;
+
+    char tmp_ch = 0;
+    int tmp_digit = 0;
+    unsigned char number_cmd = 0;
+    bool flag = true;
+
+    sscanf(text + offset, "%d%n", &tmp_digit, &ok);
+    if (ok == 1) {
+        ch = tmp_ch;
+        digit = tmp_digit;
+        number_cmd |= 0;
+        number_cmd |= 32;
+    }
+    sscanf(text + offset, "%cx%n", &tmp_ch, &ok);
+    if (ok == 2) {
+        ch = tmp_ch;
+        digit = tmp_digit;
+        ch -= 'a';
+        number_cmd |= 0;
+        number_cmd |= 64;
+    }
+    sscanf(text + offset, "%cx+%d%n", &tmp_ch, &tmp_digit, &ok);
+    if (ok == 4) {
+        flag = false;
+        ch = tmp_ch;
+        digit = tmp_digit;
+        ch -= 'a';
+        number_cmd |= 0;
+        number_cmd |= 32;
+        number_cmd |= 64;
+    }
+    sscanf(text + offset, "[%d]%n", &tmp_digit, &ok);
+    if (ok == 3) {
+        ch = tmp_ch;
+        digit = tmp_digit;
+        number_cmd |= 0;
+        number_cmd |= 32;
+        number_cmd |= 128;
+    }
+    sscanf(text + offset, "[%cx]%n", &tmp_ch, &ok);
+    if (ok == 4 && flag) {
+        ch = tmp_ch;
+        digit = tmp_digit;
+        ch -= 'a';
+        number_cmd |= 0;
+        number_cmd |= 64;
+        number_cmd |= 128;
+    }
+    sscanf(text + offset, "[%cx+%d]%n", &tmp_ch, &tmp_digit, &ok);
+    if (ok == 6) {
+        ch = tmp_ch;
+        digit = tmp_digit;
+        ch -= 'a';
+        number_cmd |= 0;
+        number_cmd |= 32;
+        number_cmd |= 64;
+        number_cmd |= 128;
+    }
+
+    fwrite(&number_cmd, sizeof(char), 1, out_file);
+    fwrite(&ch, sizeof(char), 1, out_file);
+    fwrite(&digit, sizeof(int), 1, out_file);
+    fflush (out_file);
+
+}
+
+int FindSymb(const char *text, int len) {
+    for (int i = len; text[i] != '\0'; ++i) {
+        if (text[i] != ' ' && text[i] != '\t') {
+            return i;
+        }
+    }
+    return 0;
 }
 
 void popAsm(const Commands &commands, const char* text, FILE* out_file) {
@@ -159,7 +231,7 @@ int getCode(const char* asm_file_name, const char* code_file_name) {
     if (asm_file == NULL) {
         return -1;
     }
-    FILE* code_file = fopen(code_file_name, "w");
+    FILE* code_file = fopen(code_file_name, "wb");
     if (code_file == NULL) {
         return -1;
     }
