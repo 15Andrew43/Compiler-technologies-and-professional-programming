@@ -2,22 +2,64 @@
 #define LIST_LIST_H
 
 #include <utility>
+#include <cstdlib>
+
+const size_t start_capacity = 100;
+const int head_ind = 0;
+const int tail_ind = 1;
+const int first_free_ind = 2;
 
 typedef int elem_t;
 
-struct List {
-    elem_t* data;
-
-    elem_t* head;
-    elem_t* tail;
-
-    elem_t* next;
-    elem_t* prev;
+enum Error {
+    Ok=0,
 };
+
+
+struct Node {
+    elem_t data;
+    int next;
+    int prev;
+};
+
+
+struct List {
+    Node *nodes;
+
+    int head;
+    int tail;
+    int free;
+
+    size_t capacity = start_capacity;
+    size_t size = 0;
+};
+
+
 
 List ListConstructor(size_t size);
 
-void ListDestructor();
+void ListDestructor(List *list);
+
+void GetFree(List *list);
+
+Error ListPushBack(List *list_ptr, elem_t elem);
+
+Error ListPushFront(List *list_ptr, elem_t elem);
+
+Error ListPopBack(List *list_ptr);
+
+Error ListPopFront(List *list_ptr);
+
+Error ListPush(List *list_ptr, int ind, elem_t elem);
+
+Error ListPop(List *list_ptr, int ind);
+
+Node ListElem(List *list_ptr, int ind);
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+int GetNextFreeInd(List *list_ptr);
+
 
 
 #endif //LIST_LIST_H
