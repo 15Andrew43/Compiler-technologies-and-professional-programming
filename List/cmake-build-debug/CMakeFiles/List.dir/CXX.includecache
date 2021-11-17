@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/andrew_borovets/Desktop/PROGA/DED/Compiler-technologies-and-professional-programming/List/List.cpp
+List.h
+/Users/andrew_borovets/Desktop/PROGA/DED/Compiler-technologies-and-professional-programming/List/List.h
+
+/Users/andrew_borovets/Desktop/PROGA/DED/Compiler-technologies-and-professional-programming/List/List.h
+utility
+-
+cstdlib
+-
+
+/Users/andrew_borovets/Desktop/PROGA/DED/Compiler-technologies-and-professional-programming/List/main.cpp
+stdio.h
+-
+List.h
+/Users/andrew_borovets/Desktop/PROGA/DED/Compiler-technologies-and-professional-programming/List/List.h
+

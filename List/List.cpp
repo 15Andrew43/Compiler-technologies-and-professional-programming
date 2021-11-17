@@ -23,7 +23,7 @@ List ListConstructor(size_t size) {
     list.free = first_free_ind;
     list.nodes[list.head] = {-1, -1, -1};
     list.nodes[list.tail] = {-1, -1, -1};;
-    list.capacity = start_capacity;
+    list.capacity = size;
 
     GetFree(&list);
     return list;

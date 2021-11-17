@@ -36,7 +36,7 @@ struct List {
 
 
 
-List ListConstructor(size_t size);
+List ListConstructor(size_t size = start_capacity);
 
 void ListDestructor(List *list);
 
