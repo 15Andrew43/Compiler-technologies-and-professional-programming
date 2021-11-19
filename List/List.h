@@ -1,13 +1,17 @@
 #ifndef LIST_LIST_H
 #define LIST_LIST_H
 
+#include <iostream>
 #include <utility>
 #include <cstdlib>
+#include <iomanip>
 
 const size_t start_capacity = 100;
 const int head_ind = 0;
 const int tail_ind = 1;
 const int first_free_ind = 2;
+
+const int alignment = 3;
 
 typedef int elem_t;
 
@@ -40,8 +44,6 @@ List ListConstructor(size_t size = start_capacity);
 
 void ListDestructor(List *list);
 
-void GetFree(List *list);
-
 Error ListPushBack(List *list_ptr, elem_t elem);
 
 Error ListPushFront(List *list_ptr, elem_t elem);
@@ -60,6 +62,9 @@ Node ListElem(List *list_ptr, int ind);
 
 int GetNextFreeInd(List *list_ptr);
 
+void ListPrint(List *pList);
+
+void GetFree(List *list_ptr);
 
 
 #endif //LIST_LIST_H
