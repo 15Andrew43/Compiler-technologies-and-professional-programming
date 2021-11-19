@@ -1,0 +1,86 @@
+digraph structs {
+newrank=true;
+
+  rankdir = LR;
+
+  {
+     node[shape=plaintext]; /* что бы не было видно рамок */
+     edge[color=white] /* что бы не было видно стрелок */
+     0 ->  1 -> 2 -> 3 -> 4 -> 5;
+   }
+
+  subgraph cluster0 {
+       node [color=white];
+       style=filled;
+       color=lightgrey;
+       a0 [shape=record, style=filled, label = "address"];
+       b0 [shape=record, label=" <data>data | <next>next | <prev>prev" ];
+
+  }
+  subgraph cluster1 {
+       node [color=white];
+       style=filled;
+       color=lightgrey;
+       a1 [shape=record, style=filled, label = "address"];
+       b1 [shape=record, label=" <data>data | <next>next | <prev>prev" ];
+
+  }
+  subgraph cluster2 {
+       node [color=white];
+       style=filled;
+       color=lightgrey;
+       a2 [shape=record, style=filled, label = "address"];
+       b2 [shape=record, label=" <data>data | <next>next | <prev>prev" ];
+
+  }
+  subgraph cluster3 {
+       node [color=white];
+       style=filled;
+       color=lightgrey;
+       a3 [shape=record, style=filled, label = "address"];
+       b3 [shape=record, label=" <data>data | <next>next | <prev>prev" ];
+  }
+  subgraph cluster4 {
+       node [color=white];
+       style=filled;
+       color=lightgrey;
+       a4 [shape=record, style=filled, label = "address"];
+       b4 [shape=record, label=" <data>data | <next>next | <prev>prev" ];
+
+  }
+  subgraph cluster5 {
+       node [color=white];
+       style=filled;
+       color=lightgrey;
+       a5 [shape=record, style=filled, label = "address"];
+       b5 [shape=record, label=" <data>data | <next>next | <prev>prev" ];
+
+  }
+
+
+  { rank = same; 0; a0; b0;}
+  { rank = same; 1; a1; b1;}
+  { rank = same; 2; a2; b2;}
+  { rank = same; 3; a3; b3;}
+  { rank = same; 4; a4; b4;}
+  { rank = same; 5; a5; b5;}
+
+
+
+
+  edge[color="darkgreen",fontcolor="blue",fontsize=12];
+
+  b0:<next> -> a1;
+  b1:<next> -> a2;
+  b2:<next> -> a3;
+  b3:<next> -> a4;
+  b4:<next> -> a5;
+
+
+  edge[color="red",fontcolor="blue",fontsize=12];
+
+  b5:<prev> -> a4;
+  b4:<prev> -> a3;
+  b3:<prev> -> a2;
+  b2:<prev> -> a1;
+}

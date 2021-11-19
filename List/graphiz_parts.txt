@@ -1,0 +1,35 @@
+digraph structs {
+    newrank=true;
+    rankdir = LR;
+
+    {
+        node[shape=plaintext];
+        edge[color=white]
+#is
+    }
+
+#cluster
+    subgraph cluster# {
+        node [color=white];
+        style=filled;
+        color=lightgrey;
+#ai [shape=record, style=filled, label = "address"];
+#bi [shape=record, label=" <data>data | <next>next | <prev>prev" ];
+    }
+
+#rank
+    {
+        rank = same;
+#i;
+#ai;
+#bi;
+    }
+
+    edge[color="darkgreen", fontcolor="blue", fontsize=12];
+
+#bi:<next> -> #ai;
+
+    edge[color="red", fontcolor="blue", fontsize=12];
+
+#bi:<prev> -> ai;
+}

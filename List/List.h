@@ -6,10 +6,17 @@
 #include <cstdlib>
 #include <iomanip>
 
+#include <sys/stat.h>
+
+
+
 const size_t start_capacity = 100;
 const int head_ind = 0;
 const int tail_ind = 1;
 const int first_free_ind = 2;
+const size_t MAX_LENGTH = 256;
+const size_t graphiz_size = 10000;
+
 
 const int alignment = 3;
 
@@ -62,9 +69,15 @@ Node ListElem(List *list_ptr, int ind);
 
 int GetNextFreeInd(List *list_ptr);
 
-void ListPrint(List *pList);
+void ListPrint(List *list_ptr);
+
+void ListDraw(List *list_ptr, const char *file_name);
 
 void GetFree(List *list_ptr);
+
+int getCntLines(FILE *file);
+
+int getFileSize(FILE *file);
 
 
 #endif //LIST_LIST_H

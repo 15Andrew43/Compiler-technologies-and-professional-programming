@@ -44,6 +44,76 @@ void ListPrint(List *list_ptr) {
     }
 }
 
+int getCntLines(FILE *file) {
+    fseek(file , 0, SEEK_SET);
+
+    char tmp_line[MAX_LENGTH] = "";
+
+    int cnt_lines = 0;
+    while(!feof (file)) {
+        if (fgets(tmp_line, MAX_LENGTH, file)) {
+            ++cnt_lines;
+        }
+    }
+
+    return cnt_lines;
+}
+
+int getFileSize(FILE *file) {
+    struct stat st;
+
+    if ((fstat(fileno(file), &st) != 0) || (!S_ISREG(st.st_mode))) {
+        return -1;
+    }
+
+    return st.st_size;
+}
+
+void ListDraw(List *list_ptr, const char *file_name="beautiful_picture.txt") {
+
+    FILE *file = fopen(file_name, "w");
+
+    char begin[] = {
+            "digraph structs {\n"
+            "    newrank=true;\n"
+            "    rankdir = LR;\n"
+            "\n"
+            "    {\n"
+            "        node[shape=plaintext];\n"
+            "        edge[color=white]\n"
+    };
+    fwrite(begin, sizeof(char), strlen(begin), file);
+
+
+    char buffer[MAX_LENGTH];
+    int ind = 0;
+    for (int i = 0; i < list_ptr->capacity; ++i) {
+        char str_number[20];
+        sprintf(str_number, "%d", i);
+        sprintf(buffer + ind, "%d", i);
+        ind += strlen(str_number);
+        if (i == list_ptr->capacity - 1) {
+            sprintf(buffer, ";");
+            ++ind;
+        } else {
+            sprintf(buffer, "->");
+            ind += 2;
+        }
+    }
+    fwrite(buffer, sizeof(char), strlen(buffer), file);
+    fwrite("    }\n\n", sizeof(char), strlen("    }\n\n"), file);
+
+    char subgraph_cluster[] = "subgraph cluster        {\n";
+    int len_subgraph = strlen(subgraph_cluster);
+    for (int i = 0; i < list_ptr->capacity; ++i) {
+//        subgraph_cluster[len_subgraph - 4] = i;
+        fwrite(subgraph_cluster, sizeof(char), len_subgraph, file);
+
+    }
+
+
+}
+
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -169,4 +239,6 @@ Error ListPop(List *list_ptr, int ind) {
 Node ListElem(List *list_ptr, int ind) {
     return list_ptr->nodes[ind];
 }
+
+
 
