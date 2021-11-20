@@ -69,11 +69,15 @@ int getFileSize(FILE *file) {
     return st.st_size;
 }
 
-void ListDraw(List *list_ptr, const char *file_name="beautiful_picture.txt") {
+void ListDraw(List *list_ptr, const char *file_name) {
+    char buffer[MAX_LENGTH] = {};
+    char str_number[20];
+    char tmp[MAX_LENGTH] = {};
 
     FILE *file = fopen(file_name, "w");
 
-    char begin[] = {
+    strcpy(
+            tmp,
             "digraph structs {\n"
             "    newrank=true;\n"
             "    rankdir = LR;\n"
@@ -81,37 +85,98 @@ void ListDraw(List *list_ptr, const char *file_name="beautiful_picture.txt") {
             "    {\n"
             "        node[shape=plaintext];\n"
             "        edge[color=white]\n"
-    };
-    fwrite(begin, sizeof(char), strlen(begin), file);
+            );
+    fwrite(tmp, sizeof(char), strlen(tmp), file);
 
 
-    char buffer[MAX_LENGTH];
+
     int ind = 0;
     for (int i = 0; i < list_ptr->capacity; ++i) {
-        char str_number[20];
+
         sprintf(str_number, "%d", i);
         sprintf(buffer + ind, "%d", i);
         ind += strlen(str_number);
         if (i == list_ptr->capacity - 1) {
-            sprintf(buffer, ";");
+            sprintf(buffer + ind, ";");
             ++ind;
         } else {
-            sprintf(buffer, "->");
+            sprintf(buffer + ind, "->");
             ind += 2;
         }
     }
     fwrite(buffer, sizeof(char), strlen(buffer), file);
-    fwrite("    }\n\n", sizeof(char), strlen("    }\n\n"), file);
+    buffer[0] = '\0';
+    strcpy(tmp, "\n    }\n\n");
+    fwrite(tmp, sizeof(char), strlen(tmp), file);
 
-    char subgraph_cluster[] = "subgraph cluster        {\n";
-    int len_subgraph = strlen(subgraph_cluster);
+
+
     for (int i = 0; i < list_ptr->capacity; ++i) {
-//        subgraph_cluster[len_subgraph - 4] = i;
-        fwrite(subgraph_cluster, sizeof(char), len_subgraph, file);
 
+        strcpy(tmp, "subgraph cluster");
+        sprintf(buffer, "%s", tmp);
+        sprintf(str_number, "%d", i);
+        strcat(buffer, str_number);
+        strcat(buffer, " {\n");
+        fwrite(buffer, sizeof(char), strlen(buffer), file);
+
+        buffer[0] = '\0';
+
+        strcpy(
+                tmp,
+                "node [color=white];\n"
+                "       style=filled;\n"
+                "       color=lightgrey;\n"
+                );
+        strcat(buffer, tmp);
+        strcat(buffer, "a");
+        strcat(buffer, str_number);
+        strcat(buffer, " [shape=record, style=filled, label = \"address\"];\n");
+        strcat(buffer, "b");
+        strcat(buffer, str_number);
+        strcat(buffer, " [shape=record, label=\" <data>data | <next>next | <prev>prev\" ];\n");
+        strcat(buffer, "}\n\n\n");
+        fwrite(buffer, sizeof(char), strlen(buffer), file);
+
+        buffer[0] = '\0';
+    }
+
+    strcpy(tmp, "  { rank = same; ");
+    for (int i = 0; i < list_ptr->capacity; ++i) {
+        sprintf(buffer, "%s%d; a%d; b%d;}\n", tmp, i, i, i);
+        fwrite(buffer, sizeof(char), strlen(buffer), file);
     }
 
 
+    strcpy(tmp, "\n\n\n");
+    fwrite(tmp, sizeof(char), strlen(tmp), file);
+
+    strcpy(tmp, "edge[color=\"darkgreen\",fontcolor=\"blue\",fontsize=12];\n\n\n");
+    fwrite(tmp, sizeof(char), strlen(tmp), file);
+
+
+    for (int i = 0; i < list_ptr->capacity - 1; ++i) {
+        sprintf(buffer, "b%d:<next> -> a%d\n", i, i+1);
+        fwrite(buffer, sizeof(char), strlen(buffer), file);
+    }
+
+    strcpy(tmp, "\n\n\n");
+    fwrite(tmp, sizeof(char), strlen(tmp), file);
+
+    strcpy(tmp, "edge[color=\"red\",fontcolor=\"blue\",fontsize=12];\n\n\n");
+    fwrite(tmp, sizeof(char), strlen(tmp), file);
+
+
+    for (int i = list_ptr->capacity-1; i > 0; --i) {
+        sprintf(buffer, "b%d:<prev> -> a%d\n", i, i-1);
+        fwrite(buffer, sizeof(char), strlen(buffer), file);
+    }
+
+    strcpy(tmp, "\n}\n");
+    fwrite(tmp, sizeof(char), strlen(tmp), file);
+
+
+    fclose(file);
 }
 
 

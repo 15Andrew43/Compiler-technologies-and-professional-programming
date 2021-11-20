@@ -71,7 +71,7 @@ int GetNextFreeInd(List *list_ptr);
 
 void ListPrint(List *list_ptr);
 
-void ListDraw(List *list_ptr, const char *file_name);
+void ListDraw(List *list_ptr, const char *file_name="beautiful_picture.txt");
 
 void GetFree(List *list_ptr);
 

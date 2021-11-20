@@ -46,6 +46,10 @@ int main() {
     printf("\n\n");
 
 
+    const char path[] = "/Users/andrew_borovets/Desktop/PROGA/DED/Compiler-technologies-and-professional-programming/List/beautiful_picture.txt";
+    ListDraw(&list, path);
+
+
     f();
 
     return 0;
