@@ -1,0 +1,250 @@
+digraph structs {
+    newrank=true;
+    rankdir = LR;
+
+    {
+        node[shape=plaintext];
+        edge[color=white]
+0->1->2->3->4->5->6->7->8->9->10->11->12->13->14->15->16->17->18->19;
+    }
+
+subgraph cluster0 {
+node [color=white];
+       style=filled;
+       color=lightblue;
+a0 [shape=record, style=filled, label = 0]
+b0 [shape=record, label=" <data>data:-1 | <next>next:8 | <prev>prev:-1" ];
+}
+
+
+subgraph cluster1 {
+node [color=white];
+       style=filled;
+       color=lightgreen;
+a1 [shape=record, style=filled, label = 1]
+b1 [shape=record, label=" <data>data:-1 | <next>next:-1 | <prev>prev:3" ];
+}
+
+
+subgraph cluster2 {
+node [color=white];
+       style=filled;
+       color=lightgrey;
+a2 [shape=record, style=filled, label = 2]
+b2 [shape=record, label=" <data>data:20 | <next>next:5 | <prev>prev:4" ];
+}
+
+
+subgraph cluster3 {
+node [color=white];
+       style=filled;
+       color=lightgrey;
+a3 [shape=record, style=filled, label = 3]
+b3 [shape=record, label=" <data>data:1 | <next>next:1 | <prev>prev:5" ];
+}
+
+
+subgraph cluster4 {
+node [color=white];
+       style=filled;
+       color=lightgrey;
+a4 [shape=record, style=filled, label = 4]
+b4 [shape=record, label=" <data>data:21 | <next>next:2 | <prev>prev:6" ];
+}
+
+
+subgraph cluster5 {
+node [color=white];
+       style=filled;
+       color=lightgrey;
+a5 [shape=record, style=filled, label = 5]
+b5 [shape=record, label=" <data>data:33 | <next>next:3 | <prev>prev:2" ];
+}
+
+
+subgraph cluster6 {
+node [color=white];
+       style=filled;
+       color=lightgrey;
+a6 [shape=record, style=filled, label = 6]
+b6 [shape=record, label=" <data>data:22 | <next>next:4 | <prev>prev:7" ];
+}
+
+
+subgraph cluster7 {
+node [color=white];
+       style=filled;
+       color=lightgrey;
+a7 [shape=record, style=filled, label = 7]
+b7 [shape=record, label=" <data>data:23 | <next>next:6 | <prev>prev:8" ];
+}
+
+
+subgraph cluster8 {
+node [color=white];
+       style=filled;
+       color=lightgrey;
+a8 [shape=record, style=filled, label = 8]
+b8 [shape=record, label=" <data>data:24 | <next>next:7 | <prev>prev:0" ];
+}
+
+
+subgraph cluster9 {
+node [color=white];
+       style=filled;
+       color=lightgrey;
+a9 [shape=record, style=filled, label = 9]
+b9 [shape=record, label=" <data>data:-1 | <next>next:10 | <prev>prev:-1" ];
+}
+
+
+subgraph cluster10 {
+node [color=white];
+       style=filled;
+       color=lightgrey;
+a10 [shape=record, style=filled, label = 10]
+b10 [shape=record, label=" <data>data:-1 | <next>next:11 | <prev>prev:-1" ];
+}
+
+
+subgraph cluster11 {
+node [color=white];
+       style=filled;
+       color=lightgrey;
+a11 [shape=record, style=filled, label = 11]
+b11 [shape=record, label=" <data>data:-1 | <next>next:12 | <prev>prev:-1" ];
+}
+
+
+subgraph cluster12 {
+node [color=white];
+       style=filled;
+       color=lightgrey;
+a12 [shape=record, style=filled, label = 12]
+b12 [shape=record, label=" <data>data:-1 | <next>next:13 | <prev>prev:-1" ];
+}
+
+
+subgraph cluster13 {
+node [color=white];
+       style=filled;
+       color=lightgrey;
+a13 [shape=record, style=filled, label = 13]
+b13 [shape=record, label=" <data>data:-1 | <next>next:14 | <prev>prev:-1" ];
+}
+
+
+subgraph cluster14 {
+node [color=white];
+       style=filled;
+       color=lightgrey;
+a14 [shape=record, style=filled, label = 14]
+b14 [shape=record, label=" <data>data:-1 | <next>next:15 | <prev>prev:-1" ];
+}
+
+
+subgraph cluster15 {
+node [color=white];
+       style=filled;
+       color=lightgrey;
+a15 [shape=record, style=filled, label = 15]
+b15 [shape=record, label=" <data>data:-1 | <next>next:16 | <prev>prev:-1" ];
+}
+
+
+subgraph cluster16 {
+node [color=white];
+       style=filled;
+       color=lightgrey;
+a16 [shape=record, style=filled, label = 16]
+b16 [shape=record, label=" <data>data:-1 | <next>next:17 | <prev>prev:-1" ];
+}
+
+
+subgraph cluster17 {
+node [color=white];
+       style=filled;
+       color=lightgrey;
+a17 [shape=record, style=filled, label = 17]
+b17 [shape=record, label=" <data>data:-1 | <next>next:18 | <prev>prev:-1" ];
+}
+
+
+subgraph cluster18 {
+node [color=white];
+       style=filled;
+       color=lightgrey;
+a18 [shape=record, style=filled, label = 18]
+b18 [shape=record, label=" <data>data:-1 | <next>next:19 | <prev>prev:-1" ];
+}
+
+
+subgraph cluster19 {
+node [color=white];
+       style=filled;
+       color=lightgrey;
+a19 [shape=record, style=filled, label = 19]
+b19 [shape=record, label=" <data>data:-1 | <next>next:0 | <prev>prev:-1" ];
+}
+
+
+  { rank = same; 0; a0; b0;}
+  { rank = same; 1; a1; b1;}
+  { rank = same; 2; a2; b2;}
+  { rank = same; 3; a3; b3;}
+  { rank = same; 4; a4; b4;}
+  { rank = same; 5; a5; b5;}
+  { rank = same; 6; a6; b6;}
+  { rank = same; 7; a7; b7;}
+  { rank = same; 8; a8; b8;}
+  { rank = same; 9; a9; b9;}
+  { rank = same; 10; a10; b10;}
+  { rank = same; 11; a11; b11;}
+  { rank = same; 12; a12; b12;}
+  { rank = same; 13; a13; b13;}
+  { rank = same; 14; a14; b14;}
+  { rank = same; 15; a15; b15;}
+  { rank = same; 16; a16; b16;}
+  { rank = same; 17; a17; b17;}
+  { rank = same; 18; a18; b18;}
+  { rank = same; 19; a19; b19;}
+
+
+
+edge[color="darkgreen",fontcolor="blue",fontsize=12];
+
+
+b0:<next> -> a8
+b2:<next> -> a5
+b3:<next> -> a1
+b4:<next> -> a2
+b5:<next> -> a3
+b6:<next> -> a4
+b7:<next> -> a6
+b8:<next> -> a7
+b9:<next> -> a10
+b10:<next> -> a11
+b11:<next> -> a12
+b12:<next> -> a13
+b13:<next> -> a14
+b14:<next> -> a15
+b15:<next> -> a16
+b16:<next> -> a17
+b17:<next> -> a18
+b18:<next> -> a19
+
+
+
+edge[color="red",fontcolor="blue",fontsize=12];
+
+
+b8:<prev> -> a0
+b7:<prev> -> a8
+b6:<prev> -> a7
+b5:<prev> -> a2
+b4:<prev> -> a6
+b3:<prev> -> a5
+b2:<prev> -> a4
+b1:<prev> -> a3
+
+}

@@ -2,7 +2,6 @@
 #include "List.h"
 
 
-void f();
 
 int main() {
     List list = ListConstructor(20);
@@ -50,17 +49,6 @@ int main() {
     ListDraw(&list, path);
 
 
-    f();
-
     return 0;
 }
-
-void f() {
-    char str[100];
-    sprintf(str, "->");
-    sprintf(str+2, "->");
-    sprintf(str+4, "->");
-    printf("%s", str);
-}
-
 

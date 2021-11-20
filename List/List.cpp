@@ -122,20 +122,50 @@ void ListDraw(List *list_ptr, const char *file_name) {
 
         buffer[0] = '\0';
 
-        strcpy(
-                tmp,
-                "node [color=white];\n"
-                "       style=filled;\n"
-                "       color=lightgrey;\n"
-                );
+        if (i == 0) {
+            strcpy(
+                    tmp,
+                    "node [color=white];\n"
+                    "       style=filled;\n"
+                    "       color=lightblue;\n"
+            );
+        } else if (i == 1) {
+            strcpy(
+                    tmp,
+                    "node [color=white];\n"
+                    "       style=filled;\n"
+                    "       color=lightgreen;\n"
+            );
+        } else {
+            strcpy(
+                    tmp,
+                    "node [color=white];\n"
+                    "       style=filled;\n"
+                    "       color=lightgrey;\n"
+            );
+        }
         strcat(buffer, tmp);
         strcat(buffer, "a");
         strcat(buffer, str_number);
-        strcat(buffer, " [shape=record, style=filled, label = \"address\"];\n");
+//        strcat(buffer, " [shape=record, style=filled, label = \"address\"];\n");
+        strcat(buffer, " [shape=record, style=filled, label = ");
+        strcat(buffer, str_number);
+        strcat(buffer, "]\n");
         strcat(buffer, "b");
         strcat(buffer, str_number);
-        strcat(buffer, " [shape=record, label=\" <data>data | <next>next | <prev>prev\" ];\n");
-        strcat(buffer, "}\n\n\n");
+//        strcat(buffer, " [shape=record, label=\" <data>data | <next>next | <prev>prev\" ];\n");
+        strcat(buffer, " [shape=record, label=\" <data>data:");
+        sprintf(str_number, "%d", list_ptr->nodes[i].data);
+        strcat(buffer, str_number);
+//        strcat(buffer, " | <next>next | <prev>prev\" ];\n");
+        strcat(buffer, " | <next>next:");
+        sprintf(str_number, "%d", list_ptr->nodes[i].next);
+        strcat(buffer, str_number);
+        strcat(buffer, " | <prev>prev:");
+        sprintf(str_number, "%d", list_ptr->nodes[i].prev);
+        strcat(buffer, str_number);
+
+        strcat(buffer, "\" ];\n}\n\n\n");
         fwrite(buffer, sizeof(char), strlen(buffer), file);
 
         buffer[0] = '\0';
@@ -156,7 +186,10 @@ void ListDraw(List *list_ptr, const char *file_name) {
 
 
     for (int i = 0; i < list_ptr->capacity - 1; ++i) {
-        sprintf(buffer, "b%d:<next> -> a%d\n", i, i+1);
+        if (list_ptr->nodes[i].next == -1) {
+            continue;
+        }
+        sprintf(buffer, "b%d:<next> -> a%d\n", i, list_ptr->nodes[i].next);
         fwrite(buffer, sizeof(char), strlen(buffer), file);
     }
 
@@ -168,7 +201,10 @@ void ListDraw(List *list_ptr, const char *file_name) {
 
 
     for (int i = list_ptr->capacity-1; i > 0; --i) {
-        sprintf(buffer, "b%d:<prev> -> a%d\n", i, i-1);
+        if (list_ptr->nodes[i].prev == -1) {
+            continue;
+        }
+        sprintf(buffer, "b%d:<prev> -> a%d\n", i, list_ptr->nodes[i].prev);
         fwrite(buffer, sizeof(char), strlen(buffer), file);
     }
 

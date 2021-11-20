@@ -6,14 +6,16 @@
 
 #IncludeRegexTransform: 
 
-/Users/andrew_borovets/Desktop/PROGA/DED/Compiler-technologies-and-professional-programming/List/List.cpp
-List.h
 /Users/andrew_borovets/Desktop/PROGA/DED/Compiler-technologies-and-professional-programming/List/List.h
-
-/Users/andrew_borovets/Desktop/PROGA/DED/Compiler-technologies-and-professional-programming/List/List.h
+iostream
+-
 utility
 -
 cstdlib
+-
+iomanip
+-
+sys/stat.h
 -
 
 /Users/andrew_borovets/Desktop/PROGA/DED/Compiler-technologies-and-professional-programming/List/main.cpp
