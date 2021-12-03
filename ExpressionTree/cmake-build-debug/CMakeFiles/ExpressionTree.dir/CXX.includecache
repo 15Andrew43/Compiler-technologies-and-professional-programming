@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/andrew_borovets/Desktop/PROGA/DED/Compiler-technologies-and-professional-programming/ExpressionTree/main.cpp
+stdio.h
+-
+cstring
+-
+cstdlib
+-
+
