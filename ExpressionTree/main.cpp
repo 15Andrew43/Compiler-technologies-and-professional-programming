@@ -30,14 +30,14 @@ bool BeginConst(const char *expression, int i) {
     return expression[i] >= '0' && expression[i] <= '9';
 }
 
-bool IsDigit(const char *expression, int i) {
+bool IsDouble(const char *expression, int i) {
     return BeginConst(expression, i) || expression[i] == '.';
 }
 
 double ReadConst(const char *expression, int& i) {
     char buffer[MAX_BUFFER_SIZE] = {};
     int ind = 0;
-    while (IsDigit(expression, i)) {
+    while (IsDouble(expression, i)) {
         buffer[ind] = expression[i];
         ++ind;
         ++i;
@@ -68,6 +68,17 @@ bool BeginOperator(const char *expression, int i) {
     return false;
 }
 
+bool IsLetter(const char ch) {
+    return (ch >= 'a' && ch <= 'z') || (ch > 'A' && 'Z');
+}
+
+void ReadVar(const char *expression, int &i) {
+    char buffer[MAX_BUFFER_SIZE] = {};
+    while (IsLetter(expression[i])) {
+
+    }
+}
+
 Node* ExpressionTreeConstructor(const char* expression) {
     Node* cur_node = NULL;
     Node* new_node = NULL;
@@ -88,6 +99,8 @@ Node* ExpressionTreeConstructor(const char* expression) {
         } else if (EndExpr(expression, i)) {
             cur_node = cur_node->parent;
         } else if (BeginVar(expression, i)) {
+            cur_node->type = var_;
+            ReadVar(expression, i);
             ;
         } else if (BeginOperator(expression, i)) {
             cur_node->data = (double)(int)expression[i];
